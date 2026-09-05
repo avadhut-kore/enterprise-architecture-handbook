@@ -719,8 +719,47 @@ Enterprise DevOps architecture, continuous delivery pipelines, container orchest
 
 ---
 
-## 14. Enterprise Integration Architecture
-* [`14-enterprise-integration/README.md`](14-enterprise-integration/README.md) — Point-to-point vs hub-and-spoke, API-led 3-tier connectivity, and federated integration operating models.
+## 14. Enterprise Integration Architecture {#14-enterprise-integration}
+* [`14-enterprise-integration/README.md`](14-enterprise-integration/README.md) — Master enterprise integration library overview and domain navigation.
+* **Core Principles & Governance**:
+  * [`enterprise-integration-principles.md`](14-enterprise-integration/enterprise-integration-principles.md) — 24 foundational enterprise integration architectural principles.
+  * [`integration-governance.md`](14-enterprise-integration/integration-governance.md) — Producer/consumer ownership models and schema evolution lifecycle.
+  * [`integration-selection-guide.md`](14-enterprise-integration/integration-selection-guide.md) — Integration style selection decision tree and evaluation matrix.
+  * [`canonical-data-models.md`](14-enterprise-integration/canonical-data-models.md) — Point-to-point vs canonical data models vs bounded context mapping.
+  * [`batch-vs-real-time.md`](14-enterprise-integration/batch-vs-real-time.md) — Dual-speed batch window bridge and real-time streaming trade-offs.
+  * [`multi-system-transactions.md`](14-enterprise-integration/multi-system-transactions.md) — The limits of 2PC and distributed Saga orchestration vs choreography.
+  * [`anti-patterns.md`](14-enterprise-integration/anti-patterns.md) — 22 enterprise integration anti-patterns and mitigation strategies.
+* **Cross-Cutting Disciplines**:
+  * [`integration-security/`](14-enterprise-integration/integration-security/README.md) — Trust boundaries, mTLS (TLS 1.3), OAuth 2.0 / OIDC token exchange, envelope encryption, tokenization vaults, PII protection, and immutable audit trails (18 guides).
+  * [`integration-reliability/`](14-enterprise-integration/integration-reliability/README.md) — Timeouts, exponential backoff with full jitter, circuit breakers, idempotency keys, duplicate detection, dead letter queues, and poison message handling (16 guides).
+  * [`integration-observability/`](14-enterprise-integration/integration-observability/README.md) — Structured JSON logging, RED metrics, W3C Trace Context, correlation IDs, business activity monitoring (BAM), and reconciliation break monitoring (14 guides).
+* **Regulated Financial & Clinical Domains**:
+  * [`banking/`](14-enterprise-integration/banking/README.md) — Mainframe core banking, account services, CIF MDM, double-entry ledger posting, real-time rails (FedNow, RTP, SEPA), open banking (PSD2/FDX), and fraud screening (20 guides).
+  * [`payments/`](14-enterprise-integration/payments/README.md) — Payment lifecycle FSM, authorization engines, smart routing, clearing, settlement, refunds, chargebacks, internal ledger, and processor adapters (24 guides).
+  * [`payments/pci-dss/`](14-enterprise-integration/payments/pci-dss/README.md) — PCI-DSS v4.0 architecture, zero-scope CDE segmentation, hosted fields, tokenization, HSM key management, and ASV scanning (15 guides).
+  * [`healthcare/`](14-enterprise-integration/healthcare/README.md) — Clinical safety, Epic/Cerner EHR integration, Enterprise Master Patient Index (EMPI), CDRs, standard terminologies (SNOMED, LOINC, RxNorm), ONC Cures Act, and SMART on FHIR (16 guides).
+* **Industry Messaging Standards**:
+  * [`industry-standards/iso-20022/`](14-enterprise-integration/industry-standards/iso-20022/README.md) — pacs (clearing/settlement), pain (initiation), camt (statements), remt (remittance), SWIFT MT-to-MX mapping, and Schematron validation (19 guides).
+  * [`industry-standards/fhir/`](14-enterprise-integration/industry-standards/fhir/README.md) — FHIR R4/R5 resource taxonomy, US Core profiling, RESTful interactions, subscriptions, bulk data ($export), and SMART security (17 guides).
+  * [`industry-standards/hl7/`](14-enterprise-integration/industry-standards/hl7/README.md) — HL7 v2.x architecture, MLLP TCP socket framing, ADT/ORU/ORM messages, segments, acknowledgments, and Mirth Connect interface engines (13 guides).
+* **Enterprise Platforms & Legacy Systems**:
+  * [`erp/`](14-enterprise-integration/erp/README.md) & [`erp/sap/`](14-enterprise-integration/erp/sap/README.md) — Clean Core paradigm, S/4HANA OData v2/v4, IDoc ALE, BAPIs, Universal Journal (ACDOCA), and SAP BTP sidecar extensibility (24 guides).
+  * [`crm/`](14-enterprise-integration/crm/README.md) & [`crm/salesforce/`](14-enterprise-integration/crm/salesforce/README.md) — Customer 360 virtualization, Composite REST API, Bulk API 2.0, Platform Events, Change Data Capture (CDC), and governor limit management (22 guides).
+  * [`legacy/`](14-enterprise-integration/legacy/README.md) — IBM z/OS mainframes, CICS, COBOL copybook/EBCDIC decoders, TN3270 screen scraping, IBM MQ bridges, and MIPS cost reduction (21 guides).
+  * [`ecommerce/`](14-enterprise-integration/ecommerce/README.md), [`insurance/`](14-enterprise-integration/insurance/README.md), [`logistics/`](14-enterprise-integration/logistics/README.md), [`enterprise-systems/`](14-enterprise-integration/enterprise-systems/README.md) — Retail OMS/PIM, Guidewire ACORD claims, EDI 204/214 telematics, and cross-ERP/HRIS event meshes.
+* **Core Components, Patterns & Modernization**:
+  * [`integration-platforms/`](14-enterprise-integration/integration-platforms/README.md) — API gateways (Envoy, Kong, Apigee), Kafka, RabbitMQ, Apache Camel, Temporal workflow engine, and Cloud iPaaS (16 guides).
+  * [`patterns/`](14-enterprise-integration/patterns/README.md) — Request-Reply, Pub-Sub, ECST, Router, Splitter, Aggregator, Resequencer, Transactional Outbox/Inbox, Saga, and Strangler Fig (21 guides).
+  * [`reconciliation/`](14-enterprise-integration/reconciliation/README.md) — Automated multi-source reconciliation, Flink stream matching, breaks management, threshold auto-adjustments, and SOX 404 audit compliance (15 guides).
+  * [`modernization/`](14-enterprise-integration/modernization/README.md) — Legacy-to-API facades, CDC event hydration, Strangler Fig migrations, zero-downtime cutovers, and safe rollbacks (13 guides).
+  * [`testing/`](14-enterprise-integration/testing/README.md) — Consumer-driven contract testing (Pact), Testcontainers, Toxiproxy failure injection, and Schema Registry validation (13 guides).
+* **Reference Architectures, Case Studies & Governance**:
+  * [`reference-architectures/`](14-enterprise-integration/reference-architectures/README.md) — 12 complete end-to-end reference blueprints (Banking, Real-Time Payments, FHIR, SAP Clean Core, Salesforce CRM, Mainframe Strangler, E-Commerce, Insurance, Logistics, M&A, Zero-Trust B2B, Multi-Region Recon).
+  * [`case-studies/`](14-enterprise-integration/case-studies/README.md) — 8 enterprise case studies with deep architectural teardowns (Tier-1 Bank, Global Fintech, Hospital Network, Fortune 50 Retailer, Manufacturer CRM, Airline Mainframe, M&A Integration, Multinational Supply Chain).
+  * [`decision-frameworks/`](14-enterprise-integration/decision-frameworks/integration-complexity.md) — 5-dimensional integration complexity assessment, maturity models, and platform evaluation scoring.
+  * [`adr/`](14-enterprise-integration/adr/README.md) — 10 canonical Architecture Decision Records (ADR-0001 through ADR-0010) following enterprise template standards.
+  * [`checklists/`](14-enterprise-integration/checklists/01-integration-security-review.md) — 13 comprehensive architecture review and go-live audit checklists.
+
 
 ---
 
