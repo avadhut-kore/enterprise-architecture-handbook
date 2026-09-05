@@ -62,3 +62,11 @@ Comprehensive, actionable verification checklists to evaluate systems at major g
 * [`checklists/ai-production-readiness.md`](checklists/ai-production-readiness.md) - Pre-flight production readiness gate for AI systems.
 * [`calculators/ai-cost-calculator.md`](calculators/ai-cost-calculator.md) - Quantitative formulas for token budgets, vector DB RAM, and GPU sizing.
 * [`architecture-review/ai-modern-architecture-interview-playbook.md`](architecture-review/ai-modern-architecture-interview-playbook.md) - Interview and review playbook for high-stakes enterprise AI scenarios.
+
+### Enterprise Architecture Tools & Checklists (Phase 9)
+* [`ea-maturity-calculator.md`](ea-maturity-calculator.md) - 7-dimension quantitative Enterprise Architecture maturity calculator.
+* [`application-tco-calculator.md`](application-tco-calculator.md) - 5-year Total Cost of Ownership (TCO) financial modeling tool.
+* [`modernization-priority-calculator.md`](modernization-priority-calculator.md) - Multi-criteria scoring calculator for application modernization.
+* [`capability-mapping-worksheet.md`](capability-mapping-worksheet.md) - Standard worksheet for decomposing and cataloging business capabilities.
+* [`vendor-evaluation-matrix.md`](vendor-evaluation-matrix.md) - 5-dimension weighted RFP evaluation matrix for enterprise software procurement.
+* [`../09-enterprise-architecture/checklists/enterprise-architecture-master-checklist.md`](../09-enterprise-architecture/checklists/enterprise-architecture-master-checklist.md) - Master 9-domain verification checklist.

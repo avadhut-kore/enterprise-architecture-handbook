@@ -146,3 +146,28 @@ stateDiagram-v2
 1. **Immutable Historical Record**: Once an ADR status becomes `Accepted` and merges to `main`, its decision and rationale text must **never be retroactively edited**.
 2. **Superseding Decisions**: If requirements change or a technology is replaced, author a **new** ADR (e.g., `ADR-0076`) that explicitly references and supersedes the old record (`Supersedes ADR-0003`).
 3. **Commit with Code**: Keep ADRs in the same Git repository as the code they govern, submitted via standard pull requests with required peer approvals.
+
+### Enterprise Architecture & Strategy (Phase 9)
+
+| ADR ID | Title | Status | Date |
+| :--- | :--- | :---: | :---: |
+| [ADR-0096](ADR-0096-centralized-vs-federated-architecture.md) | Centralized vs Federated Enterprise Architecture Operating Model | **Accepted** | 2026-09-05 |
+| [ADR-0097](ADR-0097-global-vs-regional-platform-architecture.md) | Global Core vs Regional Edge Platform Architecture | **Accepted** | 2026-09-05 |
+| [ADR-0098](ADR-0098-application-portfolio-rationalization-time-model.md) | Application Portfolio Rationalization via the TIME Model | **Accepted** | 2026-09-05 |
+| [ADR-0099](ADR-0099-cloud-adoption-multi-account-landing-zone.md) | Enterprise Multi-Account Cloud Landing Zone Architecture | **Accepted** | 2026-09-05 |
+| [ADR-0100](ADR-0100-enterprise-data-mesh-adoption.md) | Enterprise Data Mesh & Domain Data Products | **Accepted** | 2026-09-05 |
+| [ADR-0101](ADR-0101-api-led-connectivity-and-event-mesh.md) | 3-Tier API-Led Connectivity and Kafka Event Mesh | **Accepted** | 2026-09-05 |
+| [ADR-0102](ADR-0102-internal-developer-platform-idp-standard.md) | Internal Developer Platform (IDP) Standard | **Accepted** | 2026-09-05 |
+| [ADR-0103](ADR-0103-enterprise-ai-gateway-mandate.md) | Mandatory Enterprise AI Gateway for LLM Workloads | **Accepted** | 2026-09-05 |
+| [ADR-0104](ADR-0104-build-vs-buy-governance-framework.md) | Build vs Buy Enterprise Governance Framework | **Accepted** | 2026-09-05 |
+| [ADR-0105](ADR-0105-technology-standardization-paved-roads.md) | Technology Standardization via Paved Roads (Golden Paths) | **Accepted** | 2026-09-05 |
+| [ADR-0106](ADR-0106-application-decommissioning-and-retirement.md) | Mandatory Application Decommissioning and Archival Policy | **Accepted** | 2026-09-05 |
+| [ADR-0107](ADR-0107-two-tier-ma-integration-architecture.md) | Two-Tier M&A Technology Integration Architecture | **Accepted** | 2026-09-05 |
+| [ADR-0108](ADR-0108-zero-trust-identity-federation.md) | Enterprise Zero Trust Architecture & Identity Federation | **Accepted** | 2026-09-05 |
+| [ADR-0109](ADR-0109-finops-cloud-cost-allocation-and-showback.md) | Enterprise FinOps Cloud Cost Allocation and Showback | **Accepted** | 2026-09-05 |
+| [ADR-0110](ADR-0110-technical-debt-capacity-allocation-contract.md) | 20% Engineering Capacity Allocation for Architectural Debt | **Accepted** | 2026-09-05 |
+| [ADR-0111](ADR-0111-strangler-fig-modernization-with-cdc.md) | Strangler-Fig Monolith Modernization via Real-Time CDC | **Accepted** | 2026-09-05 |
+| [ADR-0112](ADR-0112-cross-border-data-residency-compliance.md) | Cross-Border Data Residency and Cryptographic Isolation | **Accepted** | 2026-09-05 |
+| [ADR-0113](ADR-0113-architecture-review-board-governance-charter.md) | Architecture Review Board (ARB) Governance Charter | **Accepted** | 2026-09-05 |
+| [ADR-0114](ADR-0114-open-source-software-licensing-guardrails.md) | Open Source Software (OSS) Licensing & Supply Chain Guardrails | **Accepted** | 2026-09-05 |
+| [ADR-0115](ADR-0115-eu-ai-act-compliance-and-model-governance.md) | EU AI Act Compliance Risk Classification & Model Governance | **Accepted** | 2026-09-05 |

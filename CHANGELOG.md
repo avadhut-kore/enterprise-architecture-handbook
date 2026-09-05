@@ -1,5 +1,44 @@
 # Changelog
 
+## [1.8.0] - 2026-09-05
+
+### Added - Phase 9: Enterprise Architecture Operating System
+* **Foundations, Roles & Leadership (`09-enterprise-architecture/`)**:
+  * Established the Core Enterprise Architecture Mental Model (Strategy -> Outcomes -> Value Streams -> Capabilities -> Applications/Data/Tech -> Transformation -> Governance).
+  * Role profiles and RACI matrices for Enterprise, Solution, Technical, Business, and Chief Architects.
+  * Executive communication playbooks: Minto Pyramid storytelling, C-suite briefing decks, influence without authority, and trade-off negotiations.
+  * Git-based living architecture repository and catalog schema standards.
+* **Business Architecture & Capability Modeling**:
+  * Distinct definitions and boundary rules for Process vs Capability vs Value Stream vs Function vs Org.
+  * Industry business architecture models across 8 major verticals (Banking, Insurance, Healthcare, Retail, Manufacturing, Logistics, SaaS, Government).
+  * 3-tier capability decomposition (MECE), capability ownership, 5-stage maturity scoring, and investment heatmaps.
+  * End-to-end capability mapping templates connecting Capability -> Process -> Application -> Data -> Infrastructure.
+* **Enterprise Portfolio & Modernization Management**:
+  * Gartner TIME model (Tolerate, Invest, Migrate, Eliminate) and 7R rationalization playbook.
+  * Multi-criteria application scorecard and quantitative modernization prioritization calculator.
+  * Technology lifecycle governance (Strategic, Standard, Tolerated, Restricted, Retire) and Technology Radar alignment.
+* **Enterprise Governance, Strategy & Debt**:
+  * Master Catalog of 20 Enterprise Architecture Principles in strict 7-part format.
+  * Architecture Review Board (ARB) charter, meeting agendas, and compliance review templates.
+  * Architecture exception lifecycle, risk acceptance formulas, and compensating control architectures.
+  * Financial architecture: 5-year TCO formula, unit economics, FinOps showback/chargeback.
+  * Enterprise debt taxonomy (Technical vs Architectural vs Organizational debt) and the 20% engineering capacity rule.
+* **Global Architecture, M&A & Regulated Industries**:
+  * Global Core / Regional Edge platform architecture and data sovereignty models (GDPR, China PIPL).
+  * M&A technical due diligence checklist, application overlap rationalization, and two-tier integration.
+  * Divestiture technical carve-out architecture and Transitional Service Agreements (TSAs).
+  * Comprehensive regulatory playbooks across 12 global industries.
+* **Reference Blueprints, Case Studies, Decisions & Anti-Patterns**:
+  * 20 Enterprise Reference Architectures (`ref-081` to `ref-100`) using strict 26-section format.
+  * 20 Enterprise Case Studies (`cs-081` to `cs-100`) using strict 19-section format.
+  * 24 Lethal Enterprise Architecture Anti-Patterns with concrete symptoms, root causes, and remedies.
+  * 20 Formal Decision Framework scorecards evaluating high-stakes enterprise trade-offs.
+  * 8 Reusable Enterprise Reference Models and 10 Automated Architectural Fitness Functions.
+* **Architecture Deliverables & Interview System Design**:
+  * 20 new Architecture Decision Records (ADR-0096 to ADR-0115) cataloged in Master ADR registry.
+  * 13 Enterprise Architecture scenario-based interview playbooks with strict 14-section format (`20-interview-system-design/enterprise-architecture/`).
+  * Master Enterprise Architecture Checklist spanning 9 domains and quantitative sizing tools.
+
 ## [1.7.0] - 2026-09-05
 ### Added - Phase 8: AI & Modern Architecture
 - **AI Systems & Platform Architecture (`12-ai/ai-systems-architecture/`)**: 24 comprehensive specifications covering AI system design, gateways, model routing, serving, inference, workflows, agent platforms, evaluation, observability, security, governance, and cost management.

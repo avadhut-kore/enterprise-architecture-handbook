@@ -625,6 +625,51 @@ Welcome to the comprehensive master index of the **Enterprise Architecture Handb
 
 ---
 
+## 09. Enterprise Architecture Operating System {#09-enterprise-architecture}
+
+Strategic enterprise alignment, business architecture, capability mapping, application/technology portfolio management, governance, and transformation roadmaps.
+
+### Foundations, Roles & Operating Model
+* [`09-enterprise-architecture/README.md`](09-enterprise-architecture/README.md) - Domain charter, mental model, and master navigation.
+* [`09-enterprise-architecture/foundations/`](09-enterprise-architecture/foundations/) - What EA is / is not, architect roles taxonomy, org structures, 5-level maturity model, and strategy-to-execution mental model.
+* [`09-enterprise-architecture/roles/`](09-enterprise-architecture/roles/) - Enterprise, Solution, Technical, Business, and Chief Architect role profiles and RACI matrix.
+* [`09-enterprise-architecture/operating-model/`](09-enterprise-architecture/operating-model/) - Business/IT operating models, Team Topologies product vs platform, centralized vs federated, and EA operating cadence.
+* [`09-enterprise-architecture/leadership/`](09-enterprise-architecture/leadership/) - Executive communication, Minto Pyramid storytelling, presenting to C-suite, and trade-off negotiations.
+* [`09-enterprise-architecture/knowledge-management/`](09-enterprise-architecture/knowledge-management/) - Git-based architecture repository, catalog taxonomy, and living documentation.
+
+### Business Architecture & Capabilities
+* [`09-enterprise-architecture/business-architecture/`](09-enterprise-architecture/business-architecture/) - Business strategy motivation, Business Model Canvas, process vs capability vs value stream, and 8 industry models.
+* [`09-enterprise-architecture/capability-architecture/`](09-enterprise-architecture/capability-architecture/) - 3-tier capability decomposition, ownership & maturity, heatmaps, duplication rationalization, and mapping templates.
+* [`09-enterprise-architecture/value-streams/`](09-enterprise-architecture/value-streams/) - Value stream mapping, customer journeys, gap detection, and value stream enablement.
+
+### Enterprise Portfolio & Architecture Domains
+* [`09-enterprise-architecture/application-architecture/`](09-enterprise-architecture/application-architecture/) - Pace-layered systems (Record, Differentiation, Innovation), dependency blast radius, and 7R rationalization.
+* [`09-enterprise-architecture/application-portfolio/`](09-enterprise-architecture/application-portfolio/) - APM discipline, application scorecard, TIME model matrix, and modernization prioritization.
+* [`09-enterprise-architecture/data-architecture/`](09-enterprise-architecture/data-architecture/) - Data Mesh strategy, domain ownership, and enterprise Master Data Management (MDM).
+* [`09-enterprise-architecture/integration-architecture/`](09-enterprise-architecture/integration-architecture/) - 3-tier API-led connectivity, Kafka event mesh, schema registry governance, and B2B EDI.
+* [`09-enterprise-architecture/technology-architecture/`](09-enterprise-architecture/technology-architecture/) & [`technology-portfolio/`](09-enterprise-architecture/technology-portfolio/) - Internal Developer Platforms, paved roads, and technology lifecycle tiers.
+* [`09-enterprise-architecture/cloud-architecture/`](09-enterprise-architecture/cloud-architecture/) & [`security-architecture/`](09-enterprise-architecture/security-architecture/) & [`ai-architecture/`](09-enterprise-architecture/ai-architecture/) - Multi-account landing zones, FinOps, Zero Trust identity federation, and enterprise AI control plane.
+
+### Strategy, Governance & Transformation
+* [`09-enterprise-architecture/principles/`](09-enterprise-architecture/principles/) - Master Catalog of 20 Enterprise Architecture Principles in strict 7-part format.
+* [`09-enterprise-architecture/governance/`](09-enterprise-architecture/governance/) & [`architecture-review-board/`](09-enterprise-architecture/architecture-review-board/) - 3 lines of defense, ARB charter, review criteria, and decision templates.
+* [`09-enterprise-architecture/architecture-exceptions/`](09-enterprise-architecture/architecture-exceptions/) - Exception lifecycle, temporary vs permanent waivers, and compensating controls.
+* [`09-enterprise-architecture/technology-strategy/`](09-enterprise-architecture/technology-strategy/) & [`vendor-strategy/`](09-enterprise-architecture/vendor-strategy/) - Build vs buy governance, OSS licensing risk, and vendor lock-in exit strategies.
+* [`09-enterprise-architecture/financial-architecture/`](09-enterprise-architecture/financial-architecture/) & [`technical-debt/`](09-enterprise-architecture/technical-debt/) - 5-year TCO formula, unit economics, debt taxonomy, and the 20% capacity rule.
+* [`09-enterprise-architecture/enterprise-transformation/`](09-enterprise-architecture/enterprise-transformation/) & [`architecture-roadmaps/`](09-enterprise-architecture/architecture-roadmaps/) - 3-horizon roadmaps, transition plateaus, gap analysis, and Reverse Conway Maneuver.
+* [`09-enterprise-architecture/global-architecture/`](09-enterprise-architecture/global-architecture/) & [`mergers-acquisitions/`](09-enterprise-architecture/mergers-acquisitions/) & [`divestiture/`](09-enterprise-architecture/divestiture/) - Global core / regional edge, data residency, M&A due diligence, and divestiture TSAs.
+* [`09-enterprise-architecture/regulated-industries/`](09-enterprise-architecture/regulated-industries/) - 12 Regulated industry playbooks (Banking, Healthcare, Pharma, Energy, etc.).
+
+### Frameworks, Blueprints, Anti-Patterns & Tools
+* [`09-enterprise-architecture/frameworks/`](09-enterprise-architecture/frameworks/) & [`archimate/`](09-enterprise-architecture/archimate/) - Practical evaluation of TOGAF, Zachman, ArchiMate 3.2, and Product EA.
+* [`09-enterprise-architecture/reference-models/`](09-enterprise-architecture/reference-models/) & [`metrics/`](09-enterprise-architecture/metrics/) & [`fitness-functions/`](09-enterprise-architecture/fitness-functions/) - 8 Reference models, architecture KPI scorecard, and 10 automated CI/CD fitness functions.
+* [`09-enterprise-architecture/anti-patterns/`](09-enterprise-architecture/anti-patterns/) - 24 Lethal Enterprise Architecture anti-patterns.
+* [`09-enterprise-architecture/decision-frameworks/`](09-enterprise-architecture/decision-frameworks/) - 20 Formal enterprise decision scorecards.
+* [`09-enterprise-architecture/reference-architectures/`](09-enterprise-architecture/reference-architectures/) - 20 Complete Enterprise Reference Blueprints (`ref-081` to `ref-100`).
+* [`09-enterprise-architecture/case-studies/`](09-enterprise-architecture/case-studies/) - 20 Enterprise Transformation Case Studies (`cs-081` to `cs-100`).
+* [`09-enterprise-architecture/checklists/`](09-enterprise-architecture/checklists/) - Master Enterprise Architecture Checklist.
+* [`20-interview-system-design/enterprise-architecture/`](20-interview-system-design/enterprise-architecture/) - 13 Enterprise Architecture scenario interview playbooks.
+
 ## 10. Security & Zero Trust Additions
 * [`10-security/data-security/README.md`](10-security/data-security/README.md) — Data classification, envelope encryption at rest, field-level tokenization, dynamic masking, and database RLS.
 
@@ -735,6 +780,51 @@ Welcome to the comprehensive master index of the **Enterprise Architecture Handb
 
 
 ---
+
+## 09. Enterprise Architecture Operating System {#09-enterprise-architecture}
+
+Strategic enterprise alignment, business architecture, capability mapping, application/technology portfolio management, governance, and transformation roadmaps.
+
+### Foundations, Roles & Operating Model
+* [`09-enterprise-architecture/README.md`](09-enterprise-architecture/README.md) - Domain charter, mental model, and master navigation.
+* [`09-enterprise-architecture/foundations/`](09-enterprise-architecture/foundations/) - What EA is / is not, architect roles taxonomy, org structures, 5-level maturity model, and strategy-to-execution mental model.
+* [`09-enterprise-architecture/roles/`](09-enterprise-architecture/roles/) - Enterprise, Solution, Technical, Business, and Chief Architect role profiles and RACI matrix.
+* [`09-enterprise-architecture/operating-model/`](09-enterprise-architecture/operating-model/) - Business/IT operating models, Team Topologies product vs platform, centralized vs federated, and EA operating cadence.
+* [`09-enterprise-architecture/leadership/`](09-enterprise-architecture/leadership/) - Executive communication, Minto Pyramid storytelling, presenting to C-suite, and trade-off negotiations.
+* [`09-enterprise-architecture/knowledge-management/`](09-enterprise-architecture/knowledge-management/) - Git-based architecture repository, catalog taxonomy, and living documentation.
+
+### Business Architecture & Capabilities
+* [`09-enterprise-architecture/business-architecture/`](09-enterprise-architecture/business-architecture/) - Business strategy motivation, Business Model Canvas, process vs capability vs value stream, and 8 industry models.
+* [`09-enterprise-architecture/capability-architecture/`](09-enterprise-architecture/capability-architecture/) - 3-tier capability decomposition, ownership & maturity, heatmaps, duplication rationalization, and mapping templates.
+* [`09-enterprise-architecture/value-streams/`](09-enterprise-architecture/value-streams/) - Value stream mapping, customer journeys, gap detection, and value stream enablement.
+
+### Enterprise Portfolio & Architecture Domains
+* [`09-enterprise-architecture/application-architecture/`](09-enterprise-architecture/application-architecture/) - Pace-layered systems (Record, Differentiation, Innovation), dependency blast radius, and 7R rationalization.
+* [`09-enterprise-architecture/application-portfolio/`](09-enterprise-architecture/application-portfolio/) - APM discipline, application scorecard, TIME model matrix, and modernization prioritization.
+* [`09-enterprise-architecture/data-architecture/`](09-enterprise-architecture/data-architecture/) - Data Mesh strategy, domain ownership, and enterprise Master Data Management (MDM).
+* [`09-enterprise-architecture/integration-architecture/`](09-enterprise-architecture/integration-architecture/) - 3-tier API-led connectivity, Kafka event mesh, schema registry governance, and B2B EDI.
+* [`09-enterprise-architecture/technology-architecture/`](09-enterprise-architecture/technology-architecture/) & [`technology-portfolio/`](09-enterprise-architecture/technology-portfolio/) - Internal Developer Platforms, paved roads, and technology lifecycle tiers.
+* [`09-enterprise-architecture/cloud-architecture/`](09-enterprise-architecture/cloud-architecture/) & [`security-architecture/`](09-enterprise-architecture/security-architecture/) & [`ai-architecture/`](09-enterprise-architecture/ai-architecture/) - Multi-account landing zones, FinOps, Zero Trust identity federation, and enterprise AI control plane.
+
+### Strategy, Governance & Transformation
+* [`09-enterprise-architecture/principles/`](09-enterprise-architecture/principles/) - Master Catalog of 20 Enterprise Architecture Principles in strict 7-part format.
+* [`09-enterprise-architecture/governance/`](09-enterprise-architecture/governance/) & [`architecture-review-board/`](09-enterprise-architecture/architecture-review-board/) - 3 lines of defense, ARB charter, review criteria, and decision templates.
+* [`09-enterprise-architecture/architecture-exceptions/`](09-enterprise-architecture/architecture-exceptions/) - Exception lifecycle, temporary vs permanent waivers, and compensating controls.
+* [`09-enterprise-architecture/technology-strategy/`](09-enterprise-architecture/technology-strategy/) & [`vendor-strategy/`](09-enterprise-architecture/vendor-strategy/) - Build vs buy governance, OSS licensing risk, and vendor lock-in exit strategies.
+* [`09-enterprise-architecture/financial-architecture/`](09-enterprise-architecture/financial-architecture/) & [`technical-debt/`](09-enterprise-architecture/technical-debt/) - 5-year TCO formula, unit economics, debt taxonomy, and the 20% capacity rule.
+* [`09-enterprise-architecture/enterprise-transformation/`](09-enterprise-architecture/enterprise-transformation/) & [`architecture-roadmaps/`](09-enterprise-architecture/architecture-roadmaps/) - 3-horizon roadmaps, transition plateaus, gap analysis, and Reverse Conway Maneuver.
+* [`09-enterprise-architecture/global-architecture/`](09-enterprise-architecture/global-architecture/) & [`mergers-acquisitions/`](09-enterprise-architecture/mergers-acquisitions/) & [`divestiture/`](09-enterprise-architecture/divestiture/) - Global core / regional edge, data residency, M&A due diligence, and divestiture TSAs.
+* [`09-enterprise-architecture/regulated-industries/`](09-enterprise-architecture/regulated-industries/) - 12 Regulated industry playbooks (Banking, Healthcare, Pharma, Energy, etc.).
+
+### Frameworks, Blueprints, Anti-Patterns & Tools
+* [`09-enterprise-architecture/frameworks/`](09-enterprise-architecture/frameworks/) & [`archimate/`](09-enterprise-architecture/archimate/) - Practical evaluation of TOGAF, Zachman, ArchiMate 3.2, and Product EA.
+* [`09-enterprise-architecture/reference-models/`](09-enterprise-architecture/reference-models/) & [`metrics/`](09-enterprise-architecture/metrics/) & [`fitness-functions/`](09-enterprise-architecture/fitness-functions/) - 8 Reference models, architecture KPI scorecard, and 10 automated CI/CD fitness functions.
+* [`09-enterprise-architecture/anti-patterns/`](09-enterprise-architecture/anti-patterns/) - 24 Lethal Enterprise Architecture anti-patterns.
+* [`09-enterprise-architecture/decision-frameworks/`](09-enterprise-architecture/decision-frameworks/) - 20 Formal enterprise decision scorecards.
+* [`09-enterprise-architecture/reference-architectures/`](09-enterprise-architecture/reference-architectures/) - 20 Complete Enterprise Reference Blueprints (`ref-081` to `ref-100`).
+* [`09-enterprise-architecture/case-studies/`](09-enterprise-architecture/case-studies/) - 20 Enterprise Transformation Case Studies (`cs-081` to `cs-100`).
+* [`09-enterprise-architecture/checklists/`](09-enterprise-architecture/checklists/) - Master Enterprise Architecture Checklist.
+* [`20-interview-system-design/enterprise-architecture/`](20-interview-system-design/enterprise-architecture/) - 13 Enterprise Architecture scenario interview playbooks.
 
 ## 10. Security & Zero Trust Architecture {#10-security}
 *Enterprise security architecture, principles, maturity models, STRIDE threat modeling, identity architecture, authentication, authorization, OAuth 2.0, OIDC, JWT, SSO, federation, Zero Trust, API security, application security, frontend/mobile security, cloud & network security, container & Kubernetes security, cryptography, key & secrets management, DevSecOps, supply chain, vulnerability management, security monitoring, incident response, compliance, privacy, patterns, and decision frameworks.*
