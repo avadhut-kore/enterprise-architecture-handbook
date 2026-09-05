@@ -1096,8 +1096,25 @@ Enterprise DevOps architecture, continuous delivery pipelines, container orchest
 
 ---
 
-## 11. Site Reliability Engineering & Operations Architecture {#11-observability}
-*Operational architecture, operations principles, operational maturity models, SRE foundations, SLA/SLO/SLI mathematical models, error budgets, multi-window burn-rate alerting, reliability engineering, circuit breakers, production readiness reviews, service ownership, incident management, problem management, change management, progressive canary rollouts, immutable backups, business continuity, operational governance, and operational runbooks.*
+## 11. Site Reliability Engineering & Observability Architecture {#11-observability}
+*Operational architecture, observability engineering, metrics architectures, distributed logging, distributed tracing, OpenTelemetry standards, alerting philosophy, Google SRE multi-window burn-rate alerting, dashboards and cognitive ergonomics, SLO/SLI error budget policies, continuous profiling, testing observability, telemetry FinOps, SRE foundations, reliability engineering, circuit breakers, production readiness reviews, incident management, problem management, change management, business continuity, operational runbooks, and reference architectures.*
+
+### Enterprise Observability & Telemetry Pipelines (11-observability/metrics/, logging/, 	racing/, opentelemetry/, lerting/, dashboards/, slo-management/, profiling/, 	esting-observability/, cost-and-capacity/, 
+eference-architectures/, case-studies/, checklists/, dr/)
+* [11-observability/metrics/README.md](11-observability/metrics/README.md) - Metrics architecture, TSDB engines, PromQL patterns, downsampling, and cardinality control.
+* [11-observability/logging/README.md](11-observability/logging/README.md) - Distributed logging architecture, Elastic Common Schema (ECS), buffering pipelines, and PII masking.
+* [11-observability/tracing/README.md](11-observability/tracing/README.md) - Distributed tracing, W3C context propagation, asynchronous DAGs, and tail sampling.
+* [11-observability/opentelemetry/README.md](11-observability/opentelemetry/README.md) - Universal OpenTelemetry standard, collector pipelines, processor topologies, and SDK instrumentation.
+* [11-observability/alerting/README.md](11-observability/alerting/README.md) - Alerting philosophy, Google SRE multi-window multi-burn-rate alerting, and fatigue elimination.
+* [11-observability/dashboards/README.md](11-observability/dashboards/README.md) - Visual hierarchy, cognitive ergonomics, the 5-second rule, and Grafana golden standards.
+* [11-observability/slo-management/README.md](11-observability/slo-management/README.md) - User journeys, SLI mathematical formulation, Error Budget policies, and release gating.
+* [11-observability/profiling/README.md](11-observability/profiling/README.md) - Continuous production profiling, eBPF non-invasive sampling, and flame graph analysis.
+* [11-observability/testing-observability/README.md](11-observability/testing-observability/README.md) - Trace-based integration testing, synthetic canaries, and chaos game days.
+* [11-observability/cost-and-capacity/README.md](11-observability/cost-and-capacity/README.md) - Observability FinOps, telemetry volume forecasting, tiered storage, and license optimization.
+* [11-observability/reference-architectures/README.md](11-observability/reference-architectures/README.md) - 6 Production reference architectures (K8s, Serverless, Event-Driven, Hybrid, Multi-Region, Payments).
+* [11-observability/case-studies/README.md](11-observability/case-studies/README.md) - 6 Real-world enterprise case studies and deep-dive incident investigations.
+* [11-observability/checklists/README.md](11-observability/checklists/README.md) - 12 Operational audit checklists (PRR gates, alerting quality, tracing audit, FinOps, LLMOps).
+* [11-observability/adr/README.md](11-observability/adr/README.md) - 10 Foundational Observability ADRs (ADR-0001 through ADR-0010).
 
 ### Principles & Foundations (`11-observability/`, `sre/`, `reliability-engineering/`)
 * [`11-observability/README.md`](11-observability/README.md) - Observability, SRE & Operations architecture domain overview.
