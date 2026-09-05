@@ -85,6 +85,25 @@ Welcome to the comprehensive master index of the **Enterprise Architecture Handb
 * [`load-balancing.md`](00-foundations/distributed-systems/load-balancing.md) — L4 vs. L7 load balancing, health checks, algorithms.
 * [`failure-models.md`](00-foundations/distributed-systems/failure-models.md) — Crash-stop, crash-recovery, network partitions, Byzantine faults.
 
+
+### Distributed Systems Design Principles (`00-foundations/distributed-systems/design-principles/`)
+* [`README.md`](00-foundations/distributed-systems/design-principles/README.md) — Architectural principles catalog and core philosophy.
+* [`stateless-architecture.md`](00-foundations/distributed-systems/design-principles/stateless-architecture.md) — Externalizing state from compute tiers for horizontal elasticity.
+* [`share-nothing-architecture.md`](00-foundations/distributed-systems/design-principles/share-nothing-architecture.md) — Linear scaling without cross-node synchronization bottlenecks.
+* [`idempotency.md`](00-foundations/distributed-systems/design-principles/idempotency.md) — Repeated operations yielding identical state under retries.
+* [`immutability.md`](00-foundations/distributed-systems/design-principles/immutability.md) — Append-only state transitions and zero lock contention.
+* [`event-driven-architecture.md`](00-foundations/distributed-systems/design-principles/event-driven-architecture.md) — Asynchronous choreography over RPC orchestration.
+* [`loose-coupling.md`](00-foundations/distributed-systems/design-principles/loose-coupling.md) — Spatial, temporal, and platform decoupling.
+* [`high-cohesion.md`](00-foundations/distributed-systems/design-principles/high-cohesion.md) — Grouping elements that change together within bounded contexts.
+* [`separation-of-concerns.md`](00-foundations/distributed-systems/design-principles/separation-of-concerns.md) — Layered separation from edge to domain logic.
+* [`single-responsibility.md`](00-foundations/distributed-systems/design-principles/single-responsibility.md) — Single reason to change at microservice boundaries.
+* [`graceful-degradation.md`](00-foundations/distributed-systems/design-principles/graceful-degradation.md) — High availability under partial infrastructure failure.
+* [`fail-fast.md`](00-foundations/distributed-systems/design-principles/fail-fast.md) — Surfacing validation errors immediately at boundaries.
+* [`defense-in-depth.md`](00-foundations/distributed-systems/design-principles/defense-in-depth.md) — Multi-layered perimeter, transport, and data security.
+* [`observability-first.md`](00-foundations/distributed-systems/design-principles/observability-first.md) — Telemetry as a first-class architectural citizen.
+* [`evolutionary-architecture.md`](00-foundations/distributed-systems/design-principles/evolutionary-architecture.md) — Designing for incremental, guided change.
+* [`simplicity.md`](00-foundations/distributed-systems/design-principles/simplicity.md) — Eliminating accidental complexity via Occam's razor.
+
 ### Networking (`00-foundations/networking/`)
 * [`osi-model.md`](00-foundations/networking/osi-model.md) — 7-Layer OSI model mapped to modern protocols.
 * [`tcp-ip.md`](00-foundations/networking/tcp-ip.md) — Three-way handshake, congestion control, TIME_WAIT states.
@@ -230,6 +249,51 @@ Welcome to the comprehensive master index of the **Enterprise Architecture Handb
 
 ---
 
+
+### Scale Estimation & Sizing (`02-system-design/scale-estimation/`)
+* [`README.md`](02-system-design/scale-estimation/README.md) — Scale estimation methodology and back-of-the-envelope formulas.
+* Detailed estimation guides: [`traffic-estimation.md`](02-system-design/scale-estimation/traffic-estimation.md), [`storage-estimation.md`](02-system-design/scale-estimation/storage-estimation.md), [`bandwidth-estimation.md`](02-system-design/scale-estimation/bandwidth-estimation.md), [`cache-capacity.md`](02-system-design/scale-estimation/cache-capacity.md), [`database-capacity.md`](02-system-design/scale-estimation/database-capacity.md), [`growth-projection.md`](02-system-design/scale-estimation/growth-projection.md).
+
+### Capacity Planning (`02-system-design/capacity-planning/`)
+* [`capacity-planning-overview.md`](02-system-design/capacity-planning/capacity-planning-overview.md) — Production capacity planning frameworks.
+* Subsystem sizing: [`compute-capacity.md`](02-system-design/capacity-planning/compute-capacity.md), [`database-capacity.md`](02-system-design/capacity-planning/database-capacity.md), [`cache-capacity.md`](02-system-design/capacity-planning/cache-capacity.md), [`message-queue-capacity.md`](02-system-design/capacity-planning/message-queue-capacity.md), [`capacity-testing.md`](02-system-design/capacity-planning/capacity-testing.md).
+
+### Scalability (`02-system-design/scalability/`)
+* [`README.md`](02-system-design/scalability/README.md) — Horizontal scaling patterns, elasticity, and partitioning.
+* Scaling blueprints: [`horizontal-scaling.md`](02-system-design/scalability/horizontal-scaling.md), [`stateless-services.md`](02-system-design/scalability/stateless-services.md), [`database-scaling.md`](02-system-design/scalability/database-scaling.md), [`sharding.md`](02-system-design/scalability/sharding.md), [`replication.md`](02-system-design/scalability/replication.md), [`hotspot-management.md`](02-system-design/scalability/hotspot-management.md).
+
+### Performance (`02-system-design/performance/`)
+* [`README.md`](02-system-design/performance/README.md) — Latency optimization, tail-latency reduction, and profiling.
+* Guides: [`latency.md`](02-system-design/performance/latency.md), [`throughput.md`](02-system-design/performance/throughput.md), [`tail-latency.md`](02-system-design/performance/tail-latency.md), [`connection-pools.md`](02-system-design/performance/connection-pools.md), [`load-testing.md`](02-system-design/performance/load-testing.md).
+
+### Reliability (`02-system-design/reliability/`)
+* [`README.md`](02-system-design/reliability/README.md) — Fault tolerance, high availability modeling, and circuit breakers.
+* Resilience patterns: [`circuit-breaker.md`](02-system-design/reliability/circuit-breaker.md), [`bulkheads.md`](02-system-design/reliability/bulkheads.md), [`rate-limiting.md`](02-system-design/reliability/rate-limiting.md), [`backpressure.md`](02-system-design/reliability/backpressure.md), [`chaos-engineering.md`](02-system-design/reliability/chaos-engineering.md).
+
+### Distributed Caching (`02-system-design/caching/`)
+* [`README.md`](02-system-design/caching/README.md) — Cache-aside, write-through, write-behind, eviction algorithms.
+* Caching mechanics: [`cache-aside.md`](02-system-design/caching/cache-aside.md), [`cache-stampede.md`](02-system-design/caching/cache-stampede.md), [`distributed-cache.md`](02-system-design/caching/distributed-cache.md), [`redis-architecture.md`](02-system-design/caching/redis-architecture.md).
+
+### Real-Time Architectures (`02-system-design/real-time/`)
+* [`README.md`](02-system-design/real-time/README.md) — WebSockets, SSE, long-polling, presence tracking, and chat architecture.
+
+### Job & Batch Processing (`02-system-design/job-processing/`)
+* [`README.md`](02-system-design/job-processing/README.md) — Asynchronous task queues, distributed cron, and worker pools.
+
+### Multi-Tenancy (`02-system-design/multi-tenancy/`)
+* [`README.md`](02-system-design/multi-tenancy/README.md) — Tenant isolation models, cell-based architecture, noisy neighbor mitigation.
+
+### Search Architecture (`02-system-design/search/`)
+* [`README.md`](02-system-design/search/README.md) — Inverted indexes, BM25 ranking, typeahead, Elasticsearch architecture.
+
+### File & Object Storage (`02-system-design/file-storage/`)
+* [`README.md`](02-system-design/file-storage/README.md) — Chunked upload, presigned URLs, S3 architecture, storage tiering.
+
+### Failure Engineering (`02-system-design/failure-engineering/`)
+* [`README.md`](02-system-design/failure-engineering/README.md) — Split-brain, thundering herd, cascading collapse, clock drift, gray failures.
+
+---
+
 ## 13. Architecture Patterns
 *Detailed breakdown of modern system architecture patterns.*
 
@@ -302,6 +366,15 @@ Welcome to the comprehensive master index of the **Enterprise Architecture Handb
 ## 21. Architecture Tools & Checklists
 *Production review checklists, sizing tools, and generators.*
 
+### Engineering Calculators (`21-architecture-tools/calculators/`)
+* [`README.md`](21-architecture-tools/calculators/README.md) — Master catalog of capacity and sizing calculators.
+* Models: [`traffic-calculator.md`](21-architecture-tools/calculators/traffic-calculator.md), [`storage-calculator.md`](21-architecture-tools/calculators/storage-calculator.md), [`bandwidth-calculator.md`](21-architecture-tools/calculators/bandwidth-calculator.md), [`cache-calculator.md`](21-architecture-tools/calculators/cache-calculator.md), [`database-sizing-calculator.md`](21-architecture-tools/calculators/database-sizing-calculator.md), [`availability-calculator.md`](21-architecture-tools/calculators/availability-calculator.md), [`latency-budget-calculator.md`](21-architecture-tools/calculators/latency-budget-calculator.md), [`cost-estimator.md`](21-architecture-tools/calculators/cost-estimator.md).
+
+### System Design Checklists (`21-architecture-tools/checklists/system-design/`)
+* [`README.md`](21-architecture-tools/checklists/system-design/README.md) — 13-stage lifecycle design checklists.
+* Checklists: [`requirements-checklist.md`](21-architecture-tools/checklists/system-design/requirements-checklist.md), [`scale-estimation-checklist.md`](21-architecture-tools/checklists/system-design/scale-estimation-checklist.md), [`api-design-checklist.md`](21-architecture-tools/checklists/system-design/api-design-checklist.md), [`data-model-checklist.md`](21-architecture-tools/checklists/system-design/data-model-checklist.md), [`high-level-design-checklist.md`](21-architecture-tools/checklists/system-design/high-level-design-checklist.md), [`detailed-design-checklist.md`](21-architecture-tools/checklists/system-design/detailed-design-checklist.md), [`scalability-checklist.md`](21-architecture-tools/checklists/system-design/scalability-checklist.md), [`reliability-checklist.md`](21-architecture-tools/checklists/system-design/reliability-checklist.md), [`performance-checklist.md`](21-architecture-tools/checklists/system-design/performance-checklist.md), [`security-checklist.md`](21-architecture-tools/checklists/system-design/security-checklist.md), [`observability-checklist.md`](21-architecture-tools/checklists/system-design/observability-checklist.md), [`resilience-checklist.md`](21-architecture-tools/checklists/system-design/resilience-checklist.md), [`production-readiness-checklist.md`](21-architecture-tools/checklists/system-design/production-readiness-checklist.md).
+
+
 ### Production Review Checklists (`21-architecture-tools/checklists/`)
 * [`architecture-review-checklist.md`](21-architecture-tools/checklists/architecture-review-checklist.md) — Comprehensive ARB review scorecard.
 * [`solution-architecture-checklist.md`](21-architecture-tools/checklists/solution-architecture-checklist.md) — Pre-implementation SAD quality gate.
@@ -336,20 +409,83 @@ Welcome to the comprehensive master index of the **Enterprise Architecture Handb
 
 ---
 
-## Additional Domains (Scheduled for Phases 3–10)
+
+---
+
+## 06. Data Architecture & Persistence
+*Distributed data, consistency models, and transaction management.*
+
+### Distributed Data (`06-data/distributed-data/`)
+* [`README.md`](06-data/distributed-data/README.md) — Consistency continuum, distributed consensus, and transaction protocols.
+* Theorems: [`cap-theorem.md`](06-data/distributed-data/cap-theorem.md), [`pacelc-theorem.md`](06-data/distributed-data/pacelc-theorem.md), [`acid-vs-base.md`](06-data/distributed-data/acid-vs-base.md).
+* Consistency models: [`strong-consistency.md`](06-data/distributed-data/strong-consistency.md), [`eventual-consistency.md`](06-data/distributed-data/eventual-consistency.md), [`causal-consistency.md`](06-data/distributed-data/causal-consistency.md).
+* Transactions & Consensus: [`distributed-transactions.md`](06-data/distributed-data/distributed-transactions.md), [`two-phase-commit.md`](06-data/distributed-data/two-phase-commit.md), [`saga-pattern.md`](06-data/distributed-data/saga-pattern.md), [`outbox-pattern.md`](06-data/distributed-data/outbox-pattern.md), [`raft.md`](06-data/distributed-data/raft.md), [`paxos.md`](06-data/distributed-data/paxos.md).
+
+---
+
+## 07. Integration Architecture & Messaging
+*Enterprise integration, event streaming, REST standards, and API gateways.*
+
+### Messaging & Event Streaming (`07-integration/messaging/`)
+* [`README.md`](07-integration/messaging/README.md) — Message brokers, event logs, delivery guarantees, and CDC.
+* Broker Architectures: [`kafka-architecture.md`](07-integration/messaging/kafka-architecture.md), [`rabbitmq-architecture.md`](07-integration/messaging/rabbitmq-architecture.md).
+* Guarantees & Patterns: [`ordering-guarantees.md`](07-integration/messaging/ordering-guarantees.md), [`exactly-once.md`](07-integration/messaging/exactly-once.md), [`idempotent-consumer.md`](07-integration/messaging/idempotent-consumer.md), [`cdc.md`](07-integration/messaging/cdc.md).
+
+### REST Architecture (`07-integration/rest/`)
+* [`README.md`](07-integration/rest/README.md) — REST principles, resource modeling, versioning, pagination, idempotency.
+
+### API Gateway (`07-integration/api-gateway/`)
+* [`README.md`](07-integration/api-gateway/README.md) — Edge gateway patterns, reverse proxies, BFF, Envoy vs. Kong.
+
+---
+
+## 15. Modernization & System Evolution
+*Deconstructing legacy monoliths and executing zero-downtime transformations.*
+
+### System Evolution (`15-modernization/system-evolution/`)
+* [`README.md`](15-modernization/system-evolution/README.md) — Modernization principles and migration playbooks.
+* Playbooks: [`monolith-to-microservices.md`](15-modernization/system-evolution/monolith-to-microservices.md), [`database-decomposition.md`](15-modernization/system-evolution/database-decomposition.md), [`event-driven-migration.md`](15-modernization/system-evolution/event-driven-migration.md), [`sync-to-async.md`](15-modernization/system-evolution/sync-to-async.md), [`cache-introduction.md`](15-modernization/system-evolution/cache-introduction.md), [`sharding-migration.md`](15-modernization/system-evolution/sharding-migration.md), [`read-write-splitting.md`](15-modernization/system-evolution/read-write-splitting.md), [`zero-downtime-migration.md`](15-modernization/system-evolution/zero-downtime-migration.md), [`strangler-fig-pattern.md`](15-modernization/system-evolution/strangler-fig-pattern.md), [`anti-corruption-layer.md`](15-modernization/system-evolution/anti-corruption-layer.md).
+
+---
+
+## 18. Reference Architectures
+*Production-grade 26-section reference architecture blueprints.*
+
+### System Design Reference Architectures (`18-reference-architectures/system-design/`)
+* [`README.md`](18-reference-architectures/system-design/README.md) — Master catalog of 30 system design blueprints.
+* Tier 1 Blueprints: [`url-shortener.md`](18-reference-architectures/system-design/url-shortener.md), [`rate-limiter.md`](18-reference-architectures/system-design/rate-limiter.md), [`notification-service.md`](18-reference-architectures/system-design/notification-service.md), [`distributed-cache.md`](18-reference-architectures/system-design/distributed-cache.md), [`key-value-store.md`](18-reference-architectures/system-design/key-value-store.md), [`chat-application.md`](18-reference-architectures/system-design/chat-application.md).
+* Streaming & Content: [`video-streaming-platform.md`](18-reference-architectures/system-design/video-streaming-platform.md), [`social-media-feed.md`](18-reference-architectures/system-design/social-media-feed.md), [`content-delivery-network.md`](18-reference-architectures/system-design/content-delivery-network.md).
+* Mobility & Commerce: [`ride-sharing-service.md`](18-reference-architectures/system-design/ride-sharing-service.md), [`e-commerce-platform.md`](18-reference-architectures/system-design/e-commerce-platform.md), [`payment-system.md`](18-reference-architectures/system-design/payment-system.md).
+* Enterprise & Data: [`search-autocomplete.md`](18-reference-architectures/system-design/search-autocomplete.md), [`ad-click-aggregation.md`](18-reference-architectures/system-design/ad-click-aggregation.md), [`distributed-task-scheduler.md`](18-reference-architectures/system-design/distributed-task-scheduler.md), [`iot-data-platform.md`](18-reference-architectures/system-design/iot-data-platform.md).
+
+---
+
+## 19. Real-World Case Studies
+*Deep-dive retrospectives of planetary-scale production systems.*
+
+### System Design Case Studies (`19-case-studies/system-design/`)
+* [`README.md`](19-case-studies/system-design/README.md) — Real-world case studies index and analytical schema.
+* Deep Dives: [`netflix-video-streaming.md`](19-case-studies/system-design/netflix-video-streaming.md), [`uber-dispatch-system.md`](19-case-studies/system-design/uber-dispatch-system.md), [`twitter-timeline-service.md`](19-case-studies/system-design/twitter-timeline-service.md), [`amazon-shopping-cart.md`](19-case-studies/system-design/amazon-shopping-cart.md), [`stripe-payment-infrastructure.md`](19-case-studies/system-design/stripe-payment-infrastructure.md), [`whatsapp-messaging-architecture.md`](19-case-studies/system-design/whatsapp-messaging-architecture.md), [`airbnb-booking-engine.md`](19-case-studies/system-design/airbnb-booking-engine.md), [`spotify-music-streaming.md`](19-case-studies/system-design/spotify-music-streaming.md), [`youtube-video-pipeline.md`](19-case-studies/system-design/youtube-video-pipeline.md), [`slack-realtime-messaging.md`](19-case-studies/system-design/slack-realtime-messaging.md).
+
+---
+
+## 20. System Design Interview Playbook
+*Staff+ and Principal Architect interview preparation and scoring rubrics.*
+
+### System Design Interview Mastery (`20-interview-system-design/system-design/`)
+* [`README.md`](20-interview-system-design/system-design/README.md) — Curriculum overview and scoring pillars.
+* Core Guides: [`interview-framework.md`](20-interview-system-design/system-design/interview-framework.md), [`time-management.md`](20-interview-system-design/system-design/time-management.md), [`clarifying-questions.md`](20-interview-system-design/system-design/clarifying-questions.md), [`scale-estimation.md`](20-interview-system-design/system-design/scale-estimation.md), [`api-design.md`](20-interview-system-design/system-design/api-design.md), [`data-modeling.md`](20-interview-system-design/system-design/data-modeling.md), [`high-level-design.md`](20-interview-system-design/system-design/high-level-design.md), [`deep-dive.md`](20-interview-system-design/system-design/deep-dive.md), [`trade-off-discussion.md`](20-interview-system-design/system-design/trade-off-discussion.md), [`common-mistakes.md`](20-interview-system-design/system-design/common-mistakes.md), [`evaluation-criteria.md`](20-interview-system-design/system-design/evaluation-criteria.md), [`faang-rubric.md`](20-interview-system-design/system-design/faang-rubric.md), [`mock-interview-guide.md`](20-interview-system-design/system-design/mock-interview-guide.md).
+
+---
+
+## Additional Domains (Scheduled for Phases 4–10)
 * [`03-backend/`](03-backend/) — Enterprise runtime platforms (.NET, Java, Python, Go, Node.js).
 * [`04-frontend/`](04-frontend/) — Frontend architectures (React, Angular, Micro-frontends).
 * [`05-mobile/`](05-mobile/) — Mobile architecture (iOS, Android, Flutter, React Native).
-* [`06-data/`](06-data/) — Data pipelines, Warehousing, Lakes, Meshes, and Analytics.
-* [`07-integration/`](07-integration/) — Messaging, Event streaming, API Gateways, Service Meshes.
 * [`08-cloud/`](08-cloud/) — AWS, Azure, GCP well-architected blueprints, FinOps.
 * [`09-devops/`](09-devops/) — Platform engineering, GitOps, CI/CD, Kubernetes.
 * [`10-security/`](10-security/) — Zero trust, IAM, DevSecOps, AppSec.
 * [`11-observability/`](11-observability/) — Telemetry, Prometheus, Grafana, OpenTelemetry, SRE.
 * [`12-ai/`](12-ai/) — GenAI, LLM architectures, RAG systems, Model serving.
 * [`14-enterprise-integration/`](14-enterprise-integration/) — ERP, CRM, Core Banking, Healthcare.
-* [`15-modernization/`](15-modernization/) — Legacy decommissioning, cloud migration frameworks.
-* [`18-reference-architectures/`](18-reference-architectures/) — Full industry blueprints.
-* [`19-case-studies/`](19-case-studies/) — Real-world production case studies.
-* [`20-interview-system-design/`](20-interview-system-design/) — Architect interview guide.
 * [`99-experiments/`](99-experiments/) — POC sandbox.

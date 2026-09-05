@@ -12,8 +12,9 @@ gantt
     dateFormat  YYYY-MM-DD
     section Foundations & Design
     Phase 1: Repository Foundation           :done,    p1, 2026-09-01, 2026-09-10
-    Phase 2: Architecture Fundamentals       :active,  p2, 2026-09-11, 2026-10-15
-    Phase 3: System Design                   :         p3, 2026-10-16, 2026-11-30
+    Phase 2: Architecture Fundamentals       :done,    p2, 2026-09-11, 2026-10-15
+    Phase 3: System Design                   :done,    p3, 2026-10-16, 2026-11-30
+    Phase 4: Application Engineering         :active,  p4, 2026-12-01, 2027-01-15
     section Engineering Core
     Phase 4: Application Engineering         :         p4, 2026-12-01, 2027-01-15
     Phase 5: Data & Integration              :         p5, 2027-01-16, 2027-02-28
@@ -49,7 +50,7 @@ gantt
 
 ---
 
-### Phase 3: System Design & Scalability
+### Phase 3: System Design & Distributed Systems *(COMPLETED)*
 * **Objective**: Establish high-scale systems engineering, NFR modeling, and failure mitigation playbooks.
 * **Key Deliverables**:
   * Core guides in `02-system-design/`: Latency budgets, horizontal scaling mechanics, database sharding/partitioning, consistency models, fault tolerance patterns (bulkheads, circuit breakers), disaster recovery (RPO/RTO).
