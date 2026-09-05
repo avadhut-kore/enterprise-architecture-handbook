@@ -1,12 +1,29 @@
-# Enterprise Cloud Architecture Case Studies
+# Enterprise Cloud Architecture Case Studies & Outage Post-Mortems
 
 ## Executive Summary
 
-This section contains 18 real-world enterprise cloud architecture case studies. Drawn from Fortune 500 migrations, global banking transformations, hyper-scale SaaS modernizations, and regulated infrastructure projects, each case study documents the complete decision-making journey across 15 structured sections.
+This directory contains a comprehensive portfolio of **Enterprise Cloud Architecture Case Studies**, spanning both large-scale cloud migrations/transformations and deep-dive forensic post-mortems of mission-critical cloud outages. Drawn from Fortune 500 enterprises, hyper-scale cloud providers, and global retail/banking platforms, each case study documents the complete decision-making journey, failure mechanisms, and permanent architectural remediations.
 
 ---
 
-## Catalog of Cloud Case Studies
+## 1. Cloud Outage Forensic Post-Mortems (P0 Incident Analyses)
+
+Deep-dive forensic post-mortems analyzing major cloud availability breakdowns, network partitions, identity control-plane deadlocks, and multi-cloud routing loops.
+
+| Incident ID | Title | Primary Architectural Breakdown | Financial & Operational Impact |
+| :--- | :--- | :--- | :--- |
+| **[`cs-cloud-01`](cs-cloud-01-global-bgp-routing-leak.md)** | **Global BGP Anycast Route Leak & Multi-Region Black Hole** | BGP community tag omitted in automation; global transit overload | $42M direct SLA breach penalties; 42 cloud regions offline |
+| **[`cs-cloud-02`](cs-cloud-02-iam-policy-lockout-blast-radius.md)** | **Corrupted Global IAM Policy Push & Control Plane Lockout** | Corrupted AWS SCP applied to Root OU; administrative deadlock | $65M lost revenue; 450 AWS accounts deadlocked for 14 hours |
+| **[`cs-cloud-03`](cs-cloud-03-multi-az-network-partition-cascade.md)** | **Multi-AZ Network Partition Cascade & Synchronous Lockup** | Cross-AZ synchronous dependencies; packet loss in one AZ froze all 3 AZs | $18M e-commerce checkout loss during peak shopping weekend |
+| **[`cs-cloud-04`](cs-cloud-04-wildcard-tls-cert-expiration-blackout.md)** | **Wildcard Edge TLS Certificate Expiration & Mobile Blackout** | Manually managed wildcard certificate expired at 00:00 UTC | $11M operational loss; 6 Million mobile banking users locked out |
+| **[`cs-cloud-05`](cs-cloud-05-multi-region-split-brain-divergence.md)** | **Multi-Region Active-Active Database Divergence & Split-Brain** | Multi-master LWW with NTP clock drift during replication lag | $9.5M flight rebooking and hotel compensations; 14,000 double-booked seats |
+| **[`cs-cloud-06`](cs-cloud-06-multi-cloud-failover-dns-routing-loop.md)** | **Multi-Cloud Failover DNS Routing Loop & Cold Standby Collapse** | Un-warmed 5% Azure standby crushed by 45k QPS failover | $24M in lost flight bookings; 11-hour oscillating DNS death loop |
+
+---
+
+## 2. Enterprise Cloud Transformation Case Studies (18 Real-World Migrations)
+
+Comprehensive case studies documenting strategic cloud migrations, landing zones, FinOps turnarounds, and compliance enclaves.
 
 | # | Case Study Title | Transformation Scope | Key Architectural Technologies |
 | :-: | :--- | :--- | :--- |

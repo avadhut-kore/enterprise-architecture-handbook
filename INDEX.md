@@ -483,12 +483,98 @@ Welcome to the comprehensive master index of the **Enterprise Architecture Handb
 
 ---
 
-## 19. Real-World Case Studies
-*Deep-dive retrospectives of planetary-scale production systems.*
+## 19. Real-World Case Studies & Forensic Post-Mortems
+*Deep-dive retrospectives of enterprise failures, scaling post-mortems, legacy transformations, and forensic root-cause investigations.*
 
-### System Design Case Studies (`19-case-studies/system-design/`)
-* [`README.md`](19-case-studies/system-design/README.md) — Real-world case studies index and analytical schema.
-* Deep Dives: [`netflix-video-streaming.md`](19-case-studies/system-design/netflix-video-streaming.md), [`uber-dispatch-system.md`](19-case-studies/system-design/uber-dispatch-system.md), [`twitter-timeline-service.md`](19-case-studies/system-design/twitter-timeline-service.md), [`amazon-shopping-cart.md`](19-case-studies/system-design/amazon-shopping-cart.md), [`stripe-payment-infrastructure.md`](19-case-studies/system-design/stripe-payment-infrastructure.md), [`whatsapp-messaging-architecture.md`](19-case-studies/system-design/whatsapp-messaging-architecture.md), [`airbnb-booking-engine.md`](19-case-studies/system-design/airbnb-booking-engine.md), [`spotify-music-streaming.md`](19-case-studies/system-design/spotify-music-streaming.md), [`youtube-video-pipeline.md`](19-case-studies/system-design/youtube-video-pipeline.md), [`slack-realtime-messaging.md`](19-case-studies/system-design/slack-realtime-messaging.md).
+### Forensic Governance, Standards & Templates (`19-case-studies/post-mortem-templates/`)
+* Master Index: [`19-case-studies/README.md`](19-case-studies/README.md) — Master forensic case study catalog and investigation standards.
+* Canonical Standards: [`post-mortem-template.md`](19-case-studies/post-mortem-template.md) (Canonical 19-section template), [`forensic-investigation-checklist.md`](19-case-studies/forensic-investigation-checklist.md) (50-point diagnostic checklist).
+* Templates Library: [`post-mortem-templates/README.md`](19-case-studies/post-mortem-templates/README.md), [`blameless-post-mortem-template.md`](19-case-studies/post-mortem-templates/blameless-post-mortem-template.md), [`five-whys-root-cause-analysis-template.md`](19-case-studies/post-mortem-templates/five-whys-root-cause-analysis-template.md), [`corrective-preventive-actions-template.md`](19-case-studies/post-mortem-templates/corrective-preventive-actions-template.md), [`incident-timeline-reconstruction-guide.md`](19-case-studies/post-mortem-templates/incident-timeline-reconstruction-guide.md), [`architecture-review-board-incident-submission-template.md`](19-case-studies/post-mortem-templates/architecture-review-board-incident-submission-template.md).
+
+### Cross-Cutting Synthesis & Governance
+* [`comparative-analysis-matrix.md`](19-case-studies/comparative-analysis-matrix.md) — 48-Incident multi-dimensional comparative matrix (blast radius, MTTD, MTTR, financial cost, root causes, remediations).
+* [`anti-patterns-cross-reference.md`](19-case-studies/anti-patterns-cross-reference.md) — Comprehensive taxonomy of enterprise architectural anti-patterns.
+* [`architecture-decision-framework.md`](19-case-studies/architecture-decision-framework.md) — Enterprise Architecture Pre-Mortem Guide: The 5 Inquiries and trade-off rubric.
+
+### 1. Cloud Outages & Resilience (`19-case-studies/cloud/`)
+* [`README.md`](19-case-studies/cloud/README.md) — Cloud infrastructure outage forensics index.
+* [`cs-cloud-01-global-bgp-routing-leak.md`](19-case-studies/cloud/cs-cloud-01-global-bgp-routing-leak.md) — Global BGP Anycast route leak & multi-region black hole ($42M loss).
+* [`cs-cloud-02-iam-policy-lockout-blast-radius.md`](19-case-studies/cloud/cs-cloud-02-iam-policy-lockout-blast-radius.md) — Corrupted global IAM policy push locking out all tenant control planes ($65M).
+* [`cs-cloud-03-multi-az-network-partition-cascade.md`](19-case-studies/cloud/cs-cloud-03-multi-az-network-partition-cascade.md) — Multi-AZ cross-AZ network degradation triggering cascading timeout failures ($18M).
+* [`cs-cloud-04-wildcard-tls-cert-expiration-blackout.md`](19-case-studies/cloud/cs-cloud-04-wildcard-tls-cert-expiration-blackout.md) — Expired wildcard edge TLS certificate taking down mobile banking ($11M).
+* [`cs-cloud-05-multi-region-split-brain-divergence.md`](19-case-studies/cloud/cs-cloud-05-multi-region-split-brain-divergence.md) — Active-active multi-region database replication divergence and clock drift ($9.5M).
+* [`cs-cloud-06-multi-cloud-failover-dns-routing-loop.md`](19-case-studies/cloud/cs-cloud-06-multi-cloud-failover-dns-routing-loop.md) — Multi-cloud DNS failover oscillation between AWS and Azure ($24M).
+
+### 2. Enterprise Systems & Portfolio Governance (`19-case-studies/enterprise/`)
+* [`README.md`](19-case-studies/enterprise/README.md) — Enterprise portfolio and organizational architecture forensics index.
+* [`cs-ent-01-core-banking-ledger-sprawl-reconciliation.md`](19-case-studies/enterprise/cs-ent-01-global-bank-core-sprawl.md) — Core banking multi-ledger sprawl and reconciliation break ($34M).
+* [`cs-ent-02-conways-law-siloed-checkout-failure.md`](19-case-studies/enterprise/cs-ent-02-conways-law-siloed-checkout.md) — Conway's Law organizational silo collision paralyzing checkout ($6.2M).
+* [`cs-ent-03-mergers-acquisitions-incompatible-systems-collision.md`](19-case-studies/enterprise/cs-ent-03-merger-acquisition-systems-collision.md) — Post-M&A dual-master database collision between SAP and Oracle ($14M).
+* [`cs-ent-04-runaway-sap-customization-lock-in.md`](19-case-studies/enterprise/cs-ent-04-runaway-enterprise-erp-customization.md) — 1,400 Bespoke ABAP modifications blocking S/4HANA upgrades ($45M).
+* [`cs-ent-05-shadow-it-uncontrolled-data-lake-swamp.md`](19-case-studies/enterprise/cs-ent-05-uncontrolled-shadow-it-data-swamp.md) — Shadow IT ungoverned data lake breach and GDPR compliance crisis ($12M).
+* [`cs-ent-06-architecture-review-board-waterfall-paralysis.md`](19-case-studies/enterprise/cs-ent-06-architecture-review-board-paralysis.md) — Centralized ARB gatekeeping paralysis resulting in shadow bypass ($28M).
+
+### 3. Enterprise Integration Architecture (`19-case-studies/integration/`)
+* [`README.md`](19-case-studies/integration/README.md) — Enterprise integration failure taxonomy and forensic index.
+* [`cs-int-01-dual-write-distributed-ghost-payments.md`](19-case-studies/integration/cs-int-01-dual-write-ghost-payments.md) — Database + Kafka dual-write anomaly creating ghost payments ($4.2M).
+* [`cs-int-02-kafka-poison-pill-schema-evolution-freeze.md`](19-case-studies/integration/cs-int-02-kafka-poison-pill-consumer-freeze.md) — Un-validated JSON schema poison pill halting package tracking (14M packages).
+* [`cs-int-03-partner-api-unbounded-retry-storm-amplification.md`](19-case-studies/integration/cs-int-03-unbounded-retry-storm-third-party-api.md) — Immediate retry storm without jitter blacklisting airline booking APIs ($3.8M).
+* [`cs-int-04-distributed-2pc-xa-transaction-deadlock.md`](19-case-studies/integration/cs-int-04-distributed-two-phase-commit-deadlock.md) — Synchronous 2PC/XA transaction deadlock freezing retail banking core.
+* [`cs-int-05-monolithic-esb-single-point-of-failure.md`](19-case-studies/integration/cs-int-05-esb-centralized-monolith-chokepoint.md) — Shared ESB heap exhaustion paralyzing insurance claims (140,000 claims).
+* [`cs-int-06-webhook-ping-pong-amplification-loop.md`](19-case-studies/integration/cs-int-06-webhook-amplification-ddos-loop.md) — Infinite webhook ping-pong amplification loop between SaaS and ERP ($140k).
+
+### 4. Cloud & Data Migration Architecture (`19-case-studies/migration/`)
+* [`README.md`](19-case-studies/migration/README.md) — Migration risk taxonomy and forensic index.
+* [`cs-mig-01-oracle-to-postgres-stored-proc-trap.md`](19-case-studies/migration/cs-mig-01-oracle-to-postgres-stored-proc-trap.md) — Oracle PL/SQL stored procedure migration trap in telecom billing ($22M).
+* [`cs-mig-02-point-of-no-return-cutover-disaster.md`](19-case-studies/migration/cs-mig-02-point-of-no-return-cutover-disaster.md) — Premature cutover with broken fallback in airline passenger service ($85M).
+* [`cs-mig-03-zero-downtime-cdc-replication-lag-drift.md`](19-case-studies/migration/cs-mig-03-zero-downtime-cdc-replication-lag-drift.md) — Change Data Capture (CDC) replication lag and silent ledger drift ($1.2M).
+* [`cs-mig-04-cloud-lift-and-shift-egress-shock.md`](19-case-studies/migration/cs-mig-04-cloud-lift-and-shift-egress-shock.md) — Lift-and-shift hybrid compute-data separation egress fee shock ($450k/month).
+* [`cs-mig-05-failed-san-storage-data-evacuation.md`](19-case-studies/migration/cs-mig-05-failed-san-storage-data-evacuation.md) — SAN storage IOPS starvation during hospital PACS cloud evacuation.
+* [`cs-mig-06-successful-800-workload-factory-migration.md`](19-case-studies/migration/cs-mig-06-successful-800-workload-factory-migration.md) — Success: Industrialized Cloud Migration Factory migrating 800 workloads ($18.5M/yr savings).
+
+### 5. Legacy Modernization Architecture (`19-case-studies/modernization/`)
+* [`README.md`](19-case-studies/modernization/README.md) — Modernization failure taxonomy and forensic index.
+* [`cs-mod-01-distributed-monolith-latency-collapse.md`](19-case-studies/modernization/cs-mod-01-distributed-monolith-latency-collapse.md) — 45 Synchronous REST hops causing distributed monolith latency collapse ($18M).
+* [`cs-mod-02-shared-database-microservices-deadlock.md`](19-case-studies/modernization/cs-mod-02-shared-database-microservices-deadlock.md) — 22 Microservices sharing a single database freezing hospital admissions.
+* [`cs-mod-03-second-system-syndrome-rewrite-abandonment.md`](19-case-studies/modernization/cs-mod-03-second-system-syndrome-rewrite-abandonment.md) — Second-System Syndrome $60M warehouse execution system write-off ($60M).
+* [`cs-mod-04-strangler-fig-facade-timeout-cascade.md`](19-case-studies/modernization/cs-mod-04-strangler-fig-facade-timeout-cascade.md) — Strangler Fig facade memory leak causing Cyber Monday retail blackout ($12M).
+* [`cs-mod-05-mainframe-ebcdic-copybook-drift-crisis.md`](19-case-studies/modernization/cs-mod-05-mainframe-ebcdic-copybook-drift-crisis.md) — Mainframe offload EBCDIC copybook drift & loan interest corruption ($14M).
+* [`cs-mod-06-successful-modular-monolith-refactoring.md`](19-case-studies/modernization/cs-mod-06-successful-modular-monolith-refactoring.md) — Success: In-place modular monolith refactoring surging deploy velocity 400% ($15M saved).
+
+### 6. Performance Engineering Architecture (`19-case-studies/performance/`)
+* [`README.md`](19-case-studies/performance/README.md) — Performance engineering forensic methodology and index.
+* [`cs-perf-01-orm-n-plus-one-query-black-friday.md`](19-case-studies/performance/cs-perf-01-orm-n-plus-one-query-black-friday.md) — ORM N+1 query explosion on Black Friday (1,441 queries/req, $8.5M loss).
+* [`cs-perf-02-connection-pool-thread-starvation.md`](19-case-studies/performance/cs-perf-02-connection-pool-thread-starvation.md) — HikariCP connection pool starvation and Tomcat thread exhaustion in banking.
+* [`cs-perf-03-jvm-garbage-collection-stop-the-world.md`](19-case-studies/performance/cs-perf-03-jvm-garbage-collection-stop-the-world.md) — 45-Second G1GC Stop-The-World pause on 128GB heap triggering split-brain ($2.8M).
+* [`cs-perf-04-redis-large-key-hot-shard-meltdown.md`](19-case-studies/performance/cs-perf-04-redis-large-key-hot-shard-meltdown.md) — 250MB single Redis Hash key (`HGETALL`) blocking single-thread loop (2.2M dropped).
+* [`cs-perf-05-json-serialization-cpu-bottleneck.md`](19-case-studies/performance/cs-perf-05-json-serialization-cpu-bottleneck.md) — Reflection JSON serialization CPU sink in IoT telematics ($1.1M/yr compute waste).
+* [`cs-perf-06-tls-handshake-connection-storm.md`](19-case-studies/performance/cs-perf-06-tls-handshake-connection-storm.md) — Missing TLS session resumption causing edge API gateway cryptographic CPU storm.
+
+### 7. Scalability & Partitions Architecture (`19-case-studies/scalability/`)
+* [`README.md`](19-case-studies/scalability/README.md) — Scalability and partition bottleneck forensics index.
+* [`cs-scale-01-flash-sale-hot-partition-lockup.md`](19-case-studies/scalability/cs-scale-01-flash-sale-hot-partition-lockup.md) — DynamoDB hot-partition throttling during limited sneaker drop (51k QPS throttled).
+* [`cs-scale-02-multi-tenant-noisy-neighbor-starvation.md`](19-case-studies/scalability/cs-scale-02-multi-tenant-noisy-neighbor-starvation.md) — Multi-tenant B2B SaaS noisy neighbor full-table scan exhausting buffer pool (4,199 tenants frozen).
+* [`cs-scale-03-asymmetric-kubernetes-autoscaling-crash.md`](19-case-studies/scalability/cs-scale-03-asymmetric-kubernetes-autoscaling-crash.md) — Asymmetric Kubernetes frontend autoscaling (1,200 pods) crashing static database ($4.8M).
+* [`cs-scale-04-kafka-rebalance-storm-consumer-halt.md`](19-case-studies/scalability/cs-scale-04-kafka-rebalance-storm-consumer-halt.md) — 500-Partition Kafka consumer rebalance storm in AdTech pipeline (185M event backlog).
+* [`cs-scale-05-websocket-epoll-fd-exhaustion.md`](19-case-studies/scalability/cs-scale-05-websocket-epoll-fd-exhaustion.md) — 1M WebSocket Linux kernel file descriptor & TCP buffer exhaustion (650k dropped).
+* [`cs-scale-06-global-active-active-split-brain.md`](19-case-studies/scalability/cs-scale-06-global-active-active-split-brain.md) — Global multi-region active-active split-brain in ride-sharing platform ($3.4M).
+
+### 8. Security & Zero Trust Architecture (`19-case-studies/security/`)
+* [`README.md`](19-case-studies/security/README.md) — Security architecture incident forensics index.
+* [`cs-sec-01-broken-object-level-authorization-bola.md`](19-case-studies/security/cs-sec-01-broken-object-level-authorization-bola.md) — Broken Object-Level Authorization (BOLA) leaking 3.5M banking statements ($18M fine).
+* [`cs-sec-02-ssrf-cloud-metadata-credential-exfiltration.md`](19-case-studies/security/cs-sec-02-ssrf-cloud-metadata-credential-exfiltration.md) — SSRF against AWS IMDSv1 exfiltrating IAM credentials and 120TB S3 data ($25M).
+* [`cs-sec-03-supply-chain-malicious-dependency.md`](19-case-studies/security/cs-sec-03-supply-chain-malicious-dependency.md) — Software supply chain NPM package injecting backdoor and exfiltrating CI keys ($1.8M).
+* [`cs-sec-04-hardcoded-jwt-signing-secret-forge.md`](19-case-studies/security/cs-sec-04-hardcoded-jwt-signing-secret-forge.md) — Hardcoded symmetric HS256 JWT signing secret allowing admin token forgery ($15.7M).
+* [`cs-sec-05-kubernetes-api-misconfiguration-cryptomining.md`](19-case-studies/security/cs-sec-05-kubernetes-api-misconfiguration-cryptomining.md) — Unauthenticated Kubelet port 10250 exploit spawning Monero cryptominers ($350k).
+* [`cs-sec-06-multi-tenant-cross-tenant-data-leak.md`](19-case-studies/security/cs-sec-06-multi-tenant-cross-tenant-data-leak.md) — Missing `tenant_id` filter in custom repository SQL query leaking 18 competitors' executive payroll ($4.5M).
+
+### Specialized Domain Post-Mortems & Case Studies
+* System Design: [`system-design/`](19-case-studies/system-design/README.md) — 11 Planetary-scale retrospectives ([Netflix](19-case-studies/system-design/netflix-video-streaming.md), [Uber](19-case-studies/system-design/uber-dispatch-system.md), [Twitter](19-case-studies/system-design/twitter-timeline-service.md), [Amazon](19-case-studies/system-design/amazon-shopping-cart.md), [Stripe](19-case-studies/system-design/stripe-payment-infrastructure.md), [WhatsApp](19-case-studies/system-design/whatsapp-messaging-architecture.md), [Airbnb](19-case-studies/system-design/airbnb-booking-engine.md), [Spotify](19-case-studies/system-design/spotify-music-streaming.md), [YouTube](19-case-studies/system-design/youtube-video-pipeline.md), [Slack](19-case-studies/system-design/slack-realtime-messaging.md)).
+* Enterprise Systems: [`application-architecture/`](19-case-studies/application-architecture/README.md) — 10 Real-world enterprise application transformation case studies.
+* Data & Integration: [`data-integration/`](19-case-studies/data-integration/README.md) — 10 Production data pipeline transformation case studies.
+* Financial Services: [`financial/`](19-case-studies/financial/README.md) — 15 Real-world financial settlement and reconciliation incident case studies.
+* Security Operations: [`security-operations/`](19-case-studies/security-operations/README.md) — 20 Production outage post-mortems and security breach incident analyses.
+* AI & Machine Learning: [`ai-modern/`](19-case-studies/ai-modern/README.md) — 20 Production case studies (Prompt injection, vector drift, GPU cluster starvation).
 
 ---
 
