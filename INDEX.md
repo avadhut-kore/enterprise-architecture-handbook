@@ -626,6 +626,88 @@ Welcome to the comprehensive master index of the **Enterprise Architecture Handb
 
 ---
 
+## 09. DevOps & Platform Engineering {#09-devops}
+
+Enterprise DevOps architecture, continuous delivery pipelines, container orchestration, GitOps, DevSecOps, Platform Engineering (IDPs), and delivery governance.
+
+### Foundations & Operating Models
+* [`09-devops/README.md`](09-devops/README.md) - Master domain index, architectural philosophy, and cross-cutting navigation.
+* [`09-devops/devops-foundations/`](09-devops/devops-foundations/) - DevOps definition, socio-technical operating models, continuous lifecycle architecture, and Dev vs Ops cultural chasm.
+* [`09-devops/devops-vs-devsecops-sre-platform/`](09-devops/devops-vs-devsecops-sre-platform/) - Definitive taxonomy, RACI matrix, and organizational handoff boundaries across delivery disciplines.
+* [`09-devops/devops-maturity/`](09-devops/devops-maturity/) - 5-level maturity model and 50-point enterprise assessment scorecard.
+
+### Source Control & Repository Governance
+* [`09-devops/git/`](09-devops/git/) - Git object database internals, branching strategies (Trunk-Based vs GitFlow), merge vs rebase vs squash, and monorepo vs polyrepo trade-offs.
+* [`09-devops/github/`](09-devops/github/) - GitHub Enterprise governance, Actions architecture, enterprise runner orchestration (ARC), and branch protection rules.
+* [`09-devops/gitlab/`](09-devops/gitlab/) - GitLab CI/CD architecture, autoscaling runners, and GitHub vs GitLab architectural decision matrix.
+* [`09-devops/source-control-governance/`](09-devops/source-control-governance/) - Enterprise repository lifecycle standards, CODEOWNERS rules, and push protection guardrails.
+
+### CI/CD Architecture & Reference Pipelines
+* [`09-devops/ci-cd/`](09-devops/ci-cd/) - CI/CD core principles, runner topology, pipeline governance, security hardening, and reusable pipeline libraries.
+* [`09-devops/ci-cd/reference-pipelines/`](09-devops/ci-cd/reference-pipelines/) - Production-ready pipeline specifications for .NET, Java/Spring Boot, Python/FastAPI, Node.js/TypeScript, React, Angular, React Native, Mobile Native, Monorepos, and Polyrepos.
+
+### Release Engineering & Deployment Strategies
+* [`09-devops/release-engineering/`](09-devops/release-engineering/) - Release management, SemVer 2.0.0, automated changelog generation, and release train cadence.
+* [`09-devops/deployment-strategies/`](09-devops/deployment-strategies/) - Blue/Green, Canary, Rolling, Feature Flags, and Shadow deployment trade-off matrix.
+* [`09-devops/environment-management/`](09-devops/environment-management/) - Environment parity, ephemeral PR environments, and configuration drift reconciliation.
+* [`09-devops/configuration-management/`](09-devops/configuration-management/) - 12-factor configuration, dynamic runtime config, and feature flag management.
+* [`09-devops/artifact-management/`](09-devops/artifact-management/) - Immutable OCI registries, multi-region replication, image lifecycle retention policies, and provenance attestation.
+
+### Containers, Kubernetes & Helm
+* [`09-devops/docker/`](09-devops/docker/) - Container runtime internals (cgroups v2, namespaces, rootless), multi-stage build optimization, and containerization decision framework.
+* [`09-devops/kubernetes/`](09-devops/kubernetes/) - Kubernetes control plane internals, production cluster topology, multi-cluster federation, workload abstractions, and decision tree (K8s vs Serverless vs VMs).
+* [`09-devops/helm/`](09-devops/helm/) - Helm architecture, chart modularity, OCI packaging, testing (`helm-unittest`), and Helm vs Kustomize comparison.
+
+### Infrastructure as Code & GitOps
+* [`09-devops/infrastructure-as-code/`](09-devops/infrastructure-as-code/) - Declarative vs imperative IaC, immutability principles, and state drift prevention.
+* [`09-devops/terraform/`](09-devops/terraform/) - State locking, module design, monorepo vs polyrepo state architecture, and Terraform Enterprise governance.
+* [`09-devops/ansible/`](09-devops/ansible/) - Idempotent configuration management, playbooks, roles, and Terraform vs Ansible orchestration synthesis.
+* [`09-devops/gitops/`](09-devops/gitops/) - Pull-based reconciliation loop, ArgoCD vs Flux architecture, automated drift mitigation, and push vs pull deployment.
+* [`09-devops/policy-as-code/`](09-devops/policy-as-code/) - Guardrail automation using OPA/Rego, Kyverno, and Terraform compliance scanning (Checkov/Tfsec).
+* [`09-devops/infrastructure-testing/`](09-devops/infrastructure-testing/) - Static validation, unit testing, Terratest integration testing, and ephemeral sandbox validation.
+
+### DevSecOps & Supply Chain Security
+* [`09-devops/devsecops/`](09-devops/devsecops/) - Shift-left security automation, SAST/DAST/SCA/secret detection, and vulnerability triage SLAs.
+* [`09-devops/secrets-management/`](09-devops/secrets-management/) - HashiCorp Vault, AWS Secrets Manager, dynamic short-lived credentials, and secret zero mitigation.
+* [`09-devops/software-supply-chain/`](09-devops/software-supply-chain/) - SLSA framework compliance (Levels 1-4), SBOM generation (CycloneDX/SPDX), and Sigstore/Cosign cryptographic verification.
+* [`09-devops/identity-access/`](09-devops/identity-access/) - CI/CD workload identity federation (OIDC vs static long-lived credentials) and least-privilege deployment roles.
+* [`09-devops/compliance/`](09-devops/compliance/) - Compliance as Code, automated audit evidence generation for SOC 2, ISO 27001, and PCI-DSS.
+
+### Platform Engineering & Developer Experience
+* [`09-devops/platform-engineering/`](09-devops/platform-engineering/) - Platform-as-a-Product operating model, Internal Developer Platform (IDP) architecture, Golden Paths, Backstage scaffolding, and platform SLOs.
+* [`09-devops/developer-experience/`](09-devops/developer-experience/) - DevEx measurement (SPACE framework, cognitive load reduction), local development environments, and remote development containers.
+* [`09-devops/platform-economics/`](09-devops/platform-economics/) - Total Cost of Ownership (TCO), developer productivity ROI modeling, and cloud cost optimization via IDPs.
+
+### Specialized Delivery Paradigms
+* [`09-devops/mobile-devops/`](09-devops/mobile-devops/) - Mobile CI/CD pipelines (Fastlane, TestFlight, Google Play tracks), code signing identity management, and OTA updates.
+* [`09-devops/database-devops/`](09-devops/database-devops/) - Automated database schema migrations (Liquibase, Flyway), expand-contract pattern, zero-downtime DDL, and data rollback strategies.
+* [`09-devops/mlops/`](09-devops/mlops/) - Machine learning delivery pipelines, feature store governance, model registries (MLflow), automated model retraining, and drift monitoring.
+* [`09-devops/aiops/`](09-devops/aiops/) - AI for IT operations, automated log anomaly detection, intelligent alert grouping, and automated self-healing runbooks.
+* [`09-devops/application-devops/`](09-devops/application-devops/) - Microservices vs monolith deployment topology, distributed tracing injection, and polyglot runtime operational requirements.
+
+### Measurement, Economics & Failure Engineering
+* [`09-devops/devops-metrics/`](09-devops/devops-metrics/) - DORA metrics engineering (Deployment Frequency, Lead Time, Change Fail Rate, MTTR), measurement methodologies, and anti-gaming guardrails.
+* [`09-devops/devops-economics/`](09-devops/devops-economics/) - Delivery economics, cost of delayed releases, pipeline compute optimization, and FinOps CI/CD budgeting.
+* [`09-devops/failure-engineering/`](09-devops/failure-engineering/) - 15 concrete failure modes with symptoms, root cause forensics, blast radius mitigation, and permanent prevention architectures.
+* [`09-devops/red-team/`](09-devops/red-team/) - CI/CD adversary emulation, pipeline tampering simulation, runner compromise testing, and supply chain attack scenarios.
+* [`09-devops/disaster-recovery/`](09-devops/disaster-recovery/) - Pipeline and registry disaster recovery, cross-region failover, backup validation, and RTO/RPO SLA definitions.
+
+### Governance, Anti-Patterns & Checklists
+* [`09-devops/devops-anti-patterns/`](09-devops/devops-anti-patterns/) - 30+ cataloged anti-patterns across culture, pipelines, Git, containers, security, platform, and metrics with symptoms, fallout, and remediation.
+* [`09-devops/decision-frameworks/`](09-devops/decision-frameworks/) - 21 architectural decision matrices across toolchains, topologies, deployment patterns, and operational guardrails.
+* [`09-devops/production-readiness/`](09-devops/production-readiness/) - Production readiness gates, automated verification, security audits, and sign-off criteria.
+* [`09-devops/checklists/`](09-devops/checklists/) - 10 practical operational checklists for pipeline security, K8s production readiness, Terraform hygiene, and incident response.
+* [`09-devops/diagrams/`](09-devops/diagrams/) - Visual reference architecture diagrams in Mermaid covering delivery flow, DevSecOps, IDP, and canary routing.
+* [`09-devops/devops-transformation/`](09-devops/devops-transformation/) - Enterprise organizational transformation roadmap, cultural change management, executive KPIs, and migration milestones.
+
+### Reference Architectures (20 Production Blueprints)
+* [`09-devops/reference-architectures/`](09-devops/reference-architectures/) - 20 comprehensive reference architectures (`ref-dev-01` to `ref-dev-20`) covering enterprise microservices, GitOps on EKS/GKE, multi-region serverless, internal developer platforms, FinOps, zero-trust pipelines, and edge deployments.
+
+### Real-World Case Studies (20 Forensic Post-Mortems)
+* [`09-devops/case-studies/`](09-devops/case-studies/) - 20 in-depth forensic case studies (`cs-dev-01` to `cs-dev-20`) covering catastrophic delivery failures, pipeline supply chain breaches, runaway cloud spend, Kubernetes outages, and cultural transformations.
+
+---
+
 ## 09. Enterprise Architecture Operating System {#09-enterprise-architecture}
 
 Strategic enterprise alignment, business architecture, capability mapping, application/technology portfolio management, governance, and transformation roadmaps.

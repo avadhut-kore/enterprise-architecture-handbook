@@ -97,8 +97,9 @@ The handbook is executed across 10 strategic, production-grade maturity phases:
 | **6**  | Cloud & Infrastructure Architecture  | AWS, Azure, GCP, Kubernetes, containers, IaC, networking, multi-cloud                           |
 | **7**  | Security & Operations                | Zero Trust, IAM, DevSecOps, observability, SRE, DR, incident management                         |
 | **8**  | AI & Modern Architecture             | LLMs, RAG, agents, AI platforms, AI security, evaluation, MLOps                                 |
-| **9**  | Enterprise Architecture              | TOGAF-style thinking, business/application/data/technology architecture, governance, roadmaps   |
-| **10** | Architect Mastery *(COMPLETED - v2.0.0)* | Capstone OS: Judgment, trade-offs, constraints, executive leadership, governance, failure analysis, 50 scenarios |
+| **9**  | **Enterprise Architecture**              | TOGAF-style thinking, business/application/data/technology architecture, governance, roadmaps   |
+| **10** | **Architect Mastery** *(COMPLETED - v2.0.0)* | Capstone OS: Judgment, trade-offs, constraints, executive leadership, governance, failure analysis, 50 scenarios |
+| **DevOps** | **DevOps Architecture & Engineering** *(COMPLETED - v2.1.0)* | Continuous delivery, GitOps, K8s, IaC, DevSecOps, Platform Engineering, DevEx, 20 ref archs, 20 case studies |
 
 *For detailed milestones, deliverables, and execution status, refer to [ROADMAP.md](ROADMAP.md).*
 
