@@ -1,0 +1,29 @@
+graph TB
+    Customer["Banking Customer [Person]"]
+
+    subgraph InternetBankingSystem ["Internet Banking System [Boundary]"]
+        SPA["Single-Page App<br/>[Container: React]<br/>Delivers digital banking UI in browser"]
+        Mobile["Mobile App<br/>[Container: Flutter]<br/>iOS and Android mobile banking app"]
+        APIGW["API Gateway<br/>[Container: Go / Envoy]<br/>Routing, auth token verification, rate limiting"]
+        BackendAPI["Core API Service<br/>[Container: Java Spring Boot]<br/>Business logic for transfers and accounts"]
+        Database[("Relational Database<br/>[Container: PostgreSQL]<br/>Customer records, accounts, audit log")]
+
+        Customer -->|"Visits URL"| SPA
+        Customer -->|"Opens app"| Mobile
+        SPA -->|"JSON/HTTPS"| APIGW
+        Mobile -->|"JSON/HTTPS"| APIGW
+        APIGW -->|"gRPC"| BackendAPI
+        BackendAPI -->|"JDBC"| Database
+    end
+
+    MainframeCore["Mainframe Core [External System]"]
+    BackendAPI -->|"MQ Series"| MainframeCore
+
+    classDef person fill:#08427b,stroke:#052e56,color:#fff;
+    classDef container fill:#438dd5,stroke:#2e6295,color:#fff;
+    classDef db fill:#2e6295,stroke:#1d3f60,color:#fff;
+    classDef ext fill:#999999,stroke:#666666,color:#fff;
+    class Customer person;
+    class SPA,Mobile,APIGW,BackendAPI container;
+    class Database db;
+    class MainframeCore ext;

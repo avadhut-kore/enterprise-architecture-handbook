@@ -1,0 +1,25 @@
+graph LR
+    subgraph Ingest ["Source Ingestion"]
+        ERP[("Oracle ERP DB")]
+        CRM[("Salesforce API")]
+    end
+
+    subgraph Staging ["Landing & Staging"]
+        S3Raw["s3://raw-landing/<br/>(Immutable CSV/JSON)"]
+        ERP --> S3Raw
+        CRM --> S3Raw
+    end
+
+    subgraph TransformEngine ["Processing Tier"]
+        Spark["Apache Spark / EMR Cluster"]
+        S3Raw --> Spark
+        Spark --> Clean["Data Cleansing"]
+        Clean --> Enrich["Star Schema Enrichment"]
+    end
+
+    subgraph CuratedStorage ["Analytical Warehouse"]
+        Snowflake[("Snowflake Data Warehouse<br/>(Curated Fact & Dim Tables)")]
+        Enrich --> Snowflake
+        BI["Executive Dashboards (PowerBI)"]
+        Snowflake --> BI
+    end

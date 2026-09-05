@@ -1,0 +1,26 @@
+sequenceDiagram
+    autonumber
+    actor User as Client
+    participant GW as API Gateway
+    participant OrderSvc as Order Service
+    participant PaySvc as Payment Service
+    participant Bank as External Bank
+
+    User->>GW: POST /orders (OrderPayload)
+    GW->>OrderSvc: Forward (Bearer Token Validated)
+    OrderSvc->>PaySvc: Authorize Funds ($99.00)
+    
+    critical Call External Banking Provider
+        PaySvc->>Bank: POST /authorize
+        Bank-->>PaySvc: 200 OK (AuthToken)
+    option Transient Network Failure (Retry 1)
+        PaySvc->>Bank: POST /authorize (Idempotency-Key)
+        Bank-->>PaySvc: 200 OK (AuthToken)
+    option Hard Provider Outage
+        PaySvc-->>OrderSvc: 503 Payment Unavailable
+        OrderSvc-->>GW: 503 Service Unavailable
+    end
+
+    PaySvc-->>OrderSvc: Payment Settled
+    OrderSvc-->>GW: 201 Created (Order #1042)
+    GW-->>User: 201 Created (JSON Result)

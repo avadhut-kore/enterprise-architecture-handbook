@@ -1,0 +1,23 @@
+graph TB
+    subgraph Subject ["Client Subject"]
+        User["Employee Workstation (EDR Healthy)"]
+    end
+
+    subgraph ControlPlane ["Zero Trust Control Plane"]
+        PEP["Policy Enforcement Point (PEP)<br/>[Identity Aware Proxy]"]
+        PDP["Policy Decision Point (PDP)"]
+        IdP["Enterprise IdP (Entra ID)"]
+        EDR["CrowdStrike Posture"]
+
+        PDP <--> IdP
+        PDP <--> EDR
+    end
+
+    subgraph ResourcePlane ["Restricted Enterprise Resource"]
+        TargetApp["Internal Core Banking Ledger"]
+    end
+
+    User -->|"1. TLS 1.3 Access Request"| PEP
+    PEP -->|"2. Query Evaluation"| PDP
+    PDP -->>|"3. Allow Decision"| PEP
+    PEP -->|"4. Proxied Secure Stream"| TargetApp

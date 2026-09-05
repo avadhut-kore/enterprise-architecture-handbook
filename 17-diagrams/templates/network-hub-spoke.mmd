@@ -1,0 +1,21 @@
+graph TD
+    subgraph HubNetwork ["Transit Hub Network (Central VPC)"]
+        TGW["AWS Transit Gateway<br/>(Central Route Table)"]
+        FW["Next-Gen Firewall Cluster (Palo Alto)"]
+        TGW <--> FW
+    end
+
+    subgraph SpokeA ["Spoke 1: Core Banking Production"]
+        VPCProd["Production Workload VPC (10.1.0.0/16)"]
+        TGW <-->|"TGW Attachment"| VPCProd
+    end
+
+    subgraph SpokeB ["Spoke 2: Shared Services"]
+        VPCShared["Shared CI/CD & Registry (10.2.0.0/16)"]
+        TGW <-->|"TGW Attachment"| VPCShared
+    end
+
+    subgraph OnPremConnection ["Hybrid On-Premises"]
+        DirectConnect["AWS Direct Connect Gateway (100Gbps)"]
+        DirectConnect <--> TGW
+    end

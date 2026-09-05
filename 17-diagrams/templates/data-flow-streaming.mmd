@@ -1,0 +1,25 @@
+graph LR
+    subgraph StreamSources ["Real-Time Sources"]
+        IoT["Fleet Telemetry Sensors"]
+        Orders["Payment Microservice"]
+    end
+
+    subgraph StreamingBuffer ["Durable Event Stream"]
+        Kafka["Apache Kafka Cluster<br/>(Replication Factor: 3)"]
+        IoT --> Kafka
+        Orders --> Kafka
+    end
+
+    subgraph StreamCompute ["Stateful Stream Engine"]
+        Flink["Apache Flink Job Cluster"]
+        State[("RocksDB State Store<br/>(Checkpoint to S3)")]
+        Kafka --> Flink
+        Flink <--> State
+    end
+
+    subgraph FastSinks ["Low-Latency Sinks"]
+        Redis[("Redis Real-Time Feature Cache")]
+        ClickHouse[("ClickHouse OLAP Timeseries")]
+        Flink --> Redis
+        Flink --> ClickHouse
+    end

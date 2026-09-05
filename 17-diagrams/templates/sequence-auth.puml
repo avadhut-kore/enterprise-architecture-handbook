@@ -1,0 +1,20 @@
+@startuml
+autonumber
+actor User
+participant "SPA Client" as client
+participant "Authorization Server (IdP)" as idp
+participant "API Gateway" as gw
+participant "Backend Service" as svc
+
+User -> client : Access Protected Resource
+client -> idp : Redirect to /authorize (PKCE challenge)
+idp -> User : Prompt Credentials & MFA
+User -> idp : Enter Credentials
+idp -> client : Return Auth Code
+client -> idp : POST /oauth/token (code + code_verifier)
+idp -> client : Return Access Token (JWT)
+client -> gw : GET /api/v1/orders (Bearer JWT)
+gw -> gw : Verify Signature via JWKS
+gw -> svc : Forward with Verified User Headers
+svc -> client : 200 OK Response
+@enduml

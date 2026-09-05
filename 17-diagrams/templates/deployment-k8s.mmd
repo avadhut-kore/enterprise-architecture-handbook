@@ -1,0 +1,28 @@
+graph TB
+    subgraph IngressTier ["Edge Ingress"]
+        ALB["AWS Application Load Balancer<br/>[TLS 1.3 Termination]"]
+    end
+
+    subgraph EKSCluster ["Amazon EKS Production Cluster (v1.29)"]
+        subgraph IngressNs ["Namespace: ingress-nginx"]
+            IngressController["Nginx Ingress Controller Pods"]
+        end
+
+        subgraph WorkloadNs ["Namespace: production-apps"]
+            Pod1["app-service Pod A [AZ 1a]"]
+            Pod2["app-service Pod B [AZ 1b]"]
+            Pod3["app-service Pod C [AZ 1c]"]
+        end
+
+        ALB --> IngressController
+        IngressController --> Pod1
+        IngressController --> Pod2
+        IngressController --> Pod3
+    end
+
+    subgraph DataTier ["Managed Persistence Subnet"]
+        Aurora[(Aurora PostgreSQL Multi-AZ)]
+        Pod1 --> Aurora
+        Pod2 --> Aurora
+        Pod3 --> Aurora
+    end

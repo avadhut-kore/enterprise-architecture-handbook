@@ -1,0 +1,12 @@
+@startuml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
+
+Person(customer, "Banking Customer", "Customer of the bank.")
+System(banking, "Internet Banking System", "Allows customers to view balances and make payments.")
+System_Ext(mainframe, "Mainframe Core", "Legacy accounts ledger.")
+System_Ext(email, "Email Service", "Sends transactional email notifications.")
+
+Rel(customer, banking, "Uses", "HTTPS")
+Rel(banking, mainframe, "Settles transactions via", "MQ Series")
+Rel(banking, email, "Sends emails via", "SMTP")
+@enduml

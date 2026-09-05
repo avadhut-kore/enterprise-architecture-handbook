@@ -1,0 +1,19 @@
+graph TB
+    subgraph EnterpriseBoundary ["Enterprise Organization"]
+        PersonCustomer["Banking Customer<br/>[Person]<br/>Personal retail customer"]
+        SystemCore["Internet Banking Platform<br/>[Software System]<br/>Provides digital balance and funds transfers"]
+        PersonCustomer -->|"Uses web/mobile"| SystemCore
+    end
+
+    SystemCoreBank["Core Banking System<br/>[Software System - External]<br/>Legacy accounts database"]
+    SystemEmail["Customer Email Gateway<br/>[Software System - External]<br/>Sends transactional emails"]
+
+    SystemCore -->|"Queries accounts via MQ"| SystemCoreBank
+    SystemCore -->|"Sends notifications via SMTP"| SystemEmail
+
+    classDef person fill:#08427b,stroke:#052e56,color:#fff;
+    classDef system fill:#1168bd,stroke:#0b4884,color:#fff;
+    classDef ext fill:#999999,stroke:#666666,color:#fff;
+    class PersonCustomer person;
+    class SystemCore system;
+    class SystemCoreBank,SystemEmail ext;

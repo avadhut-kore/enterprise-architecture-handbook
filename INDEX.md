@@ -1040,6 +1040,80 @@ Enterprise-grade architecture for Large Language Models (LLMs), RAG systems, aut
 * **AI Architecture Interview Playbook**: [`21-architecture-tools/architecture-review/ai-modern-architecture-interview-playbook.md`](21-architecture-tools/architecture-review/ai-modern-architecture-interview-playbook.md).
 * **Comparative Trade-off Matrices**: [`22-reference/technology-comparison/ai/`](22-reference/technology-comparison/ai/).
 
+---
+
+## 17. Architecture Diagrams & C4 Model {#17-diagrams}
+
+The comprehensive enterprise Architecture Diagram Library providing production-ready, copy-pasteable Mermaid and PlantUML diagrams, visual architectural standards, decision guides, C4 models, sequence flows, deployment topologies, network architectures, security perimeters, data-flow pipelines, and 11 end-to-end industry vertical reference architectures.
+
+### Governance, Standards & Guidelines (`17-diagrams/`)
+* [`17-diagrams/README.md`](17-diagrams/README.md) — Master navigation, 14 visual architecture tenets, Mermaid vs PlantUML selection matrix.
+* [`17-diagrams/diagramming-standard.md`](17-diagrams/diagramming-standard.md) — Abstraction levels, naming standards, direction flow, and accessibility rules.
+* [`17-diagrams/diagram-selection-guide.md`](17-diagrams/diagram-selection-guide.md) — Architectural decision tree and selection matrix ("Which diagram do I need?").
+* [`17-diagrams/diagram-anti-patterns.md`](17-diagrams/diagram-anti-patterns.md) — 10 Lethal visual anti-patterns (Black Box Magic, Spaghetti Ball, Infinite Canvas, etc.).
+* [`17-diagrams/diagram-review-checklist.md`](17-diagrams/diagram-review-checklist.md) — 50-Point comprehensive architectural review checklist.
+
+### C4 Model Architecture Library (`17-diagrams/c4/`)
+* [`17-diagrams/c4/README.md`](17-diagrams/c4/README.md) — C4 model hierarchy and visual abstraction catalog.
+* [`17-diagrams/c4/context.md`](17-diagrams/c4/context.md) — C4 Level 1: System Context specifications and enterprise examples.
+* [`17-diagrams/c4/container.md`](17-diagrams/c4/container.md) — C4 Level 2: Container Architecture specifications and topologies.
+* [`17-diagrams/c4/component.md`](17-diagrams/c4/component.md) — C4 Level 3: Component Design specifications.
+* [`17-diagrams/c4/code.md`](17-diagrams/c4/code.md) — C4 Level 4: Code, class diagrams, and entity-relationship models.
+* [`17-diagrams/c4/system-landscape.md`](17-diagrams/c4/system-landscape.md) — Enterprise System Landscape multi-system overview.
+* [`17-diagrams/c4/dynamic.md`](17-diagrams/c4/dynamic.md) — Dynamic runtime collaboration diagrams.
+* [`17-diagrams/c4/deployment.md`](17-diagrams/c4/deployment.md) — C4 Deployment diagrams mapping containers to infrastructure.
+
+### Dynamic Sequence Flows (`17-diagrams/sequence/`)
+* [`17-diagrams/sequence/README.md`](17-diagrams/sequence/README.md) — Dynamic sequence flows catalog.
+* Synchronous RPC, asynchronous event choreography, OAuth2/OIDC authentication, Saga pattern, Circuit Breaker trip, failure retry with exponential backoff, timeout handling, and human-in-the-loop sequences.
+
+### Deployment & Infrastructure Topologies (`17-diagrams/deployment/`)
+* [`17-diagrams/deployment/README.md`](17-diagrams/deployment/README.md) — Deployment topologies catalog.
+* Kubernetes multi-tier clusters, multi-region active-active, serverless event-driven, AI platform GPU clusters, single-server, three-tier, VM-based, containerized, hybrid cloud, active-passive, disaster recovery, edge computing, and mobile backend topologies.
+
+### Enterprise Network Architectures (`17-diagrams/network/`)
+* [`17-diagrams/network/README.md`](17-diagrams/network/README.md) — Network architecture catalog.
+* Enterprise Hub-and-Spoke, Transit Gateway, Kubernetes CNI & Ingress, Zero Trust micro-segmentation, DMZ perimeter, DirectConnect hybrid connectivity, multi-region backbones, multi-tier load balancing, and private endpoints.
+
+### Security Architecture & Perimeters (`17-diagrams/security/`)
+* [`17-diagrams/security/README.md`](17-diagrams/security/README.md) — Security architecture catalog.
+* Zero Trust Architecture (NIST SP 800-207), Identity Lifecycle & Federation, OAuth 2.0 PKCE, OIDC, JWT lifecycle & rotation, FIDO2 MFA, ABAC / OPA, Enterprise IAM, API Security, Secrets Management, Envelope Encryption, Key Management (KMS/PKI), Network Security, WAF/DDoS mitigation, Threat Modeling (STRIDE), Trust Boundaries, Data Classification, Privileged Access Management (PAM), SIEM/SOAR monitoring, Software Supply Chain DevSecOps, and AI/LLM Security.
+
+### Enterprise Data-Flow Pipelines (`17-diagrams/data-flow/`)
+* [`17-diagrams/data-flow/README.md`](17-diagrams/data-flow/README.md) — Data-flow architecture catalog.
+* Logical vs Physical DFDs, Batch ETL, Modern Cloud ELT (dbt), Real-time Streaming (Flink + Kafka), Event-Driven CQRS, Change Data Capture (CDC / Debezium), Multi-tier Data Lake (Bronze/Silver/Gold), Enterprise Data Warehouse, Modern Open Lakehouse (Iceberg/Delta), Operational Data Store (ODS), Master Data Management (MDM), Zero-Downtime Data Migration, Multi-Region Synchronization, OpenLineage Governance, PII Tokenization & Redaction, Financial Double-Entry Ledger, and AI/RAG Ingestion Pipelines.
+
+### Specialized Architecture Topologies
+* **System Architecture & Blueprints**: [`17-diagrams/architecture/`](17-diagrams/architecture/) — System Architecture Documents (SAD), High-Level Design (HLD), Low-Level Design (LLD), Visual ADRs, and NFR Trade-off Matrices.
+* **Application Architecture**: [`17-diagrams/application/`](17-diagrams/application/) — Layered (N-Tier), Hexagonal (Ports & Adapters), Clean Architecture (Onion), Microservices, Modular Monolith, Event-Driven, and CQRS/ES.
+* **Enterprise Integration**: [`17-diagrams/integration/`](17-diagrams/integration/) — Point-to-Point, Hub-and-Spoke, Enterprise Service Bus (ESB), Modern API Gateway, Event Mesh, and RPC vs Events trade-off model.
+* **Data Architecture**: [`17-diagrams/data/`](17-diagrams/data/) — Data Mesh, Data Fabric, Database Clustering (Patroni/etcd), Sharding (Vitess), and Replication strategies.
+* **Cloud Topologies**: [`17-diagrams/cloud/`](17-diagrams/cloud/) — AWS Well-Architected Landing Zone, Azure CAF Enterprise Landing Zone, GCP Foundations, Multi-Cloud Hybrid, and FinOps Lifecycle.
+* **DevOps & Delivery**: [`17-diagrams/devops/`](17-diagrams/devops/) — GitOps Continuous Delivery (ArgoCD), Enterprise CI/CD, Blue-Green, Canary Progressive Delivery, and Unified OpenTelemetry Observability.
+* **AI & GenAI Systems**: [`17-diagrams/ai/`](17-diagrams/ai/) — Autonomous LLM Agent Workflows (ReAct), Advanced RAG, Model Fine-Tuning (LoRA/QLoRA), and Enterprise AI Gateway.
+* **Enterprise Architecture Maps**: [`17-diagrams/enterprise/`](17-diagrams/enterprise/) — Business Capability Maps (L1/L2), Application Portfolio Rationalization (TIME Model), Macro Integration Landscape, and Technology Radar.
+
+### Mermaid & PlantUML Syntax Reference Libraries
+* **Mermaid Reference Library**: [`17-diagrams/mermaid/`](17-diagrams/mermaid/) — Syntax guides and copy-pasteable examples for Flowcharts, Sequence, Class, State, ER, Gantt, Pie, GitGraph, Mindmaps, Quadrant Charts, C4-Mermaid, and Custom CSS Styling.
+* **PlantUML Reference Library**: [`17-diagrams/plantuml/`](17-diagrams/plantuml/) — Syntax guides and templates for Component, Sequence, Deployment, Activity, State, Class, Use Case, C4-PlantUML, and Skinparam Styling.
+* **Raw Template Files**: [`17-diagrams/templates/`](17-diagrams/templates/) — Standalone `.mmd` and `.puml` files for instant embedding into documentation.
+* **Consolidated Review Checklists**: [`17-diagrams/checklists/`](17-diagrams/checklists/) — Domain-specific review checklists and ARB formal submission gate.
+
+### End-to-End Industry Vertical Reference Blueprints (`17-diagrams/examples/`)
+* [`ecommerce-platform.md`](17-diagrams/examples/ecommerce-platform.md) — Global Multi-Region E-Commerce Platform (C4 L1, C4 L2, Checkout Flow, Active-Active Deployment, Lakehouse Analytics).
+* [`core-banking.md`](17-diagrams/examples/core-banking.md) — Core Banking & Real-Time Payments (ISO 20022, Hardware HSM Signing, Double-Entry Ledger, Zero Trust).
+* [`insurance-claims.md`](17-diagrams/examples/insurance-claims.md) — P&C Insurance Claims Processing (FNOL Intake, Temporal Orchestration, OCR Intelligence, Real-Time Fraud Graph).
+* [`healthcare-ehr.md`](17-diagrams/examples/healthcare-ehr.md) — Healthcare EHR & Telemedicine (HIPAA Compliance, HL7 FHIR APIs, WebRTC Video, Safe Harbor De-Identification).
+* [`telecom-billing.md`](17-diagrams/examples/telecom-billing.md) — Telecom CDR & Real-Time Convergent Billing (500k events/sec Flink Stream, Sub-5ms Aerospike Rating, Iceberg Lakehouse).
+* [`retail-omnichannel.md`](17-diagrams/examples/retail-omnichannel.md) — Retail Omnichannel & Edge POS (Offline-First Store POS, Eventual Sync, Central Inventory Availability).
+* [`manufacturing-iot.md`](17-diagrams/examples/manufacturing-iot.md) — Smart Manufacturing & Industrial IoT (Edge OPC-UA Gateway, 100Hz Vibration Anomaly Detection, Digital Twin).
+* [`logistics-supply-chain.md`](17-diagrams/examples/logistics-supply-chain.md) — Supply Chain & Fleet Logistics (H3 Spatial Grid Telematics, Real-Time Geofencing, Dynamic Dock Dispatch).
+* [`government-portal.md`](17-diagrams/examples/government-portal.md) — National Citizen Services Portal (GovID OIDC Biometrics, WCAG 2.1 AA Accessibility, X-Road Cross-Agency Broker).
+* [`saas-multitenant.md`](17-diagrams/examples/saas-multitenant.md) — Multi-Tenant Enterprise B2B SaaS (Hybrid Pooled vs Siloed Isolation, Dynamic DB Connection Router, PostgreSQL RLS).
+* [`ai-agent-platform.md`](17-diagrams/examples/ai-agent-platform.md) — Enterprise Generative AI Agent Platform (Multi-Agent LangGraph, Firecracker MicroVM Sandboxing, Hybrid Vector RAG).
+
+---
+
 ## 23. Enterprise Architecture Operating System {#23-enterprise-architecture}
 
 Strategic enterprise alignment, business architecture, capability mapping, application/technology portfolio management, governance, and transformation roadmaps.

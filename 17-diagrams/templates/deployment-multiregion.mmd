@@ -1,0 +1,24 @@
+graph TB
+    subgraph GlobalIngress ["Global Edge Tier"]
+        Route53["Amazon Route 53<br/>(Latency-Based Routing & Health Probes)"]
+    end
+
+    subgraph RegionUS ["Primary Region: US-East-1"]
+        ALBUS["ALB US-East"]
+        EKSUS["EKS Cluster US"]
+        DBUS[("Aurora PostgreSQL (Writer Node)")]
+        ALBUS --> EKSUS
+        EKSUS --> DBUS
+    end
+
+    subgraph RegionEU ["Secondary Region: EU-West-1"]
+        ALBEU["ALB EU-West"]
+        EKSEU["EKS Cluster EU"]
+        DBEU[("Aurora Global Replica (Read-Only)")]
+        ALBEU --> EKSEU
+        EKSEU --> DBEU
+    end
+
+    Route53 -->|"US Clients"| ALBUS
+    Route53 -->|"EU Clients"| ALBEU
+    DBUS -.->|"Cross-Region Storage Replication (<1s lag)"| DBEU

@@ -1,0 +1,18 @@
+@startuml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+
+Person(customer, "Customer", "Retail customer.")
+System_Boundary(c1, "Internet Banking System") {
+  Container(spa, "Single-Page App", "React", "Web banking interface")
+  Container(api, "API Gateway", "Envoy / Go", "Auth, rate limiting")
+  Container(backend, "Core Banking API", "Spring Boot", "Business logic")
+  ContainerDb(db, "Core Database", "PostgreSQL", "Stores customer records")
+}
+System_Ext(mainframe, "Mainframe Core", "Settlement engine")
+
+Rel(customer, spa, "Visits", "HTTPS")
+Rel(spa, api, "API calls", "JSON/HTTPS")
+Rel(api, backend, "Routes", "gRPC")
+Rel(backend, db, "Reads/Writes", "JDBC")
+Rel(backend, mainframe, "Settles", "MQ Series")
+@enduml

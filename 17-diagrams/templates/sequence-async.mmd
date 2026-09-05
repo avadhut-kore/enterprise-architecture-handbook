@@ -1,0 +1,21 @@
+sequenceDiagram
+    autonumber
+    actor Customer as User
+    participant OrderSvc as Order Command API
+    participant Outbox as Transactional Outbox
+    participant CDC as Debezium CDC Engine
+    participant Kafka as Kafka Event Broker
+    participant Fulfillment as Shipping Worker
+
+    Customer->>OrderSvc: POST /checkout
+    OrderSvc->>OrderSvc: Validate Business Invariants
+    OrderSvc->>Outbox: Insert Order + Outbox Record (Single ACID Tx)
+    OrderSvc-->>Customer: 202 Accepted (Order ID: ord_8832)
+
+    Note over Outbox,CDC: Asynchronous Event Relay
+    CDC->>Outbox: Tail DB Write-Ahead Log
+    CDC->>Kafka: Publish Event (Topic: orders.placed.v1)
+    
+    Kafka->>Fulfillment: Consume Event Stream
+    Fulfillment->>Fulfillment: Allocate Warehouse Inventory
+    Fulfillment->>Kafka: Publish Event (Topic: inventory.reserved.v1)

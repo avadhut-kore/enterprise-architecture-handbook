@@ -1,0 +1,22 @@
+graph TB
+    APIGateway["API Gateway [Container]"]
+
+    subgraph BackendService ["Order Management Service [Container]"]
+        OrderController["OrderController<br/>[Component: Spring REST Controller]<br/>REST API endpoints for order submission"]
+        OrderService["OrderApplicationService<br/>[Component: Domain Service]<br/>Orchestrates order validation and workflows"]
+        DomainAggregate["OrderAggregate<br/>[Component: Domain Entity]<br/>Enforces business invariants and totals"]
+        OrderRepo["OrderRepository<br/>[Component: Data Access Adapter]<br/>Reads and writes order data to DB"]
+        PaymentClient["PaymentGatewayClient<br/>[Component: HTTP Adapter]<br/>Integrates with external payment gateway"]
+
+        OrderController --> OrderService
+        OrderService --> DomainAggregate
+        OrderService --> OrderRepo
+        OrderService --> PaymentClient
+    end
+
+    Database[("PostgreSQL Database [Container]")]
+    StripeAPI["Stripe API [External System]"]
+
+    APIGateway -->|"HTTP/JSON"| OrderController
+    OrderRepo -->|"JDBC"| Database
+    PaymentClient -->|"HTTPS"| StripeAPI
