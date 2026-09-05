@@ -15,9 +15,9 @@ gantt
     Phase 2: Architecture Fundamentals       :done,    p2, 2026-09-11, 2026-10-15
     Phase 3: System Design                   :done,    p3, 2026-10-16, 2026-11-30
     Phase 4: Application Engineering         :done,    p4, 2026-12-01, 2027-01-15
+    Phase 5: Data & Integration              :done,    p5, 2027-01-16, 2027-02-28
     section Engineering Core
-    Phase 5: Data & Integration              :         p5, 2027-01-16, 2027-02-28
-    Phase 6: Cloud & Infrastructure          :         p6, 2027-03-01, 2027-04-15
+    Phase 6: Cloud & Infrastructure          :active,  p6, 2027-03-01, 2027-04-15
     section Resilience & Innovation
     Phase 7: Security & Operations           :         p7, 2027-04-16, 2027-05-31
     Phase 8: AI & Modern Architecture        :         p8, 2027-06-01, 2027-07-15
@@ -72,12 +72,16 @@ gantt
 
 ---
 
-### Phase 5: Data & Integration Engineering
-* **Objective**: Build the polyglot persistence and enterprise communication fabric playbook.
+### Phase 5: Data & Integration Architecture *(COMPLETED)*
+* **Objective**: Build the enterprise data and integration architecture layer governing persistence, modeling, mapping, exchange, financial settlement, and reconciliation.
 * **Key Deliverables**:
-  * `06-data/`: Distributed SQL (CockroachDB), NoSQL trade-offs, caching stampede prevention, data lakehouses (Iceberg/Delta Lake), real-time streaming (Flink/Kafka).
-  * `07-integration/`: API contract design (REST, GraphQL, gRPC), event-driven messaging (Kafka, RabbitMQ), API Gateway topology.
-* **Exit Criteria**: End-to-end data pipelines, event schemas, idempotency patterns, and CDC migration strategies.
+  * `06-data/`: Data architecture, data modeling, data mapping (`DATA-MAPPING-TEMPLATE.md`), SQL, NoSQL, database selection, data access, database performance, consistency, distributed transactions, CDC, data synchronization, streaming, data platforms, ETL/ELT, Data Mesh, MDM, data quality, governance, lineage, database migration.
+  * `07-integration/`: API architecture, REST, GraphQL, gRPC, API Gateway, BFF, Webhooks, API Management, Event-Driven Architecture (EDA), Enterprise Integration Patterns (EIP), Legacy integration, SaaS integration, Financial transaction architecture, Settlement architecture, Reconciliation architecture, integration security, observability, and failure engineering.
+  * `10-security/data-security/`: Classification, envelope encryption, tokenization, dynamic masking, and database RLS.
+  * `14-enterprise-integration/`: Point-to-point vs hub-and-spoke, API-led 3-tier connectivity, and federated integration operating models.
+  * `15-modernization/data-integration/`: Point-to-point to API-led, batch to streaming, database decomposition, and reconciliation modernization.
+  * Governance & Deliverables: 32 Reference architectures (Data, Integration, Financial), 25 Case studies, 23 ADRs (ADR-0021 to ADR-0043), 27 review checklists, quantitative sizing calculators, 6 technology comparison matrices, and ARB review spec.
+* **Exit Criteria**: End-to-end data and integration architecture linking business capabilities through applications, data persistence, messaging, financial settlement, and multi-system reconciliation.
 
 ---
 

@@ -549,11 +549,113 @@ Welcome to the comprehensive master index of the **Enterprise Architecture Handb
 * **Technology Comparisons**: [`22-reference/technology-comparison/application-architecture/`](22-reference/technology-comparison/application-architecture/) — 9 Rigorous comparative matrices.
 * **ARB Review Specification**: [`16-architecture-deliverables/architecture-review/application-architecture-review.md`](16-architecture-deliverables/architecture-review/application-architecture-review.md).
 
-## Additional Domains (Scheduled for Phases 5–10)
+
+---
+
+## 06. Data Architecture & Persistence
+*Enterprise data architecture, modeling, mapping, SQL/NoSQL engines, consistency, CDC, streaming, and lakehouses.*
+
+### Data Architecture & Governance (`06-data/data-architecture/`, `governance/`, `lineage/`, `data-quality/`)
+* [`data-architecture/README.md`](06-data/data-architecture/README.md) — Enterprise data taxonomy, lifecycle, sensitivity classification, contracts, and data products.
+* [`governance/README.md`](06-data/governance/README.md) — Enterprise data governance frameworks, catalogs, and stewardship models.
+* [`lineage/README.md`](06-data/lineage/README.md) — Technical, business, and column-level lineage tracking for regulatory auditability and impact analysis.
+* [`data-quality/README.md`](06-data/data-quality/README.md) — Six dimensions of data quality, automated assertion tests, and quarantine workflows.
+
+### Data Modeling & Mapping (`06-data/data-modeling/`, `data-mapping/`)
+* [`data-modeling/README.md`](06-data/data-modeling/README.md) — Relational, document, key-value, wide-column, graph, time-series, and Data Vault 2.0 modeling.
+* [`data-mapping/README.md`](06-data/data-mapping/README.md) — Source-to-target mapping, canonical models, code translation, settlement and reconciliation mappings.
+* [Data Mapping Specification Template](16-architecture-deliverables/DATA-MAPPING-TEMPLATE.md) — Reusable enterprise mapping specification deliverable.
+
+### Database Architectures & Selection (`06-data/sql/`, `nosql/`, `database-selection/`, `data-access/`, `database-performance/`)
+* [`sql/README.md`](06-data/sql/README.md) — Relational engine internals, ACID, isolation levels, locking, deadlocks, execution plans, connection pools, and PITR.
+* [`nosql/README.md`](06-data/nosql/README.md) — Key-value, document, wide-column, graph, time-series, partition keys, and tunable consistency quorums.
+* [`database-selection/README.md`](06-data/database-selection/README.md) — Objective multi-dimensional database selection framework and workload profiling.
+* [`data-access/README.md`](06-data/data-access/README.md) — Repositories, Unit of Work, ORM vs micro-ORM, pagination, and N+1 query mitigation.
+* [`database-performance/README.md`](06-data/database-performance/README.md) — Query execution plan analysis, slow query remediation, lock contention, and cache stampede prevention.
+
+### Consistency, Distributed Transactions & Synchronization (`06-data/consistency/`, `distributed-transactions/`, `cdc/`, `data-synchronization/`)
+* [`consistency/README.md`](06-data/consistency/README.md) — The consistency continuum: strong, eventual, causal, read-your-writes, and conflict resolution.
+* [`distributed-transactions/README.md`](06-data/distributed-transactions/README.md) — 2PC, Saga orchestration/choreography, transactional outbox/inbox, and workflow engines.
+* [`cdc/README.md`](06-data/cdc/README.md) — Log-based Change Data Capture (Debezium), CDC to Kafka/lakehouse, and zero-dual-write synchronization.
+* [`data-synchronization/README.md`](06-data/data-synchronization/README.md) — One-way vs two-way sync, event-driven sync, and continuous data drift detection.
+
+### Data Platforms, Streaming & Mesh (`06-data/data-platforms/`, `streaming/`, `etl-elt/`, `data-mesh/`, `mdm/`, `migration/`)
+* [`data-platforms/README.md`](06-data/data-platforms/README.md) — Data lakes, warehouses, open lakehouses (Apache Iceberg), and operational data stores (ODS).
+* [`streaming/README.md`](06-data/streaming/README.md) — Event streams vs queues, event time watermarks, tumbling/session windows, and stateful Flink processing.
+* [`etl-elt/README.md`](06-data/etl-elt/README.md) — Cloud ELT pipelines, orchestration (Airflow/Dagster), dbt transformations, and idempotent backfills.
+* [`data-mesh/README.md`](06-data/data-mesh/README.md) — Decentralized domain data products, self-service infrastructure, and federated computational governance.
+* [`mdm/README.md`](06-data/mdm/README.md) — Master Data Management: Customer 360, Product Master, matching algorithms, and survivorship rules.
+* [`migration/README.md`](06-data/migration/README.md) — Zero-downtime database migration playbook, dual-writing, CDC catch-up, and instant rollback.
+
+---
+
+## 07. Integration Architecture & Financial Systems
+*Enterprise APIs, protocols, edge gateways, event-driven architecture, financial transactions, settlement, and reconciliation.*
+
+### API Architecture, Protocols & Edge Governance (`07-integration/api/`, `rest/`, `graphql/`, `grpc/`, `api-gateway/`, `bff/`, `webhooks/`, `api-management/`)
+* [`api/README.md`](07-integration/api/README.md) — API-first strategy, API as a product, lifecycle governance, versioning, and OpenAPI specs.
+* [`rest/README.md`](07-integration/rest/README.md) — REST principles, resource modeling, status codes, pagination, rate limiting, and Problem Details.
+* [`graphql/README.md`](07-integration/graphql/README.md) — Schema design, resolvers, DataLoader batching, query depth limits, and Apollo Federation.
+* [`grpc/README.md`](07-integration/grpc/README.md) — Protocol Buffers, unary vs streaming RPC, deadlines, L7 load balancing (Envoy), and error models.
+* [`api-gateway/README.md`](07-integration/api-gateway/README.md) — Edge gateway routing, rate limiting, authentication, and perimeter traffic enforcement.
+* [`bff/README.md`](07-integration/bff/README.md) — Backend-for-Frontend architectures for web and mobile channels.
+* [`webhooks/README.md`](07-integration/webhooks/README.md) — Webhook architecture, HMAC-SHA256 signatures, exponential retries, and consumer idempotency.
+* [`api-management/README.md`](07-integration/api-management/README.md) — Developer portals, API subscriptions, consumer quotas, and usage analytics.
+
+### Messaging & Event-Driven Architecture (`07-integration/event-driven/`, `kafka/`, `messaging/`, `patterns/`)
+* [`event-driven/README.md`](07-integration/event-driven/README.md) — Events vs commands vs messages, choreography vs orchestration, and schema registry contracts.
+* [`kafka/README.md`](07-integration/kafka/README.md) — Apache Kafka broker clustering, partition sizing, idempotency, consumer rebalancing, and KRaft.
+* [`messaging/README.md`](07-integration/messaging/README.md) — RabbitMQ exchange topologies, routing, publisher confirms, and dead-letter queue governance.
+* [`patterns/README.md`](07-integration/patterns/README.md) — Enterprise Integration Patterns (EIP): Content-Based Router, Splitter, Aggregator, Enricher, Wire Tap.
+
+### System, Legacy & SaaS Integration (`07-integration/legacy/`, `saas/`)
+* [`legacy/README.md`](07-integration/legacy/README.md) — Mainframe CICS/IMS integration, COBOL copybooks, flat-file batch interfaces, and Anti-Corruption Layers.
+* [`saas/README.md`](07-integration/saas/README.md) — Third-party SaaS integration, OAuth token lifecycle, rate-limit resilience, and vendor outage circuit breaking.
+
+### Financial Transactions, Settlement & Reconciliation (`07-integration/financial/`)
+* [`financial/transactions/README.md`](07-integration/financial/transactions/README.md) — Transaction lifecycle, idempotency keys, integer minor unit precision, fees, taxes, and immutable audit ledgers.
+* [`financial/settlement/README.md`](07-integration/financial/settlement/README.md) — Gross vs net settlement, T+0/T+1/T+2 cycles, settlement batches, ISO 20022 banking files, and settlement finality.
+* [`financial/reconciliation/README.md`](07-integration/financial/reconciliation/README.md) — Automated reconciliation platform, matching engines (exact, rule-based, tolerance), 1:1 vs N:M matching, exception queues, and four-eyes adjustment workflows.
+
+### Cross-Cutting Integration Standards (`07-integration/`)
+* [Integration Decision Framework](07-integration/integration-decision-framework.md) — Multi-dimensional decision matrix for APIs, events, streaming, and messaging.
+* [Integration Security Architecture](07-integration/integration-security.md) — Zero-trust integration security, mTLS, and webhook signature verification.
+* [Integration Observability Architecture](07-integration/integration-observability.md) — W3C distributed tracing, OpenTelemetry, and integration health metrics.
+* [Integration Failure Engineering](07-integration/failure-engineering.md) — Circuit breakers, timeouts, exponential backoff with jitter, and bulkhead isolation.
+
+---
+
+## 10. Security & Zero Trust Additions
+* [`10-security/data-security/README.md`](10-security/data-security/README.md) — Data classification, envelope encryption at rest, field-level tokenization, dynamic masking, and database RLS.
+
+---
+
+## 14. Enterprise Integration Architecture
+* [`14-enterprise-integration/README.md`](14-enterprise-integration/README.md) — Point-to-point vs hub-and-spoke, API-led 3-tier connectivity, and federated integration operating models.
+
+---
+
+## 15. Modernization & System Evolution Additions
+* [`15-modernization/data-integration/README.md`](15-modernization/data-integration/README.md) — Point-to-point to API-led, batch to streaming, database decomposition, and financial reconciliation modernization.
+
+---
+
+## Reference Architectures, Case Studies & Governance (Phase 5 Additions)
+* **Data Reference Architectures**: [`18-reference-architectures/data/`](18-reference-architectures/data/) — 10 Reference blueprints (Operational DB, Lakehouse, Streaming, CDC, Data Mesh, MDM).
+* **Integration Reference Architectures**: [`18-reference-architectures/integration/`](18-reference-architectures/integration/) — 12 Reference blueprints (API-Led, Event Bus, SaaS Integration, Payment Platform, B2B Gateway).
+* **Financial Reference Architectures**: [`18-reference-architectures/financial/`](18-reference-architectures/financial/) — 10 Reference blueprints (Payment Processing, Settlement Engine, Reconciliation Hub, Multi-Way Recon).
+* **Data & Integration Case Studies**: [`19-case-studies/data-integration/`](19-case-studies/data-integration/) — 10 Production transformation case studies.
+* **Financial Case Studies**: [`19-case-studies/financial/`](19-case-studies/financial/) — 15 Real-world settlement and reconciliation incident case studies.
+* **Architecture Decision Records**: [`16-architecture-deliverables/adr/`](16-architecture-deliverables/adr/) — ADR-0021 through ADR-0043 (23 Architecture Decision Records).
+* **Architecture Review Checklists**: [`21-architecture-tools/checklists/`](21-architecture-tools/checklists/) — 27 Specialized data and integration review checklists.
+* **ARB Review Specification**: [`21-architecture-tools/architecture-review/data-and-integration-architecture-review.md`](21-architecture-tools/architecture-review/data-and-integration-architecture-review.md).
+* **Quantitative Sizing Calculators**: [`21-architecture-tools/calculators/`](21-architecture-tools/calculators/) — Database storage growth, Kafka partition sizing, queue throughput, API capacity, and financial reconciliation volume calculators.
+* **Technology Comparisons**: [`22-reference/technology-comparison/data-integration/`](22-reference/technology-comparison/data-integration/) — 6 Rigorous comparative decision matrices.
+
+## Additional Domains (Scheduled for Phases 6–10)
 * [`08-cloud/`](08-cloud/) — AWS, Azure, GCP well-architected blueprints, FinOps.
 * [`09-devops/`](09-devops/) — Platform engineering, GitOps, CI/CD, Kubernetes.
 * [`10-security/`](10-security/) — Zero trust, IAM, DevSecOps, AppSec.
 * [`11-observability/`](11-observability/) — Telemetry, Prometheus, Grafana, OpenTelemetry, SRE.
 * [`12-ai/`](12-ai/) — GenAI, LLM architectures, RAG systems, Model serving.
-* [`14-enterprise-integration/`](14-enterprise-integration/) — ERP, CRM, Core Banking, Healthcare.
 * [`99-experiments/`](99-experiments/) — POC sandbox.
