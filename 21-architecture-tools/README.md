@@ -56,3 +56,9 @@ Comprehensive, actionable verification checklists to evaluate systems at major g
 * [`security-operations-interview-playbook.md`](architecture-review/security-operations-interview-playbook.md) - Solutions for 14 high-stakes security & SRE system design scenarios.
 * [`cloud-architecture-interview-playbook.md`](architecture-review/cloud-architecture-interview-playbook.md) - Solutions for 14 enterprise cloud design scenarios.
 * [`data-and-integration-architecture-review.md`](architecture-review/data-and-integration-architecture-review.md) - ARB governance playbook for data pipelines and financial platforms.
+
+### AI & Modern Architecture Checklists & Tools
+* [`checklists/ai-architecture-review.md`](checklists/ai-architecture-review.md) - ARB review checklist for AI, LLM, RAG, and agent workloads.
+* [`checklists/ai-production-readiness.md`](checklists/ai-production-readiness.md) - Pre-flight production readiness gate for AI systems.
+* [`calculators/ai-cost-calculator.md`](calculators/ai-cost-calculator.md) - Quantitative formulas for token budgets, vector DB RAM, and GPU sizing.
+* [`architecture-review/ai-modern-architecture-interview-playbook.md`](architecture-review/ai-modern-architecture-interview-playbook.md) - Interview and review playbook for high-stakes enterprise AI scenarios.

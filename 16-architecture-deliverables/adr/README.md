@@ -105,6 +105,26 @@ ADRs are living history: they capture *why* the architecture is structured the w
 | [ADR-0073](ADR-0073-progressive-delivery-automated-canary-rollouts.md) | Progressive Delivery with Automated Canary Analysis via Argo Rollouts | **Accepted** | 2026-09-05 |
 | [ADR-0074](ADR-0074-data-tokenization-privacy-compliance.md) | Data Tokenization Proxy for PCI-DSS and Privacy Compliance | **Accepted** | 2026-09-05 |
 | [ADR-0075](ADR-0075-centralized-siem-event-streaming-detection.md) | Centralized SIEM Event Streaming with Real-Time Detection Engineering | **Accepted** | 2026-09-05 |
+| [ADR-0076](ADR-0076-enterprise-ai-gateway-adoption.md) | Enterprise AI Gateway Adoption for Unified Governance | **Accepted** | 2026-09-05 |
+| [ADR-0077](ADR-0077-hybrid-search-dense-bm25-reranking.md) | Standardizing on Hybrid Search with Cross-Encoder Reranking | **Accepted** | 2026-09-05 |
+| [ADR-0078](ADR-0078-decoupling-retrieval-parent-child-chunking.md) | Decoupling Retrieval and Generation via Parent-Child Chunking | **Accepted** | 2026-09-05 |
+| [ADR-0079](ADR-0079-react-agentic-loops-vs-deterministic-workflows.md) | Restricting Autonomous Agent Loops to Non-Deterministic Domains | **Accepted** | 2026-09-05 |
+| [ADR-0080](ADR-0080-model-context-protocol-mcp-tool-integration.md) | Adopting Model Context Protocol (MCP) for Enterprise Tool Integration | **Accepted** | 2026-09-05 |
+| [ADR-0081](ADR-0081-sandboxed-microvm-tool-execution.md) | Ephemeral Sandboxed MicroVM Execution for Dynamic Code Tools | **Accepted** | 2026-09-05 |
+| [ADR-0082](ADR-0082-semantic-caching-with-vector-similarity.md) | In-Memory Semantic Caching for High-Frequency LLM Queries | **Accepted** | 2026-09-05 |
+| [ADR-0083](ADR-0083-multi-provider-model-routing-and-fallback.md) | Multi-Provider Model Routing and Automated 429 Failover Cascades | **Accepted** | 2026-09-05 |
+| [ADR-0084](ADR-0084-continuous-evaluation-llm-as-a-judge-ci-cd.md) | Automated Continuous Evaluation and LLM-as-a-Judge CI/CD Gating | **Accepted** | 2026-09-05 |
+| [ADR-0085](ADR-0085-opentelemetry-genai-semantic-conventions.md) | Standardizing on OpenTelemetry GenAI Semantic Conventions | **Accepted** | 2026-09-05 |
+| [ADR-0086](ADR-0086-inbound-outbound-ai-guardrails-enforcement.md) | Multi-Tier Inbound and Outbound AI Guardrails Enforcement | **Accepted** | 2026-09-05 |
+| [ADR-0087](ADR-0087-reversible-pii-pseudonymization-at-gateway.md) | Reversible PII Pseudonymization at the Gateway Layer | **Accepted** | 2026-09-05 |
+| [ADR-0088](ADR-0088-zero-data-retention-enterprise-cloud-contracts.md) | Zero Data Retention (ZDR) Mandate for Foundation Model APIs | **Accepted** | 2026-09-05 |
+| [ADR-0089](ADR-0089-eu-ai-act-risk-classification-framework.md) | Adoption of EU AI Act Risk-Tiered Governance Framework | **Accepted** | 2026-09-05 |
+| [ADR-0090](ADR-0090-vllm-high-throughput-model-serving-runtime.md) | Standardizing on vLLM with PagedAttention for Self-Hosted Inference | **Accepted** | 2026-09-05 |
+| [ADR-0091](ADR-0091-tensor-parallelism-on-nvlink-h100-clusters.md) | Intra-Node Tensor Parallelism on NVLink H100 GPU Clusters | **Accepted** | 2026-09-05 |
+| [ADR-0092](ADR-0092-speculative-decoding-for-inference-acceleration.md) | Speculative Decoding with Compact Draft Models for Low-Latency Serving | **Accepted** | 2026-09-05 |
+| [ADR-0093](ADR-0093-server-sent-events-sse-streaming-token-ux.md) | Standardizing on Server-Sent Events (SSE) for Real-Time Token Streaming | **Accepted** | 2026-09-05 |
+| [ADR-0094](ADR-0094-temporal-durable-execution-agentic-workflows.md) | Temporal Durable Execution for Multi-Step Long-Running AI Workflows | **Accepted** | 2026-09-05 |
+| [ADR-0095](ADR-0095-architectural-fitness-functions-for-ai-quality.md) | Automated Architectural Fitness Functions for Continuous AI Quality Governance | **Accepted** | 2026-09-05 |
 
 ---
 

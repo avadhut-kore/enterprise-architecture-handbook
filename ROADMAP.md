@@ -20,8 +20,8 @@ gantt
     Phase 6: Cloud & Infrastructure          :done,    p6, 2027-03-01, 2027-04-15
     section Resilience & Innovation
     Phase 7: Security & Operations           :done,    p7, 2027-04-16, 2027-05-31
-    Phase 8: AI & Modern Architecture        :active,  p8, 2027-06-01, 2027-07-15
-    Phase 9: Enterprise Architecture         :         p9, 2027-07-16, 2027-08-31
+    Phase 8: AI & Modern Architecture        :done,    p8, 2027-06-01, 2027-07-15
+    Phase 9: Enterprise Architecture         :active,  p9, 2027-07-16, 2027-08-31
     Phase 10: Architect Mastery              :         p10, 2027-09-01, 2027-10-31
 ```
 

@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.7.0] - 2026-09-05
+### Added - Phase 8: AI & Modern Architecture
+- **AI Systems & Platform Architecture (`12-ai/ai-systems-architecture/`)**: 24 comprehensive specifications covering AI system design, gateways, model routing, serving, inference, workflows, agent platforms, evaluation, observability, security, governance, and cost management.
+- **AI Foundations, Fundamentals & ML Architecture (`12-ai/`)**: System boundaries, workload taxonomy, mathematical foundations, feature stores, model registries, and data/concept drift monitoring.
+- **Generative AI, LLMs & Prompt Engineering (`12-ai/`)**: Foundation models, multimodal synthesis, constrained structured outputs, transformer mechanics, attention scaling (GQA, FlashAttention), reasoning models, prompts-as-code, and context compression.
+- **RAG & Knowledge Architecture (`12-ai/`)**: Hybrid search, vector databases, ANN algorithms (HNSW vs IVF-PQ), GraphRAG, Agentic RAG, Parent-Child chunking, RAG Triad evaluation, and CDC freshness pipelines.
+- **Agents, Workflows & Tool Calling (`12-ai/`)**: ReAct agent loops, cognitive planning, durable execution (Temporal), human-in-the-loop gates, Model Context Protocol (MCP), sandboxed microVMs, multi-agent topologies, and persistent memory.
+- **Security, Governance & Observability (`12-ai/`)**: OWASP Top 10 for LLMs, prompt injection defense, guardrails, PII redaction, Zero Data Retention, EU AI Act compliance, OTel GenAI semantic conventions, and token FinOps.
+- **Modern Architecture Patterns (`13-architecture-patterns/`)**: Composable PBCs, headless API-first systems, edge computing with WebAssembly (Wasm), event-driven CDC modernization, serverless AI, and architectural fitness functions.
+- **Patterns, Anti-Patterns & Decision Frameworks**: 15 AI design patterns, 22 lethal AI anti-patterns, and 18 formal decision scorecards.
+- **Reference Architectures & Case Studies**: 20 AI reference blueprints (`18-reference-architectures/ai-modern/`) and 20 enterprise case studies (`19-case-studies/ai-modern/`).
+- **Architecture Decision Records**: 20 new ADRs (ADR-0076 through ADR-0095) in `16-architecture-deliverables/adr/`.
+- **Tools & References**: AI Architecture Review Checklist, AI Production Readiness Checklist, AI Cost Calculator, and Interview Playbook.
+
 All notable architectural iterations, structural updates, and additions to the **Enterprise Architecture Handbook** are documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and adheres to semantic milestone versioning.

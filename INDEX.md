@@ -872,7 +872,89 @@ Welcome to the comprehensive master index of the **Enterprise Architecture Handb
 * **Interview & Review Playbook**: [`21-architecture-tools/architecture-review/security-operations-interview-playbook.md`](21-architecture-tools/architecture-review/security-operations-interview-playbook.md) - 14 High-stakes enterprise scenario solutions.
 * **Comparative Trade-off Matrices**: [`22-reference/technology-comparison/security/`](22-reference/technology-comparison/security/) & [`operations/`](22-reference/technology-comparison/operations/).
 
-## Additional Domains (Scheduled for Phases 8–10)
+## 12. Artificial Intelligence & Modern Architecture {#12-ai}
+
+Enterprise-grade architecture for Large Language Models (LLMs), RAG systems, autonomous agents, AI platforms, and modern architectural paradigms.
+
+### AI Foundations & Systems Architecture
+* [`12-ai/README.md`](12-ai/README.md) - Domain charter, architecture-first philosophy, and domain index.
+* [`12-ai/ai-maturity-model.md`](12-ai/ai-maturity-model.md) - 5-Level enterprise AI maturity model (Level 1 Ad-hoc to Level 5 AI-Native).
+* [`12-ai/ai-systems-architecture/`](12-ai/ai-systems-architecture/) - **Explicit Major Capability: 24 Architectural Specifications**:
+  * [`ai-system-design.md`](12-ai/ai-systems-architecture/ai-system-design.md) - Systems design methodology for probabilistic AI systems.
+  * [`ai-application-architecture.md`](12-ai/ai-systems-architecture/ai-application-architecture.md) - Frontend/backend streaming token architectures and state.
+  * [`ai-platform-architecture.md`](12-ai/ai-systems-architecture/ai-platform-architecture.md) - Application plane, data plane, and control plane separation.
+  * [`enterprise-ai-platform.md`](12-ai/ai-systems-architecture/enterprise-ai-platform.md) - Comprehensive enterprise-wide AI platform blueprint.
+  * [`ai-platform-components.md`](12-ai/ai-systems-architecture/ai-platform-components.md) - 10 Core functional components of an AI platform.
+  * [`ai-control-plane.md`](12-ai/ai-systems-architecture/ai-control-plane.md) - Policy registry, model catalog, quota manager, and audit ledger.
+  * [`ai-data-plane.md`](12-ai/ai-systems-architecture/ai-data-plane.md) - High-throughput token streaming, semantic cache, and vector lookups.
+  * [`ai-gateway.md`](12-ai/ai-systems-architecture/ai-gateway.md) - Centralized GenAI reverse proxy with auth, TPM limits, and guardrails.
+  * [`model-gateway.md`](12-ai/ai-systems-architecture/model-gateway.md) - Multi-provider abstraction across Azure, AWS, GCP, and private vLLM.
+  * [`model-routing.md`](12-ai/ai-systems-architecture/model-routing.md) - Task-based, latency-based, and cost-based dynamic model routing.
+  * [`model-serving.md`](12-ai/ai-systems-architecture/model-serving.md) - High-performance serving engines (vLLM, TensorRT-LLM, Triton).
+  * [`inference-architecture.md`](12-ai/ai-systems-architecture/inference-architecture.md) - Prefill vs decode phases, PagedAttention, and continuous batching.
+  * [`ai-workflow-orchestration.md`](12-ai/ai-systems-architecture/ai-workflow-orchestration.md) - Stateful durable execution of AI chains using Temporal.
+  * [`ai-agent-platform.md`](12-ai/ai-systems-architecture/ai-agent-platform.md) - Sandboxed execution, tool authorization, and MCP integration.
+  * [`ai-evaluation-platform.md`](12-ai/ai-systems-architecture/ai-evaluation-platform.md) - Automated CI/CD evaluation, LLM-as-a-Judge, and golden sets.
+  * [`ai-observability-platform.md`](12-ai/ai-systems-architecture/ai-observability-platform.md) - OpenTelemetry GenAI semantic conventions and TTFT metrics.
+  * [`ai-security-platform.md`](12-ai/ai-systems-architecture/ai-security-platform.md) - Inbound/outbound guardrails and prompt injection defenses.
+  * [`ai-governance-platform.md`](12-ai/ai-systems-architecture/ai-governance-platform.md) - EU AI Act risk tiers and model CMDB inventory.
+  * [`ai-cost-management.md`](12-ai/ai-systems-architecture/ai-cost-management.md) - Token unit economics, semantic caching ROI, and chargeback.
+  * [`multi-tenant-ai-platform.md`](12-ai/ai-systems-architecture/multi-tenant-ai-platform.md) - Cryptographic tenant data isolation and fair-share quotas.
+  * [`self-hosted-ai-platform.md`](12-ai/ai-systems-architecture/self-hosted-ai-platform.md) - Air-gapped private Kubernetes GPU clusters on H100s.
+  * [`multi-model-platform.md`](12-ai/ai-systems-architecture/multi-model-platform.md) - Orchestrating small, general, and reasoning models.
+  * [`ai-platform-reference-architecture.md`](12-ai/ai-systems-architecture/ai-platform-reference-architecture.md) - Master full-stack reference blueprint.
+
+### Generative AI, LLMs & Retrieval-Augmented Generation (RAG)
+* [`12-ai/generative-ai/`](12-ai/generative-ai/) - Foundation models, multimodal synthesis, and constrained structured JSON outputs.
+* [`12-ai/llm/`](12-ai/llm/) - Transformer architecture, GQA attention, FlashAttention, and reasoning models.
+* [`12-ai/prompt-engineering/`](12-ai/prompt-engineering/) - Prompts-as-code, SemVer versioning, and few-shot exemplar retrieval.
+* [`12-ai/context-engineering/`](12-ai/context-engineering/) - Context window compression, lost-in-the-middle mitigation, and knapsack budgeting.
+* [`12-ai/rag/`](12-ai/rag/) - RAG pipeline, parsing, chunking, GraphRAG, Agentic RAG, and the RAG Triad.
+* [`12-ai/embeddings/`](12-ai/embeddings/) - Vector spaces, distance metrics, and zero-downtime blue-green re-embedding migrations.
+* [`12-ai/vector-databases/`](12-ai/vector-databases/) - HNSW vs IVF-PQ, pgvector vs dedicated vector engines (Qdrant/Milvus), and sharding.
+* [`12-ai/semantic-search/`](12-ai/semantic-search/) & [`hybrid-search/`](12-ai/hybrid-search/) & [`reranking/`](12-ai/reranking/) - Dense + BM25 search via Reciprocal Rank Fusion and cross-encoder rerankers.
+* [`12-ai/knowledge-architecture/`](12-ai/knowledge-architecture/) - Enterprise knowledge fabric, knowledge graphs, CDC data freshness, and provenance.
+
+### AI Agents, Workflows & Safety
+* [`12-ai/agents/`](12-ai/agents/) - ReAct loops, planning, reasoning, memory, and termination criteria.
+* [`12-ai/agentic-workflows/`](12-ai/agentic-workflows/) - Deterministic vs agentic workflows, Human-in-the-Loop (HITL), and sagas.
+* [`12-ai/tool-calling/`](12-ai/tool-calling/) - JSON Schemas, sandboxed microVM execution, idempotency, and Model Context Protocol (MCP).
+* [`12-ai/multi-agent/`](12-ai/multi-agent/) - Supervisor, hierarchical, and peer topologies; coordination overhead trade-offs.
+* [`12-ai/ai-memory/`](12-ai/ai-memory/) - Short-term vs long-term memory, episodic/semantic stores, memory poisoning, and GDPR erasure.
+* [`12-ai/ai-security/`](12-ai/ai-security/) - OWASP Top 10 for LLMs, direct/indirect injection, jailbreaks, and guardrails.
+* [`12-ai/ai-privacy/`](12-ai/ai-privacy/) & [`ai-governance/`](12-ai/ai-governance/) & [`ai-safety/`](12-ai/ai-safety/) - PII masking, Zero Data Retention (ZDR), EU AI Act compliance, and hallucination containment.
+* [`12-ai/ai-evaluation/`](12-ai/ai-evaluation/) & [`ai-observability/`](12-ai/ai-observability/) - Offline/online eval, LLM-as-a-Judge, OTel GenAI tracing, and testing pyramid.
+* [`12-ai/ai-cost/`](12-ai/ai-cost/) - Token unit economics, semantic caching ROI, and showback/chargeback.
+* [`12-ai/enterprise-ai/`](12-ai/enterprise-ai/) - Operating models, RACI, financial AI controls, and multi-tenant SaaS isolation.
+* [`12-ai/ai-integration/`](12-ai/ai-integration/) & [`ai-modernization/`](12-ai/ai-modernization/) - REST/gRPC/Kafka integration, ERP/CRM bridges, and AI-assisted legacy refactoring.
+
+### Patterns, Anti-Patterns & Decision Frameworks
+* [`12-ai/ai-patterns/`](12-ai/ai-patterns/) - 15 Production AI architecture design patterns with formal 11-section specifications.
+* [`12-ai/ai-anti-patterns/`](12-ai/ai-anti-patterns/) - 22 Lethal AI anti-patterns with symptoms, root causes, and refactoring paths.
+* [`12-ai/decision-frameworks/`](12-ai/decision-frameworks/) - 18 Formal decision scorecards (AI suitability, RAG vs fine-tuning, vector DBs, etc.).
+
+### Modern Architecture & Evolution (`13-architecture-patterns/`)
+* [`13-architecture-patterns/modern-architecture/`](13-architecture-patterns/modern-architecture/) - Cloud-native principles, composable PBCs, headless systems.
+* [`13-architecture-patterns/ai-native/`](13-architecture-patterns/ai-native/) - AI-native principles and probabilistic data flows.
+* [`13-architecture-patterns/edge/`](13-architecture-patterns/edge/) - Edge compute, CDN PoPs, edge AI with WebAssembly (Wasm) and WebGPU.
+* [`13-architecture-patterns/event-driven-modernization/`](13-architecture-patterns/event-driven-modernization/) - Event-driven strangler fig and CDC outbox patterns.
+* [`13-architecture-patterns/serverless-modernization/`](13-architecture-patterns/serverless-modernization/) - Function extraction and serverless AI cold-start mitigation.
+* [`13-architecture-patterns/composable-architecture/`](13-architecture-patterns/composable-architecture/) & [`api-first/`](13-architecture-patterns/api-first/) - Composable enterprise PBCs and contract-first OpenAPI.
+* [`13-architecture-patterns/platform-engineering/`](13-architecture-patterns/platform-engineering/) - Internal Developer Platforms (Backstage) and golden paths.
+* [`13-architecture-patterns/evolutionary-architecture/`](13-architecture-patterns/evolutionary-architecture/) - Architecture fitness functions catalog and reversible decisions.
+* [`13-architecture-patterns/modern-architecture-maturity.md`](13-architecture-patterns/modern-architecture-maturity.md) - Multi-paradigm maturity matrix.
+* [`15-modernization/ai-modernization-decision-framework.md`](15-modernization/ai-modernization-decision-framework.md) - Framework for AI-assisted vs traditional modernization.
+
+### Reference Blueprints, Case Studies, ADRs & Tools
+* **AI Reference Blueprints**: [`18-reference-architectures/ai-modern/`](18-reference-architectures/ai-modern/) - 20 Complete production reference blueprints.
+* **Enterprise Case Studies**: [`19-case-studies/ai-modern/`](19-case-studies/ai-modern/) - 20 Production case studies (cs-061 through cs-080).
+* **Architecture Decision Records**: [`16-architecture-deliverables/adr/`](16-architecture-deliverables/adr/) - ADR-0076 through ADR-0095 (20 AI & Modern Architecture ADRs).
+* **AI Review & Readiness Checklists**: [`21-architecture-tools/checklists/ai-architecture-review.md`](21-architecture-tools/checklists/ai-architecture-review.md) & [`ai-production-readiness.md`](21-architecture-tools/checklists/ai-production-readiness.md).
+* **AI Cost Calculator**: [`21-architecture-tools/calculators/ai-cost-calculator.md`](21-architecture-tools/calculators/ai-cost-calculator.md).
+* **AI Architecture Interview Playbook**: [`21-architecture-tools/architecture-review/ai-modern-architecture-interview-playbook.md`](21-architecture-tools/architecture-review/ai-modern-architecture-interview-playbook.md).
+* **Comparative Trade-off Matrices**: [`22-reference/technology-comparison/ai/`](22-reference/technology-comparison/ai/).
+
+## Additional Domains (Scheduled for Phases 9–10)
 * [`09-devops/`](09-devops/) — Platform engineering, GitOps, CI/CD, Kubernetes.
-* [`12-ai/`](12-ai/) — GenAI, LLM architectures, RAG systems, Model serving.
+* [`14-enterprise-architecture/`](14-enterprise-architecture/) — Business architecture, capability mapping, TOGAF/Zachman, portfolio management.
 * [`99-experiments/`](99-experiments/) — POC sandbox.

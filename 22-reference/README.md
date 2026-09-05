@@ -28,3 +28,6 @@ The `22-reference/` directory contains curated dictionaries, acronym definitions
 
 ### Application Architecture Comparisons (`technology-comparison/application-architecture/`)
 * Comparative matrices for Backend Frameworks, Frontend Frameworks, Mobile Frameworks, and State Management.
+
+### AI & Modern Architecture Comparisons
+* [`technology-comparison/ai/`](technology-comparison/ai/) - Multi-dimensional trade-off comparisons (AI vs classical, RAG vs fine-tuning, agents vs workflows, cloud vs edge).
