@@ -763,8 +763,48 @@ Enterprise DevOps architecture, continuous delivery pipelines, container orchest
 
 ---
 
-## 15. Modernization & System Evolution Additions
-* [`15-modernization/data-integration/README.md`](15-modernization/data-integration/README.md) — Point-to-point to API-led, batch to streaming, database decomposition, and financial reconciliation modernization.
+## 15. Modernization & Migration Architecture {#15-modernization}
+* [`15-modernization/README.md`](15-modernization/README.md) — Modernization philosophy, lifecycle roadmap, and architecture principles.
+* **Modernization Foundations & Governance**:
+  * [`modernization-principles.md`](15-modernization/modernization-principles.md) — 16 core architecture modernization principles.
+  * [`modernization-assessment.md`](15-modernization/modernization-assessment.md) — Multi-dimensional assessment methodology (Business, App, Data, Infra, Security, Ops).
+  * [`modernization-strategy.md`](15-modernization/modernization-strategy.md) — Strategy selection across the 11 Rs.
+  * [`modernization-roadmap.md`](15-modernization/modernization-roadmap.md) — Execution roadmap horizons (6m, 12m, 18m, 24m) and wave design.
+  * [`modernization-economics.md`](15-modernization/modernization-economics.md) — TCO, ROI, migration cost modeling, and the dual-run cost bubble.
+  * [`modernization-risk-management.md`](15-modernization/modernization-risk-management.md) — Risk spectrum, severity rubrics, and risk registers.
+  * [`testing-modernization.md`](15-modernization/testing-modernization.md) — Characterization testing (Golden Master), contract testing, and shadow traffic.
+  * [`migration-observability.md`](15-modernization/migration-observability.md) — Telemetry across hybrid boundaries, traceparent propagation, and parity dashboards.
+  * [`security-during-modernization.md`](15-modernization/security-during-modernization.md) — Identity migration, token translation, zero-trust ingress, and network segmentation.
+  * [`modernization-anti-patterns.md`](15-modernization/modernization-anti-patterns.md) — Top 20 modernization anti-patterns and recovery remedies.
+  * [`ai-modernization-decision-framework.md`](15-modernization/ai-modernization-decision-framework.md) — AI code analysis, automated test generation, and hallucination guardrails.
+* **Modernization Strategies (The 11 Rs)**:
+  * [`modernization-strategies/`](15-modernization/modernization-strategies/README.md) — Retain, Retire, Replace/Repurchase, Rehost, Relocate, Replatform, Refactor, Rearchitect, Rewrite/Rebuild, and strategy selection matrices (12 guides).
+* **Monolith Decomposition & Microservices**:
+  * [`monolith-to-microservices/`](15-modernization/monolith-to-microservices/README.md) — Assessment, Modular Monolith alternatives, 15-stage decomposition playbook, domain seams, API facades, ACLs, and transaction boundaries (12 guides).
+* **Database Modernization & Schema Splitting**:
+  * [`database-modernization/`](15-modernization/database-modernization/README.md) — Shared DB perils, 15-stage schema splitting playbook, DB-per-service vs schema, breaking foreign keys/stored procedures, CDC sync, transactional outbox, dual reads, backfill, and reverse CDC rollbacks (12 guides).
+* **Cloud Migration & Enterprise Migration Factory**:
+  * [`on-prem-to-cloud/`](15-modernization/on-prem-to-cloud/README.md) — Discovery, migration waves, landing zones, hybrid connectivity, migration factory model, and FinOps (10 guides).
+  * [`application-migration/`](15-modernization/application-migration/README.md) — Factory operating model, portfolio triage, application grouping, governance gates, cutover command center, and hypercare (8 guides).
+* **Cutover & Rollback Playbooks**:
+  * [`cutover/`](15-modernization/cutover/README.md) — Strategy comparison, minute-by-minute runbook (T-30d to T+7d), Go/No-Go gates, multi-tier rollback, shadow traffic, parallel run, canary shifting, and forward-fixing (12 guides).
+* **Legacy & Stack-Specific Modernization**:
+  * [`legacy-modernization/`](15-modernization/legacy-modernization/README.md) — IBM z/OS mainframes, COBOL copybook decoders, batch-to-streaming, file/FTP, SOAP/ESB, and green screens (10 guides).
+  * [`java-modernization/`](15-modernization/java-modernization/README.md) — Java EE to Spring Boot, WebLogic/WebSphere to containers, EAR/WAR decomposition, Spring upgrades, and Java 21 virtual threads (8 guides).
+  * [`dotnet-modernization/`](15-modernization/dotnet-modernization/README.md) — .NET Framework to .NET 8/9, WCF to gRPC/WebAPI, ASP.NET WebForms to modern web, IIS to Linux containers, and EF Core (8 guides).
+* **Architectural Patterns, Blueprints & Case Studies**:
+  * [`modernization-patterns/`](15-modernization/modernization-patterns/README.md) — Strangler Fig, ACL, Branch by Abstraction, Parallel Run, Shadow Traffic, API Facade, CDC, Outbox, and Modular Monolith (14 guides).
+  * [`reference-architectures/`](15-modernization/reference-architectures/README.md) — 10 complete reference blueprints (Monolith to Modular Monolith, Strangler Microservices, Shared DB split, Cloud Landing Zone, Batch to EDA, Mainframe caching).
+  * [`case-studies/`](15-modernization/case-studies/README.md) — 10 real-world educational case studies (Tier-1 Bank, Healthcare EHR, Retail OMS, Manufacturing ERP, Datacenter Exit, M&A Consolidation).
+* **Decision Frameworks, Checklists & Templates**:
+  * [`decision-frameworks/`](15-modernization/decision-frameworks/README.md) — 11 quantitative decision frameworks (Should we modernize, rewrite, cloud, microservices, split DB, retain, strangler, cutover strategy).
+  * [`checklists/`](15-modernization/checklists/README.md) — 13 production checklists (Discovery, Assessment, Decomposition, Cloud, Security, Testing, Cutover, Rollback, Retirement).
+  * [`templates/`](15-modernization/templates/README.md) — 10 deliverable templates (Scorecards, Portfolio inventories, Dependency registers, Cutover runbooks, Rollback plans, Risk registers).
+* **Preserved System Evolution Modules**:
+  * [`data-integration/`](15-modernization/data-integration/README.md) — Batch to real-time streaming, legacy file interfaces, and reconciliation modernization (6 guides).
+  * [`system-evolution/`](15-modernization/system-evolution/README.md) — Sharding, read-write splitting, zero-downtime, and evolutionary architecture (11 guides).
+  * [`application-modernization/`](15-modernization/application-modernization/README.md) — Application health, codebase quality, and legacy assessment frameworks (17 guides).
+
 
 ---
 
