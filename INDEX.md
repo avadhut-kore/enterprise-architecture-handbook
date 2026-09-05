@@ -314,41 +314,45 @@ Welcome to the comprehensive master index of the **Enterprise Architecture Handb
 ---
 
 ## 16. Architecture Deliverables & Reusable Templates
-*Ready-to-use professional markdown templates and governance deliverables.*
+*Production-grade enterprise architecture deliverables, copy-pasteable templates, governance checklists, and domain examples.*
 
-### Architecture Decision Records (`16-architecture-deliverables/adr/`)
-* [`README.md`](16-architecture-deliverables/adr/README.md) — ADR repository index, lifecycle states, and governance.
-* [`ADR-0001-template.md`](16-architecture-deliverables/adr/ADR-0001-template.md) — Standard enterprise ADR template.
-* [`ADR-0002-example-modular-monolith-vs-microservices.md`](16-architecture-deliverables/adr/ADR-0002-example-modular-monolith-vs-microservices.md) — Production ADR example: Modular Monolith vs. Microservices.
-* [`ADR-0003-example-rest-vs-grpc.md`](16-architecture-deliverables/adr/ADR-0003-example-rest-vs-grpc.md) — Production ADR example: REST vs. gRPC for inter-service RPC.
-* [`ADR-0004-example-sql-vs-nosql.md`](16-architecture-deliverables/adr/ADR-0004-example-sql-vs-nosql.md) — Production ADR example: Relational PostgreSQL vs. NoSQL DynamoDB.
-* [`ADR-0005-example-sync-vs-async.md`](16-architecture-deliverables/adr/ADR-0005-example-sync-vs-async.md) — Production ADR example: Sync REST vs. Asynchronous Kafka event processing.
+### Master Governance & Selection Framework
+* [`README.md`](16-architecture-deliverables/README.md) — Master catalog, audience RACI roles, and 20-deliverable lifecycle taxonomy.
+* [`deliverable-selection-guide.md`](16-architecture-deliverables/deliverable-selection-guide.md) — Situational decision tree: *"Which architecture document should I create?"*.
+* [`documentation-lifecycle.md`](16-architecture-deliverables/documentation-lifecycle.md) — 8-Stage lifecycle from `Draft` to `Approved`, `Implemented`, and `Archived`.
+* [`documentation-standard.md`](16-architecture-deliverables/documentation-standard.md) — Metadata schema, single source-of-truth principles, and 18 anti-patterns.
+* [`architecture-documentation-checklist.md`](16-architecture-deliverables/architecture-documentation-checklist.md) — Universal 30-point document quality checklist.
 
-### Architecture Review Framework (`16-architecture-deliverables/architecture-review/`)
-* [`README.md`](16-architecture-deliverables/architecture-review/README.md) — Architecture Review framework overview and lifecycle gates.
-* [`architecture-review-process.md`](16-architecture-deliverables/architecture-review/architecture-review-process.md) — Operational review workflow, intake, hearings, and escalations.
-* [`architecture-review-checklist.md`](16-architecture-deliverables/architecture-review/architecture-review-checklist.md) — Universal 8-domain architectural evaluation checklist.
-* [`design-review.md`](16-architecture-deliverables/architecture-review/design-review.md) — Inception-stage design review guide and probing questions.
-* [`security-review.md`](16-architecture-deliverables/architecture-review/security-review.md) — Security review guide: threat modeling, IAM, encryption controls.
-* [`scalability-review.md`](16-architecture-deliverables/architecture-review/scalability-review.md) — Scalability review guide: capacity checks, database queries, load testing gates.
-* [`production-readiness-review.md`](16-architecture-deliverables/architecture-review/production-readiness-review.md) — Pre-launch PRR guide: zero-downtime canary, runbooks, chaos drills.
-* [`architecture-sign-off.md`](16-architecture-deliverables/architecture-review/architecture-sign-off.md) — Formal ARB sign-off certificate and 12-month exception waiver template.
+### 12 Core Architecture Deliverables
+1. **ADR** — [`01-adr/`](16-architecture-deliverables/01-adr/README.md) — Architecture Decision Records governance, lifecycle, review checklist, and 7 decision cases.
+   * *Active Project Ledger*: [`adr/`](16-architecture-deliverables/adr/README.md) — 112+ active production ADR records.
+2. **SAD** — [`02-sad/`](16-architecture-deliverables/02-sad/README.md) — Solution Architecture Document master framework, executive summary, and multi-view C4 blueprints.
+3. **HLD** — [`03-hld/`](16-architecture-deliverables/03-hld/README.md) — High-Level Design: Subsystem architecture, C4 component models, and integration topologies.
+4. **LLD** — [`04-lld/`](16-architecture-deliverables/04-lld/README.md) — Low-Level Design: Package layouts, class models, DDL schemas, locking, and error handling.
+5. **API Design** — [`05-api-design/`](16-architecture-deliverables/05-api-design/README.md) — REST, GraphQL, gRPC, Webhooks, CloudEvents, idempotency, and RFC 7807 specs.
+6. **Data Design** — [`06-data-design/`](16-architecture-deliverables/06-data-design/README.md) — Relational and NoSQL schemas, indexing, sharding, caching, PII, and OpenLineage.
+7. **Integration Design** — [`07-integration-design/`](16-architecture-deliverables/07-integration-design/README.md) — System-to-system contracts, event streaming, CDC, retries, and reconciliation.
+8. **Security Design** — [`08-security-design/`](16-architecture-deliverables/08-security-design/README.md) — STRIDE threat models, trust boundaries, OAuth2/OIDC, mTLS, and KMS key lifecycles.
+9. **Deployment Design** — [`09-deployment-design/`](16-architecture-deliverables/09-deployment-design/README.md) — Multi-region cloud topology, Kubernetes, serverless, VPC networking, and canary rollback.
+10. **Architecture Review** — [`10-architecture-review/`](16-architecture-deliverables/10-architecture-review/README.md) — ARB governance charter, intake packets, decision rubrics, and formal sign-offs.
+    * *Historical Reviews*: [`architecture-review/`](16-architecture-deliverables/architecture-review/README.md) — Established review guides.
+11. **Risk Register** — [`11-risk-register/`](16-architecture-deliverables/11-risk-register/README.md) — Architecture and technical risk register, $5 \times 5$ scoring rubric, and mitigations.
+12. **Reference Architecture** — [`12-reference-architecture/`](16-architecture-deliverables/12-reference-architecture/README.md) — Enterprise baselines, technology radars, allowed variation points, and adoption guides.
 
-### Reusable Architecture Templates
-* [`ADR-TEMPLATE.md`](16-architecture-deliverables/ADR-TEMPLATE.md) — Architecture Decision Record.
-* [`SOLUTION-ARCHITECTURE-TEMPLATE.md`](16-architecture-deliverables/SOLUTION-ARCHITECTURE-TEMPLATE.md) — Comprehensive Solution Architecture Document (SAD).
-* [`HLD-TEMPLATE.md`](16-architecture-deliverables/HLD-TEMPLATE.md) — High-Level Design document.
-* [`LLD-TEMPLATE.md`](16-architecture-deliverables/LLD-TEMPLATE.md) — Low-Level Design document.
-* [`API-DESIGN-TEMPLATE.md`](16-architecture-deliverables/API-DESIGN-TEMPLATE.md) — Enterprise API specification.
-* [`DATA-DESIGN-TEMPLATE.md`](16-architecture-deliverables/DATA-DESIGN-TEMPLATE.md) — Data schema, topology, and persistence design.
-* [`SECURITY-DESIGN-TEMPLATE.md`](16-architecture-deliverables/SECURITY-DESIGN-TEMPLATE.md) — Security & threat modeling blueprint.
-* [`DEPLOYMENT-DESIGN-TEMPLATE.md`](16-architecture-deliverables/DEPLOYMENT-DESIGN-TEMPLATE.md) — Infrastructure deployment & topology blueprint.
-* [`INTEGRATION-DESIGN-TEMPLATE.md`](16-architecture-deliverables/INTEGRATION-DESIGN-TEMPLATE.md) — Point-to-point & event integration contract.
-* [`ARCHITECTURE-REVIEW-TEMPLATE.md`](16-architecture-deliverables/ARCHITECTURE-REVIEW-TEMPLATE.md) — Architecture Review Board (ARB) submission.
-* [`RISK-REGISTER-TEMPLATE.md`](16-architecture-deliverables/RISK-REGISTER-TEMPLATE.md) — Enterprise technical risk register.
-* [`REFERENCE-ARCHITECTURE-TEMPLATE.md`](16-architecture-deliverables/REFERENCE-ARCHITECTURE-TEMPLATE.md) — Industry reference architecture template.
-* [`CASE-STUDY-TEMPLATE.md`](16-architecture-deliverables/CASE-STUDY-TEMPLATE.md) — Post-mortem and transformation case study.
-* [`SYSTEM-DESIGN-TEMPLATE.md`](16-architecture-deliverables/SYSTEM-DESIGN-TEMPLATE.md) — System design blueprint.
+### 8 Supporting Architecture Deliverables
+13. **PRD** — [`13-prd/`](16-architecture-deliverables/13-prd/README.md) — Product Requirements Document: Vision, user stories, success metrics, and architecture hand-off.
+14. **Requirements** — [`14-requirements/`](16-architecture-deliverables/14-requirements/README.md) — Software Requirements Specification & Requirements Traceability Matrix (RTM).
+15. **NFR** — [`15-nfr/`](16-architecture-deliverables/15-nfr/README.md) — Measurable Non-Functional Requirements across 12 engineering dimensions.
+16. **Migration Plan** — [`16-migration-plan/`](16-architecture-deliverables/16-migration-plan/README.md) — As-Is vs To-Be, CDC coexistence, hour-by-hour cutover, and instant rollback runbooks.
+17. **Modernization Plan** — [`17-modernization-plan/`](16-architecture-deliverables/17-modernization-plan/README.md) — Legacy health assessment, 7R decision options, and Strangler Fig phased roadmaps.
+18. **Disaster Recovery** — [`18-disaster-recovery/`](16-architecture-deliverables/18-disaster-recovery/README.md) — Business Impact Analysis, RTO/RPO targets, automated failovers, and chaos drills.
+19. **Operational Readiness** — [`19-operational-readiness/`](16-architecture-deliverables/19-operational-readiness/README.md) — Telemetry (RED/USE), Grafana dashboards, PagerDuty on-call, and runbooks.
+20. **Production Readiness** — [`20-production-readiness/`](16-architecture-deliverables/20-production-readiness/README.md) — Pre-launch PRR scorecard and formal Go / No-Go operational gates.
+
+### Master Copyable Templates & Checklists
+* **Templates Library** — [`templates/`](16-architecture-deliverables/templates/) — 20 Standalone, copy-ready Markdown templates for instant project setup.
+* **Checklist Library** — [`checklists/`](16-architecture-deliverables/checklists/) — 14 Practical, checkbox-driven audit checklists for peer and ARB reviews.
+* **Integrated Examples** — [`examples/`](16-architecture-deliverables/examples/) — 7 Realistic domain architectures (E-Commerce, Banking, Healthcare, Insurance, SaaS, Government, AI Platform).
 
 ---
 

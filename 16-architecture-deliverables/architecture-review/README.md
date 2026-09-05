@@ -1,3 +1,7 @@
+
+> [!NOTE]
+> **ARB Governance & Intake Standards**: For formal Architecture Review Board (ARB) charter, intake packets, decision record schemas, and domain review rubrics, see **[10-architecture-review/](../10-architecture-review/README.md)**.
+
 # Enterprise Architecture Review Framework
 
 ## Overview

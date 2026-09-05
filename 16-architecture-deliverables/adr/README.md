@@ -1,3 +1,7 @@
+
+> [!NOTE]
+> **ADR Governance & Standards**: For the formal ADR governance framework, review checklists, lifecycle states, and copyable templates, see **[01-adr/](../01-adr/README.md)**.
+
 # Architecture Decision Records (ADR) Repository
 
 ## Overview
