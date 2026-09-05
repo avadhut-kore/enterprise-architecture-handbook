@@ -17,9 +17,9 @@ gantt
     Phase 4: Application Engineering         :done,    p4, 2026-12-01, 2027-01-15
     Phase 5: Data & Integration              :done,    p5, 2027-01-16, 2027-02-28
     section Engineering Core
-    Phase 6: Cloud & Infrastructure          :active,  p6, 2027-03-01, 2027-04-15
+    Phase 6: Cloud & Infrastructure          :done,    p6, 2027-03-01, 2027-04-15
     section Resilience & Innovation
-    Phase 7: Security & Operations           :         p7, 2027-04-16, 2027-05-31
+    Phase 7: Security & Operations           :active,  p7, 2027-04-16, 2027-05-31
     Phase 8: AI & Modern Architecture        :         p8, 2027-06-01, 2027-07-15
     Phase 9: Enterprise Architecture         :         p9, 2027-07-16, 2027-08-31
     Phase 10: Architect Mastery              :         p10, 2027-09-01, 2027-10-31
@@ -85,12 +85,16 @@ gantt
 
 ---
 
-### Phase 6: Cloud Computing & Infrastructure Automation
-* **Objective**: Multi-cloud architectures, Kubernetes orchestration, and FinOps cost optimization.
+### Phase 6: Cloud Computing & Infrastructure Automation *(COMPLETED)*
+* **Objective**: Enterprise-grade cloud strategy, AWS / Azure / GCP architecture, compute platforms, containers, Kubernetes, serverless, networking, infrastructure security, IaC, high availability, disaster recovery, FinOps cost governance, and migration frameworks.
 * **Key Deliverables**:
-  * `08-cloud/`: AWS / Azure / GCP landing zones, multi-region active-active patterns, cloud networking, FinOps frameworks.
-  * `09-devops/`: GitOps (ArgoCD), Terraform enterprise modules, container hardening, Platform Engineering (Backstage IDP).
-* **Exit Criteria**: Production-grade IaC scaffolding, multi-region failover guides, and cloud cost containment playbooks.
+  * `08-cloud/`: Complete 330+ file enterprise cloud curriculum across 30 domain subdirectories.
+  * `18-reference-architectures/cloud/`: 11 End-to-end production reference blueprints (E-Commerce, Banking, SaaS, Multi-Region, Hybrid, K8s, Serverless, Landing Zones).
+  * `19-case-studies/cloud/`: 18 Enterprise battle-tested case studies (Egress Shock, Global Outages, FinOps, Oracle Migration, K8s Rollback, etc.).
+  * `16-architecture-deliverables/adr/`: 17 Cloud Architecture Decision Records (ADR-0044 through ADR-0060).
+  * `21-architecture-tools/`: 5 ARB review checklists, 7 quantitative sizing & economic calculators, and 14-scenario interview playbook.
+  * `22-reference/technology-comparison/cloud/`: 10 Comprehensive architectural trade-off evaluation matrices.
+* **Exit Criteria Met**: Zero-downtime database migration architectures, multi-AZ quorum resilience patterns, multi-account landing zone designs, FinOps unit cost modeling, and deterministic decision frameworks across compute, storage, networking, and cloud providers.
 
 ---
 

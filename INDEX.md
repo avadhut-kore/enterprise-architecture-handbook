@@ -652,8 +652,88 @@ Welcome to the comprehensive master index of the **Enterprise Architecture Handb
 * **Quantitative Sizing Calculators**: [`21-architecture-tools/calculators/`](21-architecture-tools/calculators/) — Database storage growth, Kafka partition sizing, queue throughput, API capacity, and financial reconciliation volume calculators.
 * **Technology Comparisons**: [`22-reference/technology-comparison/data-integration/`](22-reference/technology-comparison/data-integration/) — 6 Rigorous comparative decision matrices.
 
-## Additional Domains (Scheduled for Phases 6–10)
-* [`08-cloud/`](08-cloud/) — AWS, Azure, GCP well-architected blueprints, FinOps.
+
+---
+
+## 08. Cloud & Infrastructure Architecture {#08-cloud}
+*Enterprise cloud strategy, AWS/Azure/GCP deep dives, compute, containers, Kubernetes, serverless, VPC networking, infrastructure security, IaC, high availability, disaster recovery, FinOps, cloud migration, architecture patterns, and decision frameworks.*
+
+### Principles & Foundations (`08-cloud/`, `08-cloud/fundamentals/`)
+* [`08-cloud/README.md`](08-cloud/README.md) - Cloud Architecture discipline overview, taxonomy, and navigation.
+* [`08-cloud/cloud-principles.md`](08-cloud/cloud-principles.md) - The 20 non-negotiable enterprise cloud architecture principles.
+* [`08-cloud/fundamentals/README.md`](08-cloud/fundamentals/README.md) - Cloud fundamentals index.
+* [`08-cloud/fundamentals/architectural-shifts.md`](08-cloud/fundamentals/architectural-shifts.md) - Shifts from static infrastructure to dynamic software-defined topologies.
+* [`08-cloud/fundamentals/service-models.md`](08-cloud/fundamentals/service-models.md) - IaaS vs CaaS vs PaaS vs FaaS vs SaaS architectural trade-offs.
+* [`08-cloud/fundamentals/shared-responsibility-model.md`](08-cloud/fundamentals/shared-responsibility-model.md) - Security, compliance, and operational boundaries.
+* [`08-cloud/fundamentals/regions-and-availability-zones.md`](08-cloud/fundamentals/regions-and-availability-zones.md) - Blast radius boundaries, latency characteristics, and failure containment.
+* [`08-cloud/fundamentals/control-plane-vs-data-plane.md`](08-cloud/fundamentals/control-plane-vs-data-plane.md) - Static stability and surviving cloud management control plane outages.
+* [`08-cloud/fundamentals/managed-vs-self-managed.md`](08-cloud/fundamentals/managed-vs-self-managed.md) - Operational toil vs custom engineering autonomy trade-off rubric.
+* [`08-cloud/fundamentals/cloud-operating-model.md`](08-cloud/fundamentals/cloud-operating-model.md) - Team Topologies, self-service platforms, and decentralized delivery.
+* [`08-cloud/fundamentals/cloud-failure-domains.md`](08-cloud/fundamentals/cloud-failure-domains.md) - Hardware racks, AZs, regional impairments, and correlated catastrophic failures.
+* [`08-cloud/fundamentals/evolution-spectrum.md`](08-cloud/fundamentals/evolution-spectrum.md) - Bare metal to VMs, containers, and serverless abstraction continuum.
+
+### Cloud Strategy, Hybrid & Multi-Cloud (`08-cloud/cloud-strategy/`, `hybrid-cloud/`, `multi-cloud/`)
+* [`08-cloud/cloud-strategy/README.md`](08-cloud/cloud-strategy/README.md) - Strategic adoption, exit planning, lock-in governance, and CCOE operating models.
+* [`08-cloud/hybrid-cloud/README.md`](08-cloud/hybrid-cloud/README.md) - Datacenter interconnects (DirectConnect/ExpressRoute), identity federation, and hybrid data sync.
+* [`08-cloud/multi-cloud/README.md`](08-cloud/multi-cloud/README.md) - The reality of multi-cloud: active-passive DR, Kubernetes portability, and the Multi-Cloud Decision Framework.
+
+### Cloud Provider Architectures & Comparisons (`08-cloud/aws/`, `azure/`, `gcp/`, `cloud-provider-comparison/`)
+* [`08-cloud/aws/README.md`](08-cloud/aws/README.md) - Deep AWS enterprise architectures: Nitro EC2, ECS/Fargate, EKS, Aurora, DynamoDB, MSK, Landing Zones.
+* [`08-cloud/azure/README.md`](08-cloud/azure/README.md) - Deep Azure enterprise architectures: Entra ID, vWAN, AKS, Cosmos DB, Service Bus, Azure SQL.
+* [`08-cloud/gcp/README.md`](08-cloud/gcp/README.md) - Deep Google Cloud architectures: Global VPC, Cloud Run, GKE Autopilot, Spanner, BigQuery, Pub/Sub.
+* [`08-cloud/cloud-provider-comparison/README.md`](08-cloud/cloud-provider-comparison/README.md) - Provider comparison index and the Cloud Provider Selection Framework.
+
+### Compute, Containers, Kubernetes & Serverless (`08-cloud/compute/`, `containers/`, `kubernetes/`, `serverless/`)
+* [`08-cloud/compute/README.md`](08-cloud/compute/README.md) - Compute runtime paradigms, virtualization internals, and Compute Selection Framework.
+* [`08-cloud/containers/README.md`](08-cloud/containers/README.md) - Container architecture, OCI runtimes, cgroups/namespaces, image optimization, and security hardening.
+* [`08-cloud/kubernetes/README.md`](08-cloud/kubernetes/README.md) - Production Kubernetes: etcd quorums, Karpenter, Gateway API, GitOps (ArgoCD), and **When NOT to use Kubernetes**.
+* [`08-cloud/serverless/README.md`](08-cloud/serverless/README.md) - FaaS, Cloud Run / Fargate serverless containers, cold-start mitigation, and event-driven patterns.
+
+### Networking, Edge & Storage (`08-cloud/networking/`, `load-balancing/`, `dns/`, `cdn-edge/`, `storage/`)
+* [`08-cloud/networking/README.md`](08-cloud/networking/README.md) - VPC topologies, transit hubs, PrivateLink endpoints, and Zero Trust network segmentation.
+* [`08-cloud/load-balancing/README.md`](08-cloud/load-balancing/README.md) - L4 vs L7 load balancing, global Anycast, health check draining, and TLS termination.
+* [`08-cloud/dns/README.md`](08-cloud/dns/README.md) - Split-horizon DNS, latency/geo routing, failover TTL engineering, and hybrid DNS resolution.
+* [`08-cloud/cdn-edge/README.md`](08-cloud/cdn-edge/README.md) - Global Edge caching, surrogate keys, origin shielding, edge compute, and DDoS mitigation.
+* [`08-cloud/storage/README.md`](08-cloud/storage/README.md) - Block (EBS/Managed Disks), File (EFS/Azure Files), Object (S3/GCS), tiering, WORM retention, and Storage Selection Framework.
+
+### Security, IaC, Platform Engineering & Governance (`08-cloud/infrastructure-security/`, `iam/`, `secrets-management/`, `infrastructure-as-code/`, `terraform/`, `configuration-management/`, `platform-engineering/`, `landing-zones/`, `governance/`)
+* [`08-cloud/infrastructure-security/README.md`](08-cloud/infrastructure-security/README.md) - Defense-in-depth, perimeter hardening, agentless CSPM, and microsegmentation.
+* [`08-cloud/iam/README.md`](08-cloud/iam/README.md) - Least-privilege IAM, Workload Identity Federation (EKS Pod Identity/Workload Identity), and IAM Decision Framework.
+* [`08-cloud/secrets-management/README.md`](08-cloud/secrets-management/README.md) - Dynamic secret generation, automated rotation, and External Secrets Operator (ESO).
+* [`08-cloud/infrastructure-as-code/README.md`](08-cloud/infrastructure-as-code/README.md) - Declarative vs imperative IaC, drift detection, and state governance.
+* [`08-cloud/terraform/README.md`](08-cloud/terraform/README.md) - Enterprise Terraform/OpenTofu: directory structure, remote state locking, and module design.
+* [`08-cloud/configuration-management/README.md`](08-cloud/configuration-management/README.md) - Dynamic configuration, Ansible automation, and runtime feature flagging.
+* [`08-cloud/platform-engineering/README.md`](08-cloud/platform-engineering/README.md) - Internal Developer Platforms (Backstage), Golden Paths, and Team Topologies.
+* [`08-cloud/landing-zones/README.md`](08-cloud/landing-zones/README.md) - AWS Control Tower and Azure Landing Zones from startup to regulated multi-account scale.
+* [`08-cloud/governance/README.md`](08-cloud/governance/README.md) - Enterprise resource tagging, Cloud Governance Framework, and service approval gates.
+
+### HA, DR, FinOps, Observability & Deployment (`08-cloud/high-availability/`, `disaster-recovery/`, `business-continuity/`, `capacity-planning/`, `cloud-cost/`, `finops/`, `observability/`, `reliability/`, `deployment/`)
+* [`08-cloud/high-availability/README.md`](08-cloud/high-availability/README.md) - N+1, N+2, and active-active multi-AZ topologies.
+* [`08-cloud/disaster-recovery/README.md`](08-cloud/disaster-recovery/README.md) - RTO/RPO engineering: Backup/Restore, Pilot Light, Warm Standby, Active-Active, and DR Decision Matrix.
+* [`08-cloud/business-continuity/README.md`](08-cloud/business-continuity/README.md) - Business Impact Analysis (BIA) and tier-based application criticality mapping.
+* [`08-cloud/capacity-planning/README.md`](08-cloud/capacity-planning/README.md) - Mathematical sizing formulas, headroom buffers, and autoscaling policies.
+* [`08-cloud/cloud-cost/README.md`](08-cloud/cloud-cost/README.md) - Cost drivers, egress optimization, Savings Plans, Spot instance strategies, and estimation formulas.
+* [`08-cloud/finops/README.md`](08-cloud/finops/README.md) - Inform-Optimize-Operate phases, showback/chargeback, and unit economics ($/transaction).
+* [`08-cloud/observability/README.md`](08-cloud/observability/README.md) - OpenTelemetry standards, multi-window SLO burn-rate alerting, and distributed tracing.
+* [`08-cloud/reliability/README.md`](08-cloud/reliability/README.md) - Cellular architectures, shuffle sharding, circuit breakers, and Chaos Engineering game days.
+* [`08-cloud/deployment/README.md`](08-cloud/deployment/README.md) - Zero-downtime rolling, blue-green, canary, and expand-contract database schema migrations.
+
+### Migration, Patterns, Decision Frameworks & Anti-Patterns (`08-cloud/migration/`, `architecture-patterns/`, `decision-frameworks/`, `anti-patterns/`)
+* [`08-cloud/migration/README.md`](08-cloud/migration/README.md) - AWS 7Rs, automated discovery, migration factory wave planning, CDC database migration, and cutover/rollback runbooks.
+* [`08-cloud/architecture-patterns/README.md`](08-cloud/architecture-patterns/README.md) - 10 Core enterprise cloud patterns (Static Stability, Cell-Based, Hub-and-Spoke, Egress Inspection, etc.).
+* [`08-cloud/decision-frameworks/README.md`](08-cloud/decision-frameworks/README.md) - 8 Architectural decision frameworks (Cloud vs On-Prem, Single vs Multi-Cloud, Single vs Multi-Region, etc.).
+* [`08-cloud/anti-patterns/README.md`](08-cloud/anti-patterns/README.md) - 12 Lethal cloud anti-patterns (Resume-Driven Multi-Cloud, Premature K8s, Egress Blindness, Lift-and-Dump, etc.).
+
+### Reference Deliverables, Case Studies, ADRs & Tools
+* **Cloud Reference Architectures**: [`18-reference-architectures/cloud/`](18-reference-architectures/cloud/) - 11 Production blueprints (Enterprise Web, B2B SaaS, E-Commerce, Banking, API Platform, Event-Driven, Multi-Region Active-Active, Hybrid Cloud, Enterprise Kubernetes, Serverless Event Platform, Cloud Landing Zone).
+* **Cloud Case Studies**: [`19-case-studies/cloud/`](19-case-studies/cloud/) - 18 Enterprise transformation case studies (Egress Shock, Global Outage Survival, FinOps Turnaround, 14TB Oracle Migration, K8s Rollback, etc.).
+* **Architecture Decision Records**: [`16-architecture-deliverables/adr/`](16-architecture-deliverables/adr/) - ADR-0044 through ADR-0060 (17 Cloud & Infrastructure ADRs).
+* **Cloud Review Checklists**: [`21-architecture-tools/checklists/cloud/`](21-architecture-tools/checklists/cloud/) - 5 ARB review checklists (Architecture Review, Landing Zone, Migration Readiness, Disaster Recovery, Security Guardrails).
+* **Quantitative Calculators**: [`21-architecture-tools/calculators/`](21-architecture-tools/calculators/) - Capacity, Kubernetes node sizing, network egress, storage lifecycle, compound SLA, DR cost, and FinOps unit cost calculators.
+* **Technology Trade-Off Matrices**: [`22-reference/technology-comparison/cloud/`](22-reference/technology-comparison/cloud/) - 10 Multidimensional trade-off evaluation matrices.
+* **Interview & ARB Playbook**: [`21-architecture-tools/architecture-review/cloud-architecture-interview-playbook.md`](21-architecture-tools/architecture-review/cloud-architecture-interview-playbook.md).
+
+## Additional Domains (Scheduled for Phases 7–10)
 * [`09-devops/`](09-devops/) — Platform engineering, GitOps, CI/CD, Kubernetes.
 * [`10-security/`](10-security/) — Zero trust, IAM, DevSecOps, AppSec.
 * [`11-observability/`](11-observability/) — Telemetry, Prometheus, Grafana, OpenTelemetry, SRE.

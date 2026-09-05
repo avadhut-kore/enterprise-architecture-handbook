@@ -6,6 +6,61 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ---
 
+## [1.5.0] - 2026-09-05 (Phase 6: Cloud & Infrastructure Architecture)
+
+### Added
+* **Cloud Principles & Foundations (`08-cloud/`)**:
+  * 20 non-negotiable enterprise cloud principles emphasizing static stability, least privilege, and blast radius isolation.
+  * Comprehensive foundations: Architectural shifts, service models (IaaS/PaaS/FaaS), shared responsibility, regions/AZs, control plane vs data plane, managed vs self-managed, and failure domains.
+* **Cloud Strategy, Hybrid & Multi-Cloud**:
+  * Adoption strategy, repatriation economics, exit planning, lock-in governance, and CCOE operating model.
+  * Hybrid cloud architecture, DirectConnect/ExpressRoute, identity federation, and hybrid data synchronization.
+  * Multi-cloud reality: active-passive DR, Kubernetes portability, cross-cloud networking/DNS, and Multi-Cloud Decision Framework.
+* **Provider Deep Dives (AWS, Azure, GCP)**:
+  * 53 in-depth provider architectural guides across compute, networking, databases, messaging, and security.
+  * Cloud Provider Selection Framework evaluating organizational maturity, licensing, and workload fit.
+* **Compute, Containers, Kubernetes & Serverless**:
+  * Compute selection framework, virtualization vs bare-metal vs containers vs serverless.
+  * Hardened container architectures, OCI runtimes, multi-stage image optimization, and supply-chain security.
+  * Production Kubernetes: etcd quorums, Karpenter node autoscaling, Gateway API, GitOps (ArgoCD), and **When NOT to use Kubernetes**.
+  * Serverless patterns, Cloud Run / Fargate serverless containers, cold-start mitigation, and event-driven state sagas.
+* **Networking, Edge & Storage**:
+  * VPC foundations, transit gateways, PrivateLink endpoints, and Zero Trust network segmentation.
+  * L4/L7 load balancing, global Anycast routing, connection draining, and TLS termination.
+  * Split-horizon DNS, latency/geo routing, and hybrid DNS resolution.
+  * Edge CDN architecture, surrogate keys, origin shielding, edge compute, and DDoS mitigation.
+  * Block, File, and Object storage internals, lifecycle tiering, and Storage Selection Framework.
+* **Security, IaC, Platform Engineering & Governance**:
+  * Defense-in-depth, perimeter hardening, agentless CSPM, and microsegmentation.
+  * Workload Identity Federation (EKS Pod Identity / Azure Workload Identity) eliminating static credentials.
+  * Dynamic secret management and External Secrets Operator (ESO) integration.
+  * Enterprise Terraform/OpenTofu structure, remote state locking, and declarative IaC governance.
+  * Internal Developer Platforms (Backstage), Golden Paths, and Team Topologies.
+  * Multi-account Landing Zones from startup to regulated enterprise scale (AWS Control Tower / Azure ALZ).
+* **HA, DR, FinOps, Observability & Deployment**:
+  * High availability topologies, multi-AZ quorums, and static stability.
+  * Disaster recovery: RTO/RPO engineering, Backup/Restore, Pilot Light, Warm Standby, Active-Active, and automated failover.
+  * Capacity planning formulas, peak load forecasting, and headroom sizing.
+  * Cloud cost optimization, data egress reduction, Savings Plans, and Spot instance strategies.
+  * FinOps operating model, showback/chargeback, and transaction unit cost economics.
+  * OpenTelemetry standardization, multi-window SLO burn-rate alerting, and distributed tracing.
+  * Cellular architectures, shuffle sharding, circuit breakers, and Chaos Engineering game days.
+  * Zero-downtime rolling, blue-green, canary deployments, and expand-contract database schema migrations.
+* **Migration, Patterns, Decision Frameworks & Anti-Patterns**:
+  * AWS 7Rs, automated discovery, migration factory wave planning, CDC database migration, and cutover/rollback runbooks.
+  * 10 Core enterprise cloud patterns and 8 formal decision frameworks.
+  * 12 Lethal cloud anti-patterns (Resume-Driven Multi-Cloud, Premature K8s, Egress Blindness, Lift-and-Dump, etc.).
+* **Reference Deliverables, Case Studies, ADRs & Tools**:
+  * 11 Cloud Reference Architectures (`18-reference-architectures/cloud/`).
+  * 18 Enterprise Case Studies (`19-case-studies/cloud/`).
+  * 17 Architecture Decision Records (ADR-0044 through ADR-0060 in `16-architecture-deliverables/adr/`).
+  * 5 ARB Review Checklists (`21-architecture-tools/checklists/cloud/`).
+  * 7 Quantitative Sizing & Cost Calculators (`21-architecture-tools/calculators/`).
+  * 10 Multidimensional Technology Trade-off Matrices (`22-reference/technology-comparison/cloud/`).
+  * Cloud Architecture Interview & Review Playbook (`21-architecture-tools/architecture-review/`).
+
+---
+
 ## [1.0.0] - 2026-09-05 (Phase 1: Repository Foundation)
 
 ### Added
