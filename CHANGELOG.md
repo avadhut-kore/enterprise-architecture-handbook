@@ -6,6 +6,70 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ---
 
+## [1.6.0] - 2026-09-05 (Phase 7: Security & Operations Architecture)
+
+### Added
+* **Security Principles, Foundations & Governance (`10-security/`)**:
+  * 15 Non-negotiable enterprise security architecture principles (`security-principles.md`).
+  * 5-Level Security Maturity Model (`security-maturity-model.md`).
+  * Core architecture guides: Defense in depth, least privilege, secure by design/default, fail secure, assume breach, blast radius, separation of duties, and quantitative risk economics (SLE/ALE).
+  * Enterprise governance: Three Lines of Defense, Federated Security Champions, ARB security review gates, and 90-day exception lifecycles.
+* **Threat Modeling & Identity Architecture**:
+  * STRIDE, PASTA, Attack Trees, 7-step repeatable threat modeling workflow, and reusable specification template.
+  * Universal identity architecture (Human, Machine, Workload, Service Principal), SCIM 2.0 lifecycle, Workload Identity Federation, and Just-in-Time (JIT) privileged access.
+  * Phishing-resistant authentication (FIDO2/WebAuthn Passkeys), adaptive risk scoring, session lifecycles, and credential rotation.
+  * Authorization paradigms: RBAC vs ABAC vs ReBAC vs PBAC, Policy as Code (OPA/Rego), and BOLA mitigation.
+* **OAuth 2.0, OpenID Connect (OIDC), JWT & Zero Trust**:
+  * OAuth 2.0 Authorization Code with PKCE (RFC 7636), client credentials, refresh token family rotation, and scope namespacing.
+  * OIDC architecture, ID token vs Access token semantics, standard claims, UserInfo, dynamic JWKS discovery, and nonce replay defense.
+  * JSON Web Tokens (JWT) format, signing algorithms (RS256, ES256, EdDSA), deterministic 8-step validation algorithm, and client storage.
+  * Enterprise Single Sign-On (SSO), SP-Initiated vs IdP-Initiated, SAML vs OIDC, and multi-tenant SaaS federation.
+  * Zero Trust Architecture (NIST SP 800-207), identity-as-perimeter, device posture checks, and eBPF microsegmentation.
+* **Application, API, Web & Mobile Security**:
+  * Multi-tier API security architecture, OWASP API Top 10 mitigations, distributed sliding-window rate limiting, and HMAC-SHA256 request signing.
+  * AppSec architecture principles, OWASP Top 10 prevention, SSRF defense proxies, parameterized SQL, and finite state machines.
+  * Frontend browser security: Strict CSP nonces, SameSite cookies, CORS governance, and Subresource Integrity (SRI).
+  * Mobile security: Hardware enclaves (iOS Keychain / Android KeyStore), public key certificate pinning, and SQLCipher.
+* **Platform, Cryptography & DevSecOps**:
+  * Cloud shared responsibility, agentless CSPM with event-driven auto-remediation, and network subnet tiering.
+  * Container hardening: Distroless images, non-root execution, vulnerability scanning (Trivy), and Sigstore Cosign image signing.
+  * Kubernetes security: Pod Security Standards (`restricted`), eBPF NetworkPolicies, Kyverno admission controllers, and External Secrets Operator.
+  * Infrastructure security: CIS benchmarks, immutable golden images (Packer), IaC scanning (Checkov), and SSM Session Manager.
+  * Cryptographic architecture: AES-256-GCM envelope encryption, Cloud KMS vs Cloud HSM, TLS 1.3 forward secrecy, and HashiCorp Vault dynamic secrets.
+  * DevSecOps pipelines: Pre-commit secret scanning (Gitleaks), SAST (Semgrep), SCA (Snyk), and non-bypassable PR gates.
+  * Software supply chain security: CycloneDX SBOMs, Dependency-Track, and SLSA Level 3 build provenance.
+  * Risk-based vulnerability management (CVSS vs EPSS), remediation SLAs (Critical: 7 days), and WAF virtual patching.
+  * Security monitoring: SIEM integration (Microsoft Sentinel/Splunk), UEBA anomaly detection, and tamper-proof WORM audit logging.
+  * Incident response runbooks: Credential compromise, enterprise ransomware containment, and data breach forensics.
+  * Compliance & privacy: PCI-DSS 4.0 tokenization, GDPR data residency, Privacy by Design, and cryptographic shredding.
+* **Operational Architecture & SRE (`11-observability/`)**:
+  * 15 Non-negotiable operational principles and 5-Level Operational Maturity Model.
+  * SRE foundations, toil reduction (50% rule), and SLA vs SLO vs SLI mathematical downtime formulas.
+  * Multi-window multi-burn-rate alerting paging on Error Budget depletion.
+  * Reliability engineering: Graceful degradation, Resilience4j circuit breakers, thread bulkheads, load shedding, and chaos game days.
+  * Production Readiness Review (PRR) framework and 6-dimension evaluation checklist.
+  * Operational readiness: Service ownership, on-call models, and dependency mapping.
+  * Incident management: SEV-1 to SEV-4 severity classification, Incident Commander system, and blameless post-mortems (PIR).
+  * Problem management: 5 Whys, Ishikawa Fishbone diagrams, and Known Error Database (KEDB).
+  * Change & release management: Standard vs Normal vs Emergency changes, GitOps with ArgoCD, progressive canaries, and Expand-Contract database migrations.
+  * Backup & BCP operations: 3-2-1-1-0 backup rule, immutable WORM backups, automated monthly restore testing, and Business Impact Analysis (BIA).
+  * 8 Production operational runbooks with standard 12-section specs.
+* **Patterns, Anti-Patterns, Decision Frameworks & Reference Deliverables**:
+  * 17 Production Security Architecture Patterns (`10-security/security-patterns/`).
+  * 20 Lethal Security Anti-Patterns (`10-security/security-anti-patterns/`).
+  * 16 Formal Security Decision Frameworks (`10-security/decision-frameworks/`).
+  * 6 Operational Architecture Patterns (`11-observability/operational-patterns/`).
+  * 12 Operational Anti-Patterns (`11-observability/operational-anti-patterns/`).
+  * 8 SRE Decision Frameworks (`11-observability/decision-frameworks/`).
+  * 6 End-to-End Reference Architectures (`18-reference-architectures/security-operations/`).
+  * 20 Comprehensive Enterprise Case Studies (`19-case-studies/security-operations/`).
+  * 15 Architecture Decision Records (ADR-0061 through ADR-0075 in `16-architecture-deliverables/adr/`).
+  * 16 Security and Operational Review Checklists (`21-architecture-tools/checklists/`).
+  * Production Readiness Scorecard (0 to 5 rating scale).
+  * Security & Operations Architecture Interview Playbook (14 high-stakes scenarios).
+
+---
+
 ## [1.5.0] - 2026-09-05 (Phase 6: Cloud & Infrastructure Architecture)
 
 ### Added

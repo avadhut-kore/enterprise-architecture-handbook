@@ -733,9 +733,146 @@ Welcome to the comprehensive master index of the **Enterprise Architecture Handb
 * **Technology Trade-Off Matrices**: [`22-reference/technology-comparison/cloud/`](22-reference/technology-comparison/cloud/) - 10 Multidimensional trade-off evaluation matrices.
 * **Interview & ARB Playbook**: [`21-architecture-tools/architecture-review/cloud-architecture-interview-playbook.md`](21-architecture-tools/architecture-review/cloud-architecture-interview-playbook.md).
 
-## Additional Domains (Scheduled for Phases 7–10)
+
+---
+
+## 10. Security & Zero Trust Architecture {#10-security}
+*Enterprise security architecture, principles, maturity models, STRIDE threat modeling, identity architecture, authentication, authorization, OAuth 2.0, OIDC, JWT, SSO, federation, Zero Trust, API security, application security, frontend/mobile security, cloud & network security, container & Kubernetes security, cryptography, key & secrets management, DevSecOps, supply chain, vulnerability management, security monitoring, incident response, compliance, privacy, patterns, and decision frameworks.*
+
+### Principles & Foundations (`10-security/`, `security-architecture/`, `enterprise-security/`)
+* [`10-security/README.md`](10-security/README.md) - Security & Operations Architecture discipline overview.
+* [`10-security/security-principles.md`](10-security/security-principles.md) - The 15 non-negotiable enterprise security architecture principles.
+* [`10-security/security-maturity-model.md`](10-security/security-maturity-model.md) - Security maturity model (Level 1 Reactive to Level 5 Continuous Resilience).
+* [`10-security/security-architecture/README.md`](10-security/security-architecture/README.md) - Core security architecture foundations index.
+* [`10-security/security-architecture/defense-in-depth.md`](10-security/security-architecture/defense-in-depth.md) - Multi-layered concentric defense rings.
+* [`10-security/security-architecture/least-privilege.md`](10-security/security-architecture/least-privilege.md) - Principle of Least Privilege across IAM, containers, and data.
+* [`10-security/security-architecture/secure-by-design.md`](10-security/security-architecture/secure-by-design.md) - Invariant security by construction.
+* [`10-security/security-architecture/secure-by-default.md`](10-security/security-architecture/secure-by-default.md) - Restrictive default hardening across all resources.
+* [`10-security/security-architecture/fail-securely.md`](10-security/security-architecture/fail-securely.md) - Fail-closed vs fail-open decision rubric.
+* [`10-security/security-architecture/assume-breach.md`](10-security/security-architecture/assume-breach.md) - Lateral movement throttling and canary honeytokens.
+* [`10-security/security-architecture/minimize-blast-radius.md`](10-security/security-architecture/minimize-blast-radius.md) - Cloud multi-account, cell-based, and cryptographic isolation.
+* [`10-security/security-architecture/separation-of-duties.md`](10-security/security-architecture/separation-of-duties.md) - Four-eyes principle across development, CI/CD, and operations.
+* [`10-security/security-architecture/identity-vs-data-centric.md`](10-security/security-architecture/identity-vs-data-centric.md) - Identity-centric vs data-centric security paradigms.
+* [`10-security/security-architecture/risk-based-security.md`](10-security/security-architecture/risk-based-security.md) - Quantitative risk economics: SLE, ARO, ALE formulas.
+* [`10-security/enterprise-security/README.md`](10-security/enterprise-security/README.md) - Enterprise security governance and operating models.
+* [`10-security/enterprise-security/security-governance-framework.md`](10-security/enterprise-security/security-governance-framework.md) - Three Lines of Defense model.
+* [`10-security/enterprise-security/security-operating-model.md`](10-security/enterprise-security/security-operating-model.md) - Centralized vs Federated Security Champions models.
+* [`10-security/enterprise-security/arb-security-review-process.md`](10-security/enterprise-security/arb-security-review-process.md) - Stage-gate security evaluation workflow.
+* [`10-security/enterprise-security/security-exceptions-and-risk-acceptance.md`](10-security/enterprise-security/security-exceptions-and-risk-acceptance.md) - 90-day time-bound exception governance.
+
+### Threat Modeling & Identity (`10-security/threat-modeling/`, `identity/`, `authentication/`, `authorization/`)
+* [`10-security/threat-modeling/README.md`](10-security/threat-modeling/README.md) - Threat modeling index.
+* [`10-security/threat-modeling/threat-modeling-methodologies.md`](10-security/threat-modeling/threat-modeling-methodologies.md) - STRIDE, PASTA, and Attack Trees.
+* [`10-security/threat-modeling/threat-modeling-workflow.md`](10-security/threat-modeling/threat-modeling-workflow.md) - 7-Step repeatable threat modeling lifecycle.
+* [`10-security/threat-modeling/trust-boundaries-and-data-flows.md`](10-security/threat-modeling/trust-boundaries-and-data-flows.md) - Trust boundaries and Data Flow Diagrams.
+* [`10-security/threat-modeling/threat-modeling-template.md`](10-security/threat-modeling/threat-modeling-template.md) - Production threat model specification template.
+* [`10-security/identity/README.md`](10-security/identity/README.md) - Identity architecture index.
+* [`10-security/identity/identity-architecture.md`](10-security/identity/identity-architecture.md) - Human vs machine vs workload vs service principal identity.
+* [`10-security/identity/identity-lifecycle-management.md`](10-security/identity/identity-lifecycle-management.md) - Automated SCIM 2.0 provisioning and instant deprovisioning.
+* [`10-security/identity/workload-identity-federation.md`](10-security/identity/workload-identity-federation.md) - Ephemeral OIDC tokens replacing static cloud API keys.
+* [`10-security/identity/privileged-identity-management.md`](10-security/identity/privileged-identity-management.md) - Just-in-Time (JIT) access and ephemeral elevation.
+* [`10-security/authentication/README.md`](10-security/authentication/README.md) - Authentication systems index.
+* [`10-security/authentication/authentication-mechanisms.md`](10-security/authentication/authentication-mechanisms.md) - Passwordless, FIDO2/WebAuthn, and passkeys.
+* [`10-security/authentication/adaptive-and-risk-based-authentication.md`](10-security/authentication/adaptive-and-risk-based-authentication.md) - Real-time contextual risk scoring.
+* [`10-security/authentication/session-management-and-token-lifecycle.md`](10-security/authentication/session-management-and-token-lifecycle.md) - Token lifecycles and refresh rotation.
+* [`10-security/authorization/README.md`](10-security/authorization/README.md) - Authorization paradigms index.
+* [`10-security/authorization/authorization-paradigms.md`](10-security/authorization/authorization-paradigms.md) - RBAC vs ABAC vs ReBAC vs PBAC comparison.
+* [`10-security/authorization/fine-grained-authorization.md`](10-security/authorization/fine-grained-authorization.md) - Policy as Code via Open Policy Agent (OPA).
+* [`10-security/authorization/resource-based-authorization.md`](10-security/authorization/resource-based-authorization.md) - Mitigating BOLA/IDOR via tenant isolation and Row-Level Security.
+
+### Protocols, Zero Trust & Application Security (`10-security/oauth2/`, `oidc/`, `jwt/`, `sso/`, `federation/`, `zero-trust/`, `api-security/`, `application-security/`, `frontend-security/`, `mobile-security/`)
+* [`10-security/oauth2/README.md`](10-security/oauth2/README.md) - OAuth 2.0 delegated authorization architecture.
+* [`10-security/oauth2/authorization-code-with-pkce.md`](10-security/oauth2/authorization-code-with-pkce.md) - Authorization Code flow with PKCE (RFC 7636).
+* [`10-security/oauth2/client-credentials-flow.md`](10-security/oauth2/client-credentials-flow.md) - Machine-to-Machine inter-service authentication.
+* [`10-security/oauth2/refresh-token-rotation.md`](10-security/oauth2/refresh-token-rotation.md) - Refresh Token Rotation and token family breach invalidation.
+* [`10-security/oidc/README.md`](10-security/oidc/README.md) - OpenID Connect identity layer.
+* [`10-security/oidc/id-token-vs-access-token.md`](10-security/oidc/id-token-vs-access-token.md) - ID Token vs Access Token architectural semantics.
+* [`10-security/oidc/oauth2-vs-oidc.md`](10-security/oidc/oauth2-vs-oidc.md) - Definitive comparison between OAuth 2.0 and OIDC.
+* [`10-security/jwt/README.md`](10-security/jwt/README.md) - JSON Web Tokens architecture.
+* [`10-security/jwt/signing-algorithms.md`](10-security/jwt/signing-algorithms.md) - RS256 vs ES256 vs EdDSA vs HS256 trade-offs.
+* [`10-security/jwt/jwt-validation-algorithm.md`](10-security/jwt/jwt-validation-algorithm.md) - Deterministic 8-step JWT validation checklist.
+* [`10-security/sso/README.md`](10-security/sso/README.md) - Enterprise Single Sign-On (SSO).
+* [`10-security/federation/README.md`](10-security/federation/README.md) - Identity federation patterns (B2E, B2B, B2C).
+* [`10-security/zero-trust/README.md`](10-security/zero-trust/README.md) - Zero Trust Architecture (NIST SP 800-207).
+* [`10-security/api-security/README.md`](10-security/api-security/README.md) - API security architecture and OWASP API Top 10 mitigations.
+* [`10-security/application-security/README.md`](10-security/application-security/README.md) - Application security and OWASP Top 10 prevention.
+* [`10-security/frontend-security/README.md`](10-security/frontend-security/README.md) - Browser security model, strict CSP nonces, and CORS.
+* [`10-security/mobile-security/README.md`](10-security/mobile-security/README.md) - Hardware enclaves, certificate pinning, and offline security.
+
+### Platform, Crypto & Operations Security (`10-security/cloud-security/`, `network-security/`, `container-security/`, `kubernetes-security/`, `infrastructure-security/`, `encryption/`, `key-management/`, `secrets-management/`, `devsecops/`, `supply-chain-security/`, `vulnerability-management/`, `security-monitoring/`, `incident-response/`, `compliance/`, `privacy/`, `governance/`)
+* [`10-security/cloud-security/README.md`](10-security/cloud-security/README.md) - Cloud shared responsibility and CSPM.
+* [`10-security/cloud-security/cloud-security-architecture-review.md`](10-security/cloud-security/cloud-security-architecture-review.md) - Cloud security review gate.
+* [`10-security/network-security/README.md`](10-security/network-security/README.md) - Network segmentation, WAF, DDoS, and egress filtering.
+* [`10-security/container-security/README.md`](10-security/container-security/README.md) - Distroless images, vulnerability scanning, and Cosign signing.
+* [`10-security/kubernetes-security/README.md`](10-security/kubernetes-security/README.md) - Pod Security Standards (`restricted`), eBPF NetworkPolicies, and Kyverno.
+* [`10-security/infrastructure-security/README.md`](10-security/infrastructure-security/README.md) - CIS benchmarks, immutable AMIs, and zero-standing-access SSM.
+* [`10-security/encryption/README.md`](10-security/encryption/README.md) - AES-256-GCM envelope encryption, TLS 1.3, and forward secrecy.
+* [`10-security/key-management/README.md`](10-security/key-management/README.md) - Cloud KMS vs Dedicated Cloud HSM, key lifecycles, and crypto-shredding.
+* [`10-security/secrets-management/README.md`](10-security/secrets-management/README.md) - Dynamic database credentials, HashiCorp Vault, and External Secrets Operator.
+* [`10-security/secure-development/README.md`](10-security/secure-development/README.md) - Secure SDLC, SAST, DAST, and SCA.
+* [`10-security/devsecops/README.md`](10-security/devsecops/README.md) - Automated CI/CD security gates and push protection.
+* [`10-security/supply-chain-security/README.md`](10-security/supply-chain-security/README.md) - Software supply chain security, CycloneDX SBOMs, and SLSA Level 3.
+* [`10-security/vulnerability-management/README.md`](10-security/vulnerability-management/README.md) - Risk-based vulnerability management (CVSS vs EPSS).
+* [`10-security/security-monitoring/README.md`](10-security/security-monitoring/README.md) - Security event streaming, SIEM/SOC, and WORM audit logging.
+* [`10-security/incident-response/README.md`](10-security/incident-response/README.md) - Incident response lifecycle, severity matrix, and emergency runbooks.
+* [`10-security/compliance/README.md`](10-security/compliance/README.md) - PCI-DSS 4.0, GDPR, HIPAA, and SOC 2 Type II architecture.
+* [`10-security/privacy/README.md`](10-security/privacy/README.md) - Privacy by Design, PII minimization, and Right to be Forgotten.
+* [`10-security/governance/README.md`](10-security/governance/README.md) - Security KPIs, executive reporting, and continuous compliance.
+* [`10-security/security-patterns/README.md`](10-security/security-patterns/README.md) - 17 Production security architecture patterns with full 11-section specs.
+* [`10-security/security-anti-patterns/README.md`](10-security/security-anti-patterns/README.md) - 20 Lethal security anti-patterns and architectural refactorings.
+* [`10-security/decision-frameworks/README.md`](10-security/decision-frameworks/README.md) - 16 Formal security decision frameworks.
+
+---
+
+## 11. Site Reliability Engineering & Operations Architecture {#11-observability}
+*Operational architecture, operations principles, operational maturity models, SRE foundations, SLA/SLO/SLI mathematical models, error budgets, multi-window burn-rate alerting, reliability engineering, circuit breakers, production readiness reviews, service ownership, incident management, problem management, change management, progressive canary rollouts, immutable backups, business continuity, operational governance, and operational runbooks.*
+
+### Principles & Foundations (`11-observability/`, `sre/`, `reliability-engineering/`)
+* [`11-observability/README.md`](11-observability/README.md) - Observability, SRE & Operations architecture domain overview.
+* [`11-observability/operations-principles.md`](11-observability/operations-principles.md) - The 15 non-negotiable operational & SRE architectural principles.
+* [`11-observability/operational-maturity-model.md`](11-observability/operational-maturity-model.md) - Operational maturity model (Level 1 Reactive to Level 5 Engineering-Driven).
+* [`11-observability/sre/README.md`](11-observability/sre/README.md) - SRE foundations and core philosophy.
+* [`11-observability/sre/sla-slo-sli-architecture.md`](11-observability/sre/sla-slo-sli-architecture.md) - SLA vs SLO vs SLI mathematical definitions and downtime formulas.
+* [`11-observability/sre/error-budget-policies-and-burn-rates.md`](11-observability/sre/error-budget-policies-and-burn-rates.md) - Multi-window multi-burn-rate alerting without alert fatigue.
+* [`11-observability/sre/toil-reduction-and-automation.md`](11-observability/sre/toil-reduction-and-automation.md) - Toil budgets, measurement, and the 50% automation rule.
+* [`11-observability/reliability-engineering/README.md`](11-observability/reliability-engineering/README.md) - Reliability engineering architecture index.
+* [`11-observability/reliability-engineering/fault-tolerance-and-graceful-degradation.md`](11-observability/reliability-engineering/fault-tolerance-and-graceful-degradation.md) - Graceful degradation and fallback designs.
+* [`11-observability/reliability-engineering/circuit-breakers-bulkheads-and-load-shedding.md`](11-observability/reliability-engineering/circuit-breakers-bulkheads-and-load-shedding.md) - Resilience4j circuit breakers and thread bulkheads.
+* [`11-observability/reliability-engineering/backpressure-and-rate-limiting.md`](11-observability/reliability-engineering/backpressure-and-rate-limiting.md) - Flow control, bounded queues, and reactive backpressure.
+* [`11-observability/reliability-engineering/chaos-engineering-and-game-days.md`](11-observability/reliability-engineering/chaos-engineering-and-game-days.md) - Chaos experiments and automated failure injection.
+
+### Operations, Incidents & Governance (`11-observability/production-readiness/`, `operational-readiness/`, `incident-management/`, `problem-management/`, `change-management/`, `release-management/`, `backup-recovery/`, `business-continuity/`, `operational-governance/`, `runbooks/`)
+* [`11-observability/production-readiness/README.md`](11-observability/production-readiness/README.md) - Production readiness framework index.
+* [`11-observability/production-readiness/production-readiness-framework.md`](11-observability/production-readiness/production-readiness-framework.md) - The 6 dimensions of enterprise production readiness.
+* [`11-observability/production-readiness/production-readiness-checklist.md`](11-observability/production-readiness/production-readiness-checklist.md) - Production Readiness Review (PRR) gate checklist.
+* [`11-observability/operational-readiness/operational-architecture.md`](11-observability/operational-readiness/operational-architecture.md) - Service ownership, on-call models, and support tiers.
+* [`11-observability/incident-management/README.md`](11-observability/incident-management/README.md) - Incident management lifecycle and workflows.
+* [`11-observability/incident-management/incident-commander-system.md`](11-observability/incident-management/incident-commander-system.md) - Incident Commander (IC) command hierarchy.
+* [`11-observability/incident-management/incident-severity-matrix.md`](11-observability/incident-management/incident-severity-matrix.md) - SEV-1 to SEV-4 criteria, MTTM targets, and paging rules.
+* [`11-observability/incident-management/blameless-post-incident-review.md`](11-observability/incident-management/blameless-post-incident-review.md) - Blameless Post-Incident Review (PIR) template.
+* [`11-observability/problem-management/README.md`](11-observability/problem-management/README.md) - Problem management vs incident management.
+* [`11-observability/problem-management/root-cause-analysis-techniques.md`](11-observability/problem-management/root-cause-analysis-techniques.md) - 5 Whys, Ishikawa Fishbone, and Fault Tree analysis.
+* [`11-observability/change-management/README.md`](11-observability/change-management/README.md) - Modern change governance: Standard, Normal, Emergency.
+* [`11-observability/release-management/progressive-delivery-and-canaries.md`](11-observability/release-management/progressive-delivery-and-canaries.md) - Progressive canary delivery and automated metric rollback.
+* [`11-observability/release-management/database-schema-backward-compatibility.md`](11-observability/release-management/database-schema-backward-compatibility.md) - Expand-Contract zero-downtime database migrations.
+* [`11-observability/backup-recovery/README.md`](11-observability/backup-recovery/README.md) - Immutable WORM backup operations and restore drills.
+* [`11-observability/business-continuity/README.md`](11-observability/business-continuity/README.md) - Business Impact Analysis (BIA) and continuity operations.
+* [`11-observability/operational-governance/operational-governance-framework.md`](11-observability/operational-governance/operational-governance-framework.md) - Weekly SLO reviews and health scorecards.
+* [`11-observability/runbooks/README.md`](11-observability/runbooks/README.md) - 8 Standardized operational runbooks with universal 12-section specs.
+* [`11-observability/operational-patterns/README.md`](11-observability/operational-patterns/README.md) - Core operational architecture patterns.
+* [`11-observability/operational-anti-patterns/README.md`](11-observability/operational-anti-patterns/README.md) - 12 Lethal operational anti-patterns.
+* [`11-observability/decision-frameworks/README.md`](11-observability/decision-frameworks/README.md) - 8 SRE and operational decision frameworks.
+
+### Deliverables, Reference Blueprints, Case Studies, ADRs & Tools
+* **Security & SRE Reference Blueprints**: [`18-reference-architectures/security-operations/`](18-reference-architectures/security-operations/) - 6 Complete production reference architectures (Secure Web App, Zero Trust, Hardened K8s, Secure CI/CD, SIEM Platform, Highly Reliable Platform).
+* **Enterprise Case Studies**: [`19-case-studies/security-operations/`](19-case-studies/security-operations/) - 20 Production outage post-mortems and security breach incident analyses.
+* **Architecture Decision Records**: [`16-architecture-deliverables/adr/`](16-architecture-deliverables/adr/) - ADR-0061 through ADR-0075 (15 Security & SRE ADRs).
+* **Security & Operations Checklists**: [`21-architecture-tools/checklists/security/`](21-architecture-tools/checklists/security/) & [`operations/`](21-architecture-tools/checklists/operations/) - 16 Formal review checklists.
+* **Production Readiness Scorecard**: [`21-architecture-tools/scorecards/production-readiness-scorecard.md`](21-architecture-tools/scorecards/production-readiness-scorecard.md) - Quantitative 0 to 5 maturity grading scorecard.
+* **Interview & Review Playbook**: [`21-architecture-tools/architecture-review/security-operations-interview-playbook.md`](21-architecture-tools/architecture-review/security-operations-interview-playbook.md) - 14 High-stakes enterprise scenario solutions.
+* **Comparative Trade-off Matrices**: [`22-reference/technology-comparison/security/`](22-reference/technology-comparison/security/) & [`operations/`](22-reference/technology-comparison/operations/).
+
+## Additional Domains (Scheduled for Phases 8–10)
 * [`09-devops/`](09-devops/) — Platform engineering, GitOps, CI/CD, Kubernetes.
-* [`10-security/`](10-security/) — Zero trust, IAM, DevSecOps, AppSec.
-* [`11-observability/`](11-observability/) — Telemetry, Prometheus, Grafana, OpenTelemetry, SRE.
 * [`12-ai/`](12-ai/) — GenAI, LLM architectures, RAG systems, Model serving.
 * [`99-experiments/`](99-experiments/) — POC sandbox.

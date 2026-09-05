@@ -86,6 +86,26 @@ ADRs are living history: they capture *why* the architecture is structured the w
 | [ADR-0059](ADR-0059-database-migration-cdc-reverse-replication.md) | Zero-Downtime Database Migration via CDC and Reverse Replication | **Accepted** | 2026-09-05 |
 | [ADR-0060](ADR-0060-rejection-of-premature-active-active-multi-cloud.md) | Rejection of Active-Active Multi-Cloud for Transactional Workloads | **Accepted** | 2026-09-05 |
 
+### Security & Operations Architecture (Phase 7)
+
+| ADR ID | Title | Status | Date |
+| :--- | :--- | :---: | :---: |
+| [ADR-0061](ADR-0061-centralized-identity-provider-oidc-federation.md) | Centralized Identity Provider with OpenID Connect Federation | **Accepted** | 2026-09-05 |
+| [ADR-0062](ADR-0062-oauth2-authorization-code-pkce-standard.md) | Mandatory OAuth 2.0 Authorization Code with PKCE for Client Applications | **Accepted** | 2026-09-05 |
+| [ADR-0063](ADR-0063-hybrid-rbac-abac-policy-access-control.md) | Hybrid RBAC and ABAC Policy-Based Access Control via Open Policy Agent | **Accepted** | 2026-09-05 |
+| [ADR-0064](ADR-0064-zero-trust-network-architecture-mtls.md) | Zero Trust Network Architecture with Service-to-Service Mutual TLS | **Accepted** | 2026-09-05 |
+| [ADR-0065](ADR-0065-workload-identity-federation-standard.md) | Workload Identity Federation for Containerized and Cloud Workloads | **Accepted** | 2026-09-05 |
+| [ADR-0066](ADR-0066-envelope-encryption-customer-managed-keys.md) | Envelope Encryption Standard with KMS Customer-Managed Keys (CMK) | **Accepted** | 2026-09-05 |
+| [ADR-0067](ADR-0067-dynamic-secrets-management-vault-eso.md) | Dynamic Secrets Management via HashiCorp Vault and External Secrets Operator | **Accepted** | 2026-09-05 |
+| [ADR-0068](ADR-0068-automated-devsecops-ci-cd-security-gates.md) | Automated DevSecOps Security Gates in CI/CD Pipelines | **Accepted** | 2026-09-05 |
+| [ADR-0069](ADR-0069-software-supply-chain-sbom-slsa-level-3.md) | Software Supply Chain Security: Mandatory CycloneDX SBOM and SLSA Level 3 | **Accepted** | 2026-09-05 |
+| [ADR-0070](ADR-0070-error-budgets-multi-window-burn-rate-alerting.md) | Standardization on Error Budgets and Multi-Window Multi-Burn-Rate Alerting | **Accepted** | 2026-09-05 |
+| [ADR-0071](ADR-0071-immutable-worm-backups-automated-restore-testing.md) | Immutable WORM Backups and Automated Continuous Restore Testing | **Accepted** | 2026-09-05 |
+| [ADR-0072](ADR-0072-blameless-post-incident-review-standard.md) | Blameless Post-Incident Review (PIR) and Problem Management Standard | **Accepted** | 2026-09-05 |
+| [ADR-0073](ADR-0073-progressive-delivery-automated-canary-rollouts.md) | Progressive Delivery with Automated Canary Analysis via Argo Rollouts | **Accepted** | 2026-09-05 |
+| [ADR-0074](ADR-0074-data-tokenization-privacy-compliance.md) | Data Tokenization Proxy for PCI-DSS and Privacy Compliance | **Accepted** | 2026-09-05 |
+| [ADR-0075](ADR-0075-centralized-siem-event-streaming-detection.md) | Centralized SIEM Event Streaming with Real-Time Detection Engineering | **Accepted** | 2026-09-05 |
+
 ---
 
 ## ADR Lifecycle Management
@@ -104,5 +124,5 @@ stateDiagram-v2
 
 ### Governing Principles
 1. **Immutable Historical Record**: Once an ADR status becomes `Accepted` and merges to `main`, its decision and rationale text must **never be retroactively edited**.
-2. **Superseding Decisions**: If requirements change or a technology is replaced, author a **new** ADR (e.g., `ADR-0012`) that explicitly references and supersedes the old record (`Supersedes ADR-0003`).
+2. **Superseding Decisions**: If requirements change or a technology is replaced, author a **new** ADR (e.g., `ADR-0076`) that explicitly references and supersedes the old record (`Supersedes ADR-0003`).
 3. **Commit with Code**: Keep ADRs in the same Git repository as the code they govern, submitted via standard pull requests with required peer approvals.
