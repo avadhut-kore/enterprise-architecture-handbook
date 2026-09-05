@@ -82,7 +82,28 @@ The repository is structured into logically decoupled, numerically prefixed doma
 
 ---
 
-## 5. Core Governance & Methodology Documents
+## 5. The 10-Phase Handbook Roadmap
+
+The handbook is executed across 10 strategic, production-grade maturity phases:
+
+| Phase  | Name                                 | Main Goal                                                                                       |
+| ------ | ------------------------------------ | ----------------------------------------------------------------------------------------------- |
+| **1**  | Repository Foundation                | Structure, standards, templates, governance                                                     |
+| **2**  | Architecture Fundamentals            | Architecture principles, styles, NFRs, ADRs, C4, trade-offs                                     |
+| **3**  | System Design & Distributed Systems  | Scalability, reliability, performance, distributed systems, reference designs                   |
+| **4**  | Application Engineering Architecture | .NET, Java, Python, Node.js, React, Angular, mobile, code architecture                          |
+| **5**  | Data & Integration Architecture      | SQL/NoSQL, Kafka, messaging, APIs, event-driven integration, data architecture                  |
+| **6**  | Cloud & Infrastructure Architecture  | AWS, Azure, GCP, Kubernetes, containers, IaC, networking, multi-cloud                           |
+| **7**  | Security & Operations                | Zero Trust, IAM, DevSecOps, observability, SRE, DR, incident management                         |
+| **8**  | AI & Modern Architecture             | LLMs, RAG, agents, AI platforms, AI security, evaluation, MLOps                                 |
+| **9**  | Enterprise Architecture              | TOGAF-style thinking, business/application/data/technology architecture, governance, roadmaps   |
+| **10** | Architect Mastery                    | Architecture leadership, stakeholder management, strategy, estimation, interviews, case studies |
+
+*For detailed milestones, deliverables, and execution status, refer to [ROADMAP.md](ROADMAP.md).*
+
+---
+
+## 6. Core Governance & Methodology Documents
 
 Before authoring or consuming architectural artifacts in this repository, review the core governance baselines:
 
@@ -98,7 +119,7 @@ Before authoring or consuming architectural artifacts in this repository, review
 
 ---
 
-## 6. How to Navigate and Use This Handbook
+## 7. How to Navigate and Use This Handbook
 
 ### When Designing a New System
 1. Study the [Architecture Workflow](ARCHITECTURE-WORKFLOW.md) for sequence and phase gates.
@@ -116,7 +137,7 @@ Before authoring or consuming architectural artifacts in this repository, review
 
 ---
 
-## 7. Mandatory Content Rules
+## 8. Mandatory Content Rules
 
 To guarantee that this repository remains an elite engineering handbook and never degenerates into a superficial dictionary:
 
@@ -133,6 +154,6 @@ To guarantee that this repository remains an elite engineering handbook and neve
 
 ---
 
-## 8. Maintenance & Evolution
+## 9. Maintenance & Evolution
 
 This handbook evolves organically alongside enterprise technology shifts. All modifications adhere to the phased progression defined in [ROADMAP.md](ROADMAP.md).
