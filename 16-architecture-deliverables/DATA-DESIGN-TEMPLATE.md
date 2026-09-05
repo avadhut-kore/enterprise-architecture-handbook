@@ -4,7 +4,7 @@
 > **Data Architect**: [Name / Title]  
 > **Status**: [Draft | Review | Approved]  
 > **Date**: [YYYY-MM-DD]  
-> **Related SAD**: [Link to Solution Architecture Document](../solution-architecture/)
+> **Related SAD**: [Link to Solution Architecture Document](solution-architecture/)
 
 ---
 

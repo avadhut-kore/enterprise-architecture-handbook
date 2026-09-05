@@ -478,10 +478,78 @@ Welcome to the comprehensive master index of the **Enterprise Architecture Handb
 
 ---
 
-## Additional Domains (Scheduled for Phases 4–10)
-* [`03-backend/`](03-backend/) — Enterprise runtime platforms (.NET, Java, Python, Go, Node.js).
-* [`04-frontend/`](04-frontend/) — Frontend architectures (React, Angular, Micro-frontends).
-* [`05-mobile/`](05-mobile/) — Mobile architecture (iOS, Android, Flutter, React Native).
+
+---
+
+## 03. Backend Platforms & Runtime Architecture
+*Enterprise backend runtimes, internals, data access, concurrency, performance, and security.*
+
+### .NET Enterprise Architecture (`03-backend/dotnet/`)
+* [`README.md`](03-backend/dotnet/README.md) — .NET enterprise runtime landscape, CLR internals, and architecture guide.
+* Architecture: [`clr-internals.md`](03-backend/dotnet/architecture/clr-internals.md), [`garbage-collection.md`](03-backend/dotnet/architecture/garbage-collection.md), [`memory-management.md`](03-backend/dotnet/architecture/memory-management.md), [`threading-and-concurrency.md`](03-backend/dotnet/architecture/threading-and-concurrency.md), [`async-await.md`](03-backend/dotnet/architecture/async-await.md), [`dependency-injection.md`](03-backend/dotnet/architecture/dependency-injection.md), [`configuration.md`](03-backend/dotnet/architecture/configuration.md), [`middleware-pipeline.md`](03-backend/dotnet/architecture/middleware-pipeline.md), [`options-pattern.md`](03-backend/dotnet/architecture/options-pattern.md), [`hosted-services.md`](03-backend/dotnet/architecture/hosted-services.md), [`clean-architecture.md`](03-backend/dotnet/architecture/clean-architecture.md), [`modular-monolith.md`](03-backend/dotnet/architecture/modular-monolith.md), [`vertical-slices.md`](03-backend/dotnet/architecture/vertical-slices.md), [`cqrs.md`](03-backend/dotnet/architecture/cqrs.md), [`domain-events.md`](03-backend/dotnet/architecture/domain-events.md), [`fitness-functions.md`](03-backend/dotnet/architecture/fitness-functions.md), [`netarchtest.md`](03-backend/dotnet/architecture/netarchtest.md), [`anti-patterns.md`](03-backend/dotnet/architecture/anti-patterns.md).
+* Data, APIs, Resilience, Testing, Performance, Security: [`03-backend/dotnet/data/`](03-backend/dotnet/data/), [`03-backend/dotnet/api/`](03-backend/dotnet/api/), [`03-backend/dotnet/resilience/`](03-backend/dotnet/resilience/), [`03-backend/dotnet/testing/`](03-backend/dotnet/testing/), [`03-backend/dotnet/performance/`](03-backend/dotnet/performance/), [`03-backend/dotnet/security/`](03-backend/dotnet/security/).
+
+### Java Enterprise Architecture (`03-backend/java/`)
+* [`README.md`](03-backend/java/README.md) — JVM runtime ecosystem, Spring Boot 3, memory hierarchy, and GC tuning.
+* Architecture: [`jvm-internals.md`](03-backend/java/architecture/jvm-internals.md), [`garbage-collection.md`](03-backend/java/architecture/garbage-collection.md), [`memory-management.md`](03-backend/java/architecture/memory-management.md), [`threads-and-concurrency.md`](03-backend/java/architecture/threads-and-concurrency.md), [`virtual-threads.md`](03-backend/java/architecture/virtual-threads.md), [`spring-boot-architecture.md`](03-backend/java/architecture/spring-boot-architecture.md), [`spring-framework.md`](03-backend/java/architecture/spring-framework.md), [`dependency-injection.md`](03-backend/java/architecture/dependency-injection.md), [`hexagonal-architecture.md`](03-backend/java/architecture/hexagonal-architecture.md), [`spring-modulith.md`](03-backend/java/architecture/spring-modulith.md), [`archunit.md`](03-backend/java/architecture/archunit.md), [`anti-patterns.md`](03-backend/java/architecture/anti-patterns.md).
+* Data, APIs, Resilience, Testing, Performance, Security: [`03-backend/java/data/`](03-backend/java/data/), [`03-backend/java/api/`](03-backend/java/api/), [`03-backend/java/resilience/`](03-backend/java/resilience/), [`03-backend/java/testing/`](03-backend/java/testing/), [`03-backend/java/performance/`](03-backend/java/performance/), [`03-backend/java/security/`](03-backend/java/security/).
+
+### Python Enterprise Architecture (`03-backend/python/`)
+* [`README.md`](03-backend/python/README.md) — Python runtime internals, GIL, async concurrency, and enterprise frameworks.
+* Architecture: [`cpython-internals.md`](03-backend/python/architecture/cpython-internals.md), [`gil.md`](03-backend/python/architecture/gil.md), [`memory-management.md`](03-backend/python/architecture/memory-management.md), [`asyncio-architecture.md`](03-backend/python/architecture/asyncio-architecture.md), [`multiprocessing-vs-threading.md`](03-backend/python/architecture/multiprocessing-vs-threading.md), [`typing-and-contracts.md`](03-backend/python/architecture/typing-and-contracts.md), [`dependency-injection.md`](03-backend/python/architecture/dependency-injection.md), [`clean-architecture.md`](03-backend/python/architecture/clean-architecture.md), [`fastapi-architecture.md`](03-backend/python/architecture/fastapi-architecture.md), [`django-architecture.md`](03-backend/python/architecture/django-architecture.md), [`anti-patterns.md`](03-backend/python/architecture/anti-patterns.md).
+* APIs, Data, Resilience, Testing, Performance, Security: [`03-backend/python/api/`](03-backend/python/api/), [`03-backend/python/data/`](03-backend/python/data/), [`03-backend/python/resilience/`](03-backend/python/resilience/), [`03-backend/python/testing/`](03-backend/python/testing/), [`03-backend/python/performance/`](03-backend/python/performance/), [`03-backend/python/security/`](03-backend/python/security/).
+
+### Node.js Enterprise Architecture (`03-backend/nodejs/`)
+* [`README.md`](03-backend/nodejs/README.md) — V8 engine internals, event loop mechanics, libuv, and enterprise TypeScript backends.
+* Architecture: [`v8-internals.md`](03-backend/nodejs/architecture/v8-internals.md), [`event-loop.md`](03-backend/nodejs/architecture/event-loop.md), [`libuv-architecture.md`](03-backend/nodejs/architecture/libuv-architecture.md), [`memory-management.md`](03-backend/nodejs/architecture/memory-management.md), [`concurrency-model.md`](03-backend/nodejs/architecture/concurrency-model.md), [`worker-threads.md`](03-backend/nodejs/architecture/worker-threads.md), [`cluster-architecture.md`](03-backend/nodejs/architecture/cluster-architecture.md), [`streams-architecture.md`](03-backend/nodejs/architecture/streams-architecture.md), [`async-hooks.md`](03-backend/nodejs/architecture/async-hooks.md), [`typescript-architecture.md`](03-backend/nodejs/architecture/typescript-architecture.md), [`nestjs-architecture.md`](03-backend/nodejs/architecture/nestjs-architecture.md), [`express-architecture.md`](03-backend/nodejs/architecture/express-architecture.md), [`fastify-architecture.md`](03-backend/nodejs/architecture/fastify-architecture.md), [`clean-architecture.md`](03-backend/nodejs/architecture/clean-architecture.md), [`anti-patterns.md`](03-backend/nodejs/architecture/anti-patterns.md).
+* APIs, Data, Testing, Performance, Security: [`03-backend/nodejs/api/`](03-backend/nodejs/api/), [`03-backend/nodejs/data/`](03-backend/nodejs/data/), [`03-backend/nodejs/testing/`](03-backend/nodejs/testing/), [`03-backend/nodejs/performance/`](03-backend/nodejs/performance/), [`03-backend/nodejs/security/`](03-backend/nodejs/security/).
+
+### Common Backend Patterns & Comparisons (`03-backend/common-patterns/`)
+* [`README.md`](03-backend/common-patterns/README.md) — 18 Universal cross-language design patterns and runtime trade-offs.
+* Technology Comparisons: [`dotnet-vs-java.md`](03-backend/common-patterns/technology-comparison/dotnet-vs-java.md), [`dotnet-vs-python.md`](03-backend/common-patterns/technology-comparison/dotnet-vs-python.md), [`dotnet-vs-nodejs.md`](03-backend/common-patterns/technology-comparison/dotnet-vs-nodejs.md), [`java-vs-python.md`](03-backend/common-patterns/technology-comparison/java-vs-python.md), [`java-vs-nodejs.md`](03-backend/common-patterns/technology-comparison/java-vs-nodejs.md), [`python-vs-nodejs.md`](03-backend/common-patterns/technology-comparison/python-vs-nodejs.md).
+
+---
+
+## 04. Frontend Architecture
+*Enterprise single-page apps, SSR, micro-frontends, state management, and web performance.*
+
+### Frontend Architecture Core & API Clients (`04-frontend/frontend-architecture/` & `api-client-architecture/`)
+* [`frontend-architecture/README.md`](04-frontend/frontend-architecture/README.md) — Rendering strategies (SPA, SSR, SSG, ISR), micro-frontends, module federation, and design systems.
+* [`api-client-architecture/README.md`](04-frontend/api-client-architecture/README.md) — HTTP client architecture, OpenAPI SDK generation, auth tokens, caching, retries, and offline queuing.
+
+### React Enterprise Architecture (`04-frontend/react/`)
+* [`README.md`](04-frontend/react/README.md) — Fiber reconciliation, concurrent mode, Server Components (RSC), hooks architecture, scalability, and security.
+
+### Angular Enterprise Architecture (`04-frontend/angular/`)
+* [`README.md`](04-frontend/angular/README.md) — Standalone components, Signals, OnPush change detection, dependency injection, Nx monorepos, and enterprise security.
+
+### State Management & Web Performance (`04-frontend/state-management/` & `web-performance/`)
+* [`state-management/README.md`](04-frontend/state-management/README.md) — Server state vs client state, Redux Toolkit, Zustand, Signals, optimistic updates.
+* [`web-performance/README.md`](04-frontend/web-performance/README.md) — Core Web Vitals (LCP, INP, CLS), bundle optimization, code splitting, lazy loading, and asset caching.
+
+---
+
+## 05. Mobile Architecture
+*Enterprise cross-platform mobile architectures, native bridge internals, offline synchronization, and security.*
+
+### Mobile Architecture Core (`05-mobile/mobile-architecture/`)
+* [`README.md`](05-mobile/mobile-architecture/README.md) — Native vs Cross-Platform, offline-first synchronization, local SQLite persistence, background tasks, and battery optimization.
+
+### React Native Enterprise Architecture (`05-mobile/react-native/`)
+* [`README.md`](05-mobile/react-native/README.md) — New Architecture (Fabric, TurboModules, JSI, Hermes), state management, navigation, testing, and security hardening.
+
+---
+
+## Application Reference Architectures, Case Studies & Deliverables
+* **Application References**: [`18-reference-architectures/application/`](18-reference-architectures/application/) — .NET, Java, Python, Node, React, Angular reference blueprints.
+* **Full-Stack References**: [`18-reference-architectures/full-stack/`](18-reference-architectures/full-stack/) — End-to-end full-stack architectures.
+* **Application Case Studies**: [`19-case-studies/application-architecture/`](19-case-studies/application-architecture/) — 10 Real-world transformation case studies.
+* **Application Review Checklists**: [`21-architecture-tools/checklists/application/`](21-architecture-tools/checklists/application/) — 16 Specialized review checklists.
+* **Architecture Decision Records**: [`16-architecture-deliverables/adr/`](16-architecture-deliverables/adr/) — ADR-0010 through ADR-0020.
+* **Technology Comparisons**: [`22-reference/technology-comparison/application-architecture/`](22-reference/technology-comparison/application-architecture/) — 9 Rigorous comparative matrices.
+* **ARB Review Specification**: [`16-architecture-deliverables/architecture-review/application-architecture-review.md`](16-architecture-deliverables/architecture-review/application-architecture-review.md).
+
+## Additional Domains (Scheduled for Phases 5–10)
 * [`08-cloud/`](08-cloud/) — AWS, Azure, GCP well-architected blueprints, FinOps.
 * [`09-devops/`](09-devops/) — Platform engineering, GitOps, CI/CD, Kubernetes.
 * [`10-security/`](10-security/) — Zero trust, IAM, DevSecOps, AppSec.

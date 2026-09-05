@@ -5,7 +5,7 @@
 > **Author**: [Principal Cloud Architect / Staff SRE]  
 > **Status**: [Draft | In-Review | Approved]  
 > **Date**: [YYYY-MM-DD]  
-> **Related SAD**: [Link to Parent Solution Architecture Document](../solution-architecture/)
+> **Related SAD**: [Link to Parent Solution Architecture Document](solution-architecture/)
 
 ---
 

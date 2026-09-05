@@ -103,9 +103,9 @@ flowchart TD
 
 | ADR Number | Decision Title | Status | Primary Impact |
 | :--- | :--- | :--- | :--- |
-| [ADR-0001](adr/ADR-0001.md) | Adopt Event-Driven Choreography via Kafka | Accepted | Asynchronous decoupling of order settlement |
-| [ADR-0002](adr/ADR-0002.md) | PostgreSQL with Patroni for High Availability | Accepted | Multi-AZ active-passive automatic failover |
-| [ADR-0003](adr/ADR-0003.md) | OAuth2 + mTLS for Zero Trust Service Mesh | Accepted | Enforces mutual authentication on east-west calls |
+| [ADR-0001](adr/) | Adopt Event-Driven Choreography via Kafka | Accepted | Asynchronous decoupling of order settlement |
+| [ADR-0002](adr/) | PostgreSQL with Patroni for High Availability | Accepted | Multi-AZ active-passive automatic failover |
+| [ADR-0003](adr/) | OAuth2 + mTLS for Zero Trust Service Mesh | Accepted | Enforces mutual authentication on east-west calls |
 
 ---
 

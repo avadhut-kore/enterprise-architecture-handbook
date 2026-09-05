@@ -1,7 +1,7 @@
 # Low-Level Design (LLD): [Service / Module Name]
 
 > **Component / Service**: [Service Name]  
-> **Parent HLD**: [Link to High-Level Design](../technical-design/HLD-xxx.md)  
+> **Parent HLD**: [Link to High-Level Design](technical-design/)  
 > **Author**: [Senior Software Engineer / Tech Lead]  
 > **Status**: [Draft | In-Review | Approved]  
 > **Date**: [YYYY-MM-DD]  

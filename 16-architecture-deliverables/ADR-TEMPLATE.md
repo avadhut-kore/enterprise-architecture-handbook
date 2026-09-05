@@ -108,6 +108,6 @@ flowchart LR
 ---
 
 ## 8. References
-* [Link to Architecture Evaluation Scorecard](../../DECISION-MAKING-FRAMEWORK.md)
-* [Link to System Solution Architecture Document](../solution-architecture/)
+* [Link to Architecture Evaluation Scorecard](../DECISION-MAKING-FRAMEWORK.md)
+* [Link to System Solution Architecture Document](solution-architecture/)
 * [Vendor Whitepaper / RFC / Technical Benchmark]

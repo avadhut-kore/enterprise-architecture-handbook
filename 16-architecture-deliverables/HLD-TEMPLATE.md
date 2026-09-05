@@ -5,7 +5,7 @@
 > **Status**: [Draft | In-Review | Approved]  
 > **Target Version**: [v1.0]  
 > **Date**: [YYYY-MM-DD]  
-> **Related SAD**: [Link to Parent Solution Architecture Document](../solution-architecture/)
+> **Related SAD**: [Link to Parent Solution Architecture Document](solution-architecture/)
 
 ---
 

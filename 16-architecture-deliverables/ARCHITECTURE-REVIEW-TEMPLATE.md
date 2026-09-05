@@ -14,13 +14,13 @@
 * **Business Objective**: [Concise 2-3 sentence explanation of business outcome]
 * **Target In-Service Date**: [YYYY-MM-DD]
 * **Estimated 3-Year TCO**: [$XXX,XXX]
-* **Solution Architecture Document**: [Link to SAD Document](../solution-architecture/)
+* **Solution Architecture Document**: [Link to SAD Document](solution-architecture/)
 
 ---
 
 ## 2. Architecture Principles Compliance Check
 
-Review against the [15 Enterprise Architecture Principles](../../ARCHITECTURE-PRINCIPLES.md):
+Review against the [15 Enterprise Architecture Principles](../ARCHITECTURE-PRINCIPLES.md):
 
 | Principle | Compliant? (Yes/No/Partial) | Evidence / Architecture Justification |
 | :--- | :---: | :--- |
