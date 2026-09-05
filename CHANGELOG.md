@@ -1,5 +1,50 @@
 # Changelog
 
+## [2.0.0] - 2026-09-05
+
+### Added - Phase 10: Architect Mastery (Landmark Release & Capstone OS)
+* **Architect Mindset & Judgment (`10-architect-mastery/mindset/`, `architecture-judgment/`)**:
+  * Foundational definition: *"An architect is paid for judgment, not diagrams."*
+  * Developer-to-Enterprise Architect evolutionary journey and mental model shifts.
+  * Architecture under extreme ambiguity, real-options thinking, and cost of delay.
+  * Known vs Unknown Unknowns classification and decision velocity heuristics.
+* **Discovery, Question Frameworks & Requirements (`question-frameworks/`, `discovery/`, `requirements/`)**:
+  * Multi-dimensional question frameworks for business, data, scale, and operational discovery.
+  * Non-Functional Requirements (NFR) engineering and quantifiable SLO/SLI modeling.
+* **Master Trade-offs Library (`trade-offs/`)**:
+  * Comprehensive deep-dive analysis of all 20 fundamental architectural trade-offs: Consistency vs Availability, Latency vs Durability, Throughput vs Cost, Simplicity vs Flexibility, Build vs Buy vs Partner, Centralized vs Decentralized, Sync vs Async, Schema-on-Read vs Schema-on-Write, Real-Time vs Batch, Monolith vs Microservices, General-Purpose vs Purpose-Built, In-Memory vs Externalized State, Tight vs Loose Coupling, Normalization vs Denormalization, Push vs Pull, Single-Region vs Multi-Region, Best-of-Breed vs Single-Vendor, Fast Delivery vs High Reliability, Deep Security vs Velocity, Standardization vs Innovation.
+* **Constraints, Evolutionary Architecture & Strategy (`constraints/`, `evolution/`, `strategy/`)**:
+  * Theory of constraints, physical/legal boundaries, and navigating hard vs soft constraints.
+  * Evolutionary architecture, architectural seams, and automated fitness functions in CI/CD.
+  * Strategy formulation (Rumelt's Kernel: Diagnosis, Guiding Policy, Coherent Actions) and Wardley Mapping.
+  * Technology radar lifecycle governance and Internal Developer Platform (IDP) architecture.
+* **Organizational Design & Leadership (`organizational-design/`, `leadership/`)**:
+  * Conway's Law, Team Topologies (Stream-aligned, Platform, Enabling, Complicated-subsystem), and the Reverse Conway Maneuver.
+  * Architectural leadership without authority, managing technical conflict, and multiplying engineers.
+* **Executive Communication & Storytelling (`executive-communication/`, `architecture-storytelling/`)**:
+  * C-suite translation dictionary, Minto Pyramid Principle, 1-page architecture briefs, and business case templates.
+  * Narrative architecture framing: The Hero's Journey of technical transformation.
+* **Pragmatic Governance & Review (`governance/`, `architecture-review/`)**:
+  * Guardrails over gates, DORA metrics, coupling indices, and FinOps unit economics.
+  * Architecture Review Board (ARB) charter, operating model, and asynchronous RFC workflows.
+* **Risk, Enterprise Failure Modes & War Stories (`risk/`, `failure-analysis/`, `war-stories/`)**:
+  * 5x5 architectural risk matrix, blast radius containment, and cell-based bulkheading.
+  * 20 Enterprise Failure Mode Post-Mortems (cascading failures, split-brain, 2PC deadlocks, cache stampedes, retry storms, Kafka rebalance storms, K8s OOM cascades, connection exhaustion, etc.).
+  * 15 Architectural War Stories from the trenches analyzing multi-million dollar recoveries and lessons learned.
+  * Incident-driven architecture feedback loops and Production Readiness Reviews (PRR).
+* **Specialized Architecture Disciplines**:
+  * Enterprise AI systems, legacy modernization (7Rs, Strangler Fig, CDC), M&A due diligence, global multi-region compliance, regulated enterprise architecture, application portfolio management (TIME model), architectural optionality, radical simplification, and system sunsetting.
+* **Capstone Reference Architectures (REF-101 to REF-120)**:
+  * 20 Planetary-scale reference blueprints covering payment engines, national identity, fraud meshes, e-commerce, healthcare AI, connected vehicles, telco 5G, trading exchanges, GenAI lakehouses, smart cities, and decentralized identity in strict 26-section format.
+* **Capstone Case Studies (CS-101 to CS-120)**:
+  * 20 In-depth crisis turnaround and large-scale transformation case studies in strict 19-section format.
+* **System Design Interview Masterclass & 50 Scenario Library**:
+  * 18-Step live system design interview framework (`20-interview-system-design/architect-mastery/`).
+  * 50 Comprehensive architectural scenarios across 12 enterprise verticals with complete technical specifications (`10-architect-mastery/scenario-library/`).
+* **Capstone Artifacts**:
+  * Anti-Patterns Master Index, Decision Journal Template, Learning Loop, and 100-Point Master Checklist.
+  * The Personal Architect Operating System (`personal-operating-system.md`) and Master Enterprise Architecture Model (`master-architecture-model.md`).
+
 ## [1.8.0] - 2026-09-05
 
 ### Added - Phase 9: Enterprise Architecture Operating System

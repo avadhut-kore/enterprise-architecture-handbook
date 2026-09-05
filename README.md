@@ -64,6 +64,7 @@ The repository is structured into logically decoupled, numerically prefixed doma
 | **`08`** | **Cloud** | AWS, Azure, GCP, multi-cloud, hybrid topology, cloud-native patterns, and FinOps cloud cost optimization. | [08-cloud](./08-cloud/) |
 | **`09`** | **DevOps** | Git workflows, CI/CD pipelines, Docker, Kubernetes, Terraform, Ansible, and Platform Engineering. | [09-devops](./09-devops/) |
 | **`10`** | **Security** | Zero Trust, OAuth2/OIDC, mTLS, cryptography, secrets management, threat modeling (STRIDE), DevSecOps. | [10-security](./10-security/) |
+| **`10`** | **Architect Mastery** | Capstone OS: Judgment, trade-offs, constraints, leadership, governance, failure analysis, 20 ref archs, 20 case studies, 50 scenarios. | [10-architect-mastery](./10-architect-mastery/) |
 | **`11`** | **Observability** | Telemetry pillars (Logs, Metrics, Traces), OpenTelemetry, SLO/SLA management, incident triage. | [11-observability](./11-observability/) |
 | **`12`** | **AI / GenAI** | Enterprise LLM integration, RAG architectures, multi-agent systems, vector DBs, AI evaluation, and AI security. | [12-ai](./12-ai/) |
 | **`13`** | **Architecture Patterns** | Microservices, Modular Monoliths, Event-Driven Architecture (EDA), CQRS, Event Sourcing, Saga, DDD. | [13-architecture-patterns](./13-architecture-patterns/) |
@@ -97,7 +98,7 @@ The handbook is executed across 10 strategic, production-grade maturity phases:
 | **7**  | Security & Operations                | Zero Trust, IAM, DevSecOps, observability, SRE, DR, incident management                         |
 | **8**  | AI & Modern Architecture             | LLMs, RAG, agents, AI platforms, AI security, evaluation, MLOps                                 |
 | **9**  | Enterprise Architecture              | TOGAF-style thinking, business/application/data/technology architecture, governance, roadmaps   |
-| **10** | Architect Mastery                    | Architecture leadership, stakeholder management, strategy, estimation, interviews, case studies |
+| **10** | Architect Mastery *(COMPLETED - v2.0.0)* | Capstone OS: Judgment, trade-offs, constraints, executive leadership, governance, failure analysis, 50 scenarios |
 
 *For detailed milestones, deliverables, and execution status, refer to [ROADMAP.md](ROADMAP.md).*
 

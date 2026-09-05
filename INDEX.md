@@ -17,6 +17,7 @@ Welcome to the comprehensive master index of the **Enterprise Architecture Handb
 * [08. Cloud Computing & FinOps](#08-cloud)
 * [09. DevOps & Platform Engineering](#09-devops)
 * [10. Security & Zero Trust](#10-security)
+* [10. Architect Mastery (Capstone)](#10-architect-mastery)
 * [11. Observability & SRE](#11-observability)
 * [12. AI, LLM & GenAI Systems](#12-ai)
 * [13. Architecture Patterns](#13-architecture-patterns)
@@ -1048,3 +1049,144 @@ Enterprise-grade architecture for Large Language Models (LLMs), RAG systems, aut
 * [`09-devops/`](09-devops/) — Platform engineering, GitOps, CI/CD, Kubernetes.
 * [`14-enterprise-architecture/`](14-enterprise-architecture/) — Business architecture, capability mapping, TOGAF/Zachman, portfolio management.
 * [`99-experiments/`](99-experiments/) — POC sandbox.
+
+
+---
+
+## 10. Architect Mastery
+
+The Capstone Phase transforming this repository into a complete, authoritative Personal Architect Operating System.
+
+* **[10-architect-mastery/README.md](10-architect-mastery/README.md)** — Domain overview, navigation, and mastery tenets.
+* **[Personal Architect Operating System](10-architect-mastery/personal-operating-system.md)** — Daily, weekly, monthly, and quarterly rituals for practicing enterprise architecture.
+* **[Master Enterprise Architecture Model](10-architect-mastery/master-architecture-model.md)** — The 5-layer unified meta-model connecting business strategy to operations.
+
+### Mindset, Judgment & Discovery
+* **[Mindset & Evolution](10-architect-mastery/mindset/README.md)**:
+  * [What Makes a Great Architect](10-architect-mastery/mindset/what-makes-a-great-architect.md)
+  * [Developer to Enterprise Architect Evolution](10-architect-mastery/mindset/developer-to-enterprise-architect-evolution.md)
+  * [Architecture Under Uncertainty](10-architect-mastery/mindset/architecture-under-uncertainty.md)
+* **[Architecture Judgment](10-architect-mastery/architecture-judgment/README.md)**:
+  * [Decision Quality and Intuition](10-architect-mastery/architecture-judgment/decision-quality-and-intuition.md)
+  * [Cost of Delay and Opportunity Cost](10-architect-mastery/architecture-judgment/cost-of-delay-and-opportunity-cost.md)
+  * [Known vs Unknown Unknowns](10-architect-mastery/architecture-judgment/known-vs-unknown-unknowns.md)
+* **[Question Frameworks](10-architect-mastery/question-frameworks/README.md)**:
+  * [Architecture Question Frameworks](10-architect-mastery/question-frameworks/architecture-question-frameworks.md)
+  * [Discovery Questions Checklist](10-architect-mastery/question-frameworks/architecture-discovery-questions-checklist.md)
+* **[Discovery & Requirements](10-architect-mastery/discovery/README.md)**:
+  * [Discovery Process and Methodology](10-architect-mastery/discovery/discovery-process-and-methodology.md)
+  * [Discovery Workshop and Questionnaire](10-architect-mastery/discovery/discovery-workshop-and-questionnaire.md)
+  * [NFR Engineering for Architects](10-architect-mastery/requirements/nfr-engineering-for-architects.md)
+
+### Decisions, Trade-Offs, Constraints & Strategy
+* **[Decision-Making](10-architect-mastery/decision-making/README.md)**:
+  * [Architecture Decision-Making Framework](10-architect-mastery/decision-making/architecture-decision-making-framework.md)
+  * [Irreversible vs Reversible Decisions](10-architect-mastery/decision-making/irreversible-vs-reversible-decisions.md)
+  * [Consensus vs Ownership](10-architect-mastery/decision-making/consensus-vs-ownership.md)
+  * [Cognitive Biases in Architecture](10-architect-mastery/decision-making/cognitive-biases-in-architecture.md)
+* **[Master Trade-offs Library](10-architect-mastery/trade-offs/README.md)**:
+  * [Master Trade-Offs Library (20 Core Trade-Offs)](10-architect-mastery/trade-offs/master-trade-offs-library.md)
+  * [Trade-Off Analysis Template](10-architect-mastery/trade-offs/trade-off-analysis-template.md)
+* **[Constraints & Evolution](10-architect-mastery/constraints/README.md)**:
+  * [Architecting Under Constraints](10-architect-mastery/constraints/architecting-under-constraints.md)
+  * [Constraint Types and Management](10-architect-mastery/constraints/constraint-types-and-management.md)
+  * [Evolutionary Architecture Mastery](10-architect-mastery/evolution/evolutionary-architecture-mastery.md)
+  * [Fitness Functions in Practice](10-architect-mastery/evolution/fitness-functions-in-practice.md)
+* **[Strategy & Platforms](10-architect-mastery/strategy/README.md)**:
+  * [Architecture Strategy Formulation](10-architect-mastery/strategy/architecture-strategy-formulation.md)
+  * [Wardley Mapping for Architects](10-architect-mastery/strategy/wardley-mapping-for-architects.md)
+  * [Technology Radar and Evaluation](10-architect-mastery/technology-strategy/technology-radar-and-evaluation.md)
+  * [Internal Developer Platform Architecture](10-architect-mastery/platform-strategy/internal-developer-platform-architecture.md)
+
+### Leadership, Communication & Governance
+* **[Organizational Design & Leadership](10-architect-mastery/organizational-design/README.md)**:
+  * [Conway's Law and Team Topologies](10-architect-mastery/organizational-design/conways-law-and-team-topologies.md)
+  * [The Reverse Conway Maneuver](10-architect-mastery/organizational-design/reverse-conway-maneuver.md)
+  * [Architectural Leadership and Influence](10-architect-mastery/leadership/architectural-leadership-and-influence.md)
+  * [Managing Technical Conflict](10-architect-mastery/leadership/managing-technical-conflict.md)
+  * [Mentoring and Multiplying Engineers](10-architect-mastery/leadership/mentoring-and-multiplying-engineers.md)
+* **[Executive Communication & Storytelling](10-architect-mastery/executive-communication/README.md)**:
+  * [C-Suite and Board Communication](10-architect-mastery/executive-communication/c-suite-and-board-communication.md)
+  * [The One-Page Architecture Brief](10-architect-mastery/executive-communication/one-page-architecture-brief.md)
+  * [Architecture Business Case Template](10-architect-mastery/executive-communication/architecture-business-case-template.md)
+  * [Narrative Architecture and Framing](10-architect-mastery/architecture-storytelling/narrative-architecture-and-framing.md)
+* **[Governance & Reviews](10-architect-mastery/governance/README.md)**:
+  * [Pragmatic Architecture Governance](10-architect-mastery/governance/pragmatic-architecture-governance.md)
+  * [Architecture Metrics and KPIs](10-architect-mastery/governance/architecture-metrics-and-kpis.md)
+  * [Architecture Review Board Operating Model](10-architect-mastery/architecture-review/architecture-review-board-operating-model.md)
+  * [Peer Review and RFC Workflows](10-architect-mastery/architecture-review/peer-review-and-rfcs.md)
+
+### Risk, Failures, War Stories & Economics
+* **[Risk Management & Post-Mortems](10-architect-mastery/risk/README.md)**:
+  * [Architectural Risk Management](10-architect-mastery/risk/architectural-risk-management.md)
+  * [Risk Assessment Matrix and Heatmaps](10-architect-mastery/risk/risk-assessment-matrix-and-heatmaps.md)
+  * [Enterprise Failure Modes Post-Mortems (20 Breakdowns)](10-architect-mastery/failure-analysis/enterprise-failure-modes-post-mortems.md)
+  * [Architectural War Stories (15 Real Narratives)](10-architect-mastery/war-stories/architectural-war-stories.md)
+  * [Learning from Incidents](10-architect-mastery/incident-driven-architecture/learning-from-incidents.md)
+* **[Operations & Economics](10-architect-mastery/operations/README.md)**:
+  * [Production Readiness Review Mastery](10-architect-mastery/operations/production-readiness-review-mastery.md)
+  * [Cloud Economics and FinOps](10-architect-mastery/economics/cloud-economics-and-finops-for-architects.md)
+  * [Unit Economics and Cost Modeling](10-architect-mastery/economics/unit-economics-and-cost-modeling.md)
+
+### Specializations, Optionality & Obsolescence
+* **[Specializations](10-architect-mastery/ai-architecture/README.md)**:
+  * [Architecting Enterprise AI Systems](10-architect-mastery/ai-architecture/architecting-enterprise-ai-systems.md)
+  * [Legacy Modernization Mastery](10-architect-mastery/modernization/legacy-modernization-mastery.md)
+  * [Strangler Fig and Data Migration](10-architect-mastery/modernization/strangler-fig-and-data-migration.md)
+  * [M&A Architecture Integration](10-architect-mastery/m-and-a/m-and-a-architecture-integration.md)
+  * [Multi-Region and Data Sovereignty](10-architect-mastery/global-architecture/multi-region-and-data-sovereignty.md)
+  * [Architecting for Regulated Industries](10-architect-mastery/regulated-enterprise/architecting-for-regulated-industries.md)
+  * [Application Portfolio Management (TIME Model)](10-architect-mastery/portfolio-thinking/application-portfolio-management.md)
+  * [Preserving Optionality in Design](10-architect-mastery/architecture-optionality/preserving-optionality-in-design.md)
+  * [Radical Simplification in Architecture](10-architect-mastery/simplification/radical-simplification-in-architecture.md)
+  * [Decommissioning and Sunsetting Systems](10-architect-mastery/obsolescence/decommissioning-and-sunsetting-systems.md)
+
+### Capstone Reference Architectures (REF-101 to REF-120)
+* **[Reference Architectures Catalog](10-architect-mastery/reference-architectures/README.md)**:
+  * [REF-101: Global Multi-Region Payment Engine](10-architect-mastery/reference-architectures/ref-101-global-payment-engine.md)
+  * [REF-102: Sovereign National Identity & Digital Passport Platform](10-architect-mastery/reference-architectures/ref-102-sovereign-national-identity.md)
+  * [REF-103: Real-Time Fraud & AML Mesh](10-architect-mastery/reference-architectures/ref-103-realtime-fraud-mesh.md)
+  * [REF-104: Planetary Scale E-Commerce Engine](10-architect-mastery/reference-architectures/ref-104-planetary-ecommerce-engine.md)
+  * [REF-105: Healthcare Data Interoperability & Clinical AI Fabric](10-architect-mastery/reference-architectures/ref-105-healthcare-data-interoperability.md)
+  * [REF-106: Autonomous Mobility & Connected Vehicle Fleet Mesh](10-architect-mastery/reference-architectures/ref-106-autonomous-mobility-fleet-mesh.md)
+  * [REF-107: Next-Generation Telco 5G Network Slice Management](10-architect-mastery/reference-architectures/ref-107-telco-5g-network-slicing.md)
+  * [REF-108: Sovereign Multi-Cloud Financial Trading Exchange](10-architect-mastery/reference-architectures/ref-108-multi-cloud-trading-exchange.md)
+  * [REF-109: Enterprise Generative AI Knowledge Lakehouse](10-architect-mastery/reference-architectures/ref-109-enterprise-genai-lakehouse.md)
+  * [REF-110: Global Media Streaming & Edge Personalization Mesh](10-architect-mastery/reference-architectures/ref-110-global-media-streaming-mesh.md)
+  * [REF-111: High-Frequency Algorithmic Energy Trading Grid](10-architect-mastery/reference-architectures/ref-111-algorithmic-energy-trading-grid.md)
+  * [REF-112: Defense-Grade Zero-Trust Tactical Cloud Platform](10-architect-mastery/reference-architectures/ref-112-defense-zero-trust-cloud.md)
+  * [REF-113: Global Supply Chain & Predictive Logistics Mesh](10-architect-mastery/reference-architectures/ref-113-global-supply-chain-mesh.md)
+  * [REF-114: Planetary Social & Creator Economy Super-App](10-architect-mastery/reference-architectures/ref-114-planetary-social-creator-app.md)
+  * [REF-115: Intelligent Smart City Digital Twin Platform](10-architect-mastery/reference-architectures/ref-115-smart-city-digital-twin.md)
+  * [REF-116: Multi-Tenant Enterprise SaaS Core Engine](10-architect-mastery/reference-architectures/ref-116-multitenant-saas-core.md)
+  * [REF-117: Autonomous Robotic Warehouse Fulfillment Mesh](10-architect-mastery/reference-architectures/ref-117-autonomous-robotic-warehouse.md)
+  * [REF-118: Regulated Life Sciences Clinical Trials Core](10-architect-mastery/reference-architectures/ref-118-regulated-life-sciences-trials.md)
+  * [REF-119: Planetary Aviation Flight Operations & Crew Scheduling](10-architect-mastery/reference-architectures/ref-119-aviation-flight-ops-mesh.md)
+  * [REF-120: Decentralized Identity & Verifiable Credentials Mesh](10-architect-mastery/reference-architectures/ref-120-decentralized-identity-mesh.md)
+
+### Capstone Case Studies (CS-101 to CS-120)
+* **[Case Studies Catalog](10-architect-mastery/case-studies/README.md)**:
+  * [CS-101: Saving Global Bank Core: Mainframe to Event-Driven](10-architect-mastery/case-studies/cs-101-saving-global-bank-core.md)
+  * [CS-102: Planetary Retail Black Friday Survival](10-architect-mastery/case-studies/cs-102-ecommerce-black-friday.md)
+  * [CS-103: Global Healthcare Interoperability Crisis](10-architect-mastery/case-studies/cs-103-healthcare-interoperability.md)
+  * [CS-104: National Identity System Biometric Scale-Out](10-architect-mastery/case-studies/cs-104-national-id-scaleout.md)
+  * [CS-105: Connected Vehicle Fleet Telemetry Pipeline](10-architect-mastery/case-studies/cs-105-connected-vehicle-pipeline.md)
+  * [CS-106: Telco 5G Core Network Slicing Modernization](10-architect-mastery/case-studies/cs-106-telco-5g-network-slicing.md)
+  * [CS-107: Wall Street Microsecond Trading Engine](10-architect-mastery/case-studies/cs-107-microsecond-trading-engine.md)
+  * [CS-108: Enterprise AI Knowledge Lakehouse Unification](10-architect-mastery/case-studies/cs-108-enterprise-ai-lakehouse.md)
+  * [CS-109: Global Streaming Service World Cup Broadcast](10-architect-mastery/case-studies/cs-109-world-cup-streaming.md)
+  * [CS-110: Smart Grid Utility Real-Time Energy Balancing](10-architect-mastery/case-studies/cs-110-smart-grid-energy-dispatch.md)
+  * [CS-111: Military Defense Zero-Trust Tactical Edge](10-architect-mastery/case-studies/cs-111-defense-tactical-edge.md)
+  * [CS-112: Aviation Flight Operations Disruption Recovery](10-architect-mastery/case-studies/cs-112-airline-flight-disruption.md)
+  * [CS-113: Global Logistics Port Digital Twin Modernization](10-architect-mastery/case-studies/cs-113-logistics-port-digital-twin.md)
+  * [CS-114: Creator Social Platform Live Microtransactions](10-architect-mastery/case-studies/cs-114-creator-app-microtransactions.md)
+  * [CS-115: Mega-City Emergency Response Digital Twin](10-architect-mastery/case-studies/cs-115-emergency-response-digital-twin.md)
+  * [CS-116: Multi-Tenant Enterprise SaaS Cell Architecture](10-architect-mastery/case-studies/cs-116-multitenant-saas-cells.md)
+  * [CS-117: Autonomous Robotic Warehouse Fulfillment Mesh](10-architect-mastery/case-studies/cs-117-robotic-warehouse-fulfillment.md)
+  * [CS-118: Life Sciences Global Vaccine Clinical Trial](10-architect-mastery/case-studies/cs-118-life-sciences-clinical-trials.md)
+  * [CS-119: Cross-Border FinTech Remittance Ledger Migration](10-architect-mastery/case-studies/cs-119-fintech-remittance-migration.md)
+  * [CS-120: Sovereign Digital Identity Cyber Breach Recovery](10-architect-mastery/case-studies/cs-120-national-id-cyber-recovery.md)
+
+### Interview Masterclass & 50 Scenario Library
+* **[Architect Interview Masterclass](20-interview-system-design/architect-mastery/architect-interview-masterclass.md)** — The 18-step live system design framework for Principal and Enterprise Architects.
+* **[50 Architectural Scenario Library](10-architect-mastery/scenario-library/README.md)** — 50 complete enterprise scenarios across 12 domains.
