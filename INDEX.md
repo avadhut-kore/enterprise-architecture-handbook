@@ -454,15 +454,32 @@ Welcome to the comprehensive master index of the **Enterprise Architecture Handb
 
 ---
 
-## 18. Reference Architectures
-*Production-grade 26-section reference architecture blueprints.*
+## 18. Reference Architectures {#18-reference-architectures}
+*Production-grade, end-to-end enterprise reference architecture blueprints.*
+* [`18-reference-architectures/README.md`](18-reference-architectures/README.md) — Master enterprise catalog, architectural philosophy, and cross-discipline navigation.
 
-### System Design Reference Architectures (`18-reference-architectures/system-design/`)
-* [`README.md`](18-reference-architectures/system-design/README.md) — Master catalog of 30 system design blueprints.
-* Tier 1 Blueprints: [`url-shortener.md`](18-reference-architectures/system-design/url-shortener.md), [`rate-limiter.md`](18-reference-architectures/system-design/rate-limiter.md), [`notification-service.md`](18-reference-architectures/system-design/notification-service.md), [`distributed-cache.md`](18-reference-architectures/system-design/distributed-cache.md), [`key-value-store.md`](18-reference-architectures/system-design/key-value-store.md), [`chat-application.md`](18-reference-architectures/system-design/chat-application.md).
-* Streaming & Content: [`video-streaming-platform.md`](18-reference-architectures/system-design/video-streaming-platform.md), [`social-media-feed.md`](18-reference-architectures/system-design/social-media-feed.md), [`content-delivery-network.md`](18-reference-architectures/system-design/content-delivery-network.md).
-* Mobility & Commerce: [`ride-sharing-service.md`](18-reference-architectures/system-design/ride-sharing-service.md), [`e-commerce-platform.md`](18-reference-architectures/system-design/e-commerce-platform.md), [`payment-system.md`](18-reference-architectures/system-design/payment-system.md).
-* Enterprise & Data: [`search-autocomplete.md`](18-reference-architectures/system-design/search-autocomplete.md), [`ad-click-aggregation.md`](18-reference-architectures/system-design/ad-click-aggregation.md), [`distributed-task-scheduler.md`](18-reference-architectures/system-design/distributed-task-scheduler.md), [`iot-data-platform.md`](18-reference-architectures/system-design/iot-data-platform.md).
+### Industry Vertical Reference Architecture Packages (`18-reference-architectures/`)
+* **Enterprise AI Platform**: [`ai-platform/`](18-reference-architectures/ai-platform/README.md) — Multi-LLM routing, self-hosted vLLM, RAG vector pipelines, agent tool-calling, NeMo guardrails, and token FinOps (12 guides).
+* **Enterprise CRM Platform**: [`crm/`](18-reference-architectures/crm/README.md) — Customer 360 master data graph, lead-to-opportunity pipeline, omnichannel support, data virtualization, and ERP sync (12 guides).
+* **Omnichannel E-Commerce**: [`ecommerce/`](18-reference-architectures/ecommerce/README.md) — Headless storefront, 100x flash-sale inventory reservation locks, payment orchestration, and PCI-DSS SAQ A (12 guides).
+* **Global EdTech & LMS**: [`edtech/`](18-reference-architectures/edtech/README.md) — Adaptive video streaming CDN (HLS/DRM), interactive assessment engine, proctoring telemetry, and FERPA/COPPA privacy (12 guides).
+* **Enterprise Resource Planning**: [`erp/`](18-reference-architectures/erp/README.md) — Universal Journal (ACDOCA), Procure-to-Pay, Order-to-Cash, Segregation of Duties (SoD), and SAP Clean Core sidecars (12 guides).
+* **Fintech & Real-Time Payments**: [`fintech/`](18-reference-architectures/fintech/README.md) — Immutable double-entry ledger, instant payment rails (FedNow/RTP), card auth, KYC/AML, and multi-way recon (12 guides).
+* **Healthcare & Interoperability**: [`healthcare/`](18-reference-architectures/healthcare/README.md) — FHIR R4 Clinical Data Repository, HL7 v2 MLLP adapters, EMPI patient identity matching, and HIPAA security (12 guides).
+* **Global Logistics & TMS**: [`logistics/`](18-reference-architectures/logistics/README.md) — Transportation Management, VRP route optimization, IoT telematics streams, offline-first mobile sync, and EDI 204/214 (12 guides).
+* **Multi-Sided Marketplace**: [`marketplace/`](18-reference-architectures/marketplace/README.md) — Multi-sided onboarding, listing catalog, escrow split payments, seller payouts/commissions, and dispute arbitration (12 guides).
+* **Multi-Tenant B2B SaaS**: [`saas/`](18-reference-architectures/saas/README.md) — Silo vs. Pool tenant data isolation, dynamic tenant context, metered usage billing, noisy neighbor throttling, and SOC 2 (12 guides).
+
+### Engineering Discipline Reference Architectures (`18-reference-architectures/`)
+* **System Design & Distributed Systems**: [`system-design/`](18-reference-architectures/system-design/README.md) — 31 planetary-scale blueprints (URL shortener, rate limiter, cache, feeds, chat, CDN, ride-sharing).
+* **Full-Stack Reference Architectures**: [`full-stack/`](18-reference-architectures/full-stack/README.md) — 12 complete full-stack systems combining Angular, React, .NET, Java, Node.js, and Mobile.
+* **Cloud Infrastructure Blueprints**: [`cloud/`](18-reference-architectures/cloud/README.md) — 11 production cloud topologies (E-Commerce, API platform, SaaS, Multi-region, Serverless).
+* **Data & Persistence Blueprints**: [`data/`](18-reference-architectures/data/README.md) — 11 data platforms (Lakehouse, CDC, Streaming, Data Mesh, MDM).
+* **Enterprise Integration Blueprints**: [`integration/`](18-reference-architectures/integration/README.md) — 13 integration engines (API-led, Event bus, Messaging, SaaS integration).
+* **Financial Platform Blueprints**: [`financial/`](18-reference-architectures/financial/README.md) — 11 banking and ledger blueprints (Statement reconciliation, Settlement engine, Payment hub).
+* **Application Architecture Blueprints**: [`application/`](18-reference-architectures/application/README.md) — 11 clean architecture and modular monolith systems (.NET, Java, Spring Boot).
+* **AI & Modern Machine Learning**: [`ai-modern/`](18-reference-architectures/ai-modern/README.md) — 21 AI systems (Agentic workflows, Copilots, Vector retrieval, RAG).
+* **Security & Reliability Operations**: [`security-operations/`](18-reference-architectures/security-operations/README.md) — 7 zero-trust and hardened Kubernetes platforms.
 
 ---
 
