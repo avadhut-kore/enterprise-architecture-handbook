@@ -12,5 +12,5 @@ Enterprise AI systems must be evaluated with continuous, quantitative metrics ra
 - Integrate tools like Ragas or TruLens into build pipelines. Any prompt update that drops Faithfulness below 0.90 fails the PR automatically.
 
 ## Related Modules
-- [Architecting Enterprise AI Systems](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/ai-architecture/architecting-enterprise-ai-systems.md)
-- [Evolutionary Fitness Functions](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/evolution/fitness-functions-in-practice.md)
+- [Architecting Enterprise AI Systems](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/ai-architecture/architecting-enterprise-ai-systems.md)
+- [Evolutionary Fitness Functions](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/evolution/fitness-functions-in-practice.md)

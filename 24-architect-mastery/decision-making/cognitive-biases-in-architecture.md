@@ -25,5 +25,5 @@ Architecture decisions fail more often from psychological traps and organization
 - **Countermeasure**: Mandate peer architectural reviews from cross-domain architects.
 
 ## Related Modules
-- [Architecture Decision-Making Framework](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/decision-making/architecture-decision-making-framework.md)
-- [Master Trade-offs Library](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/trade-offs/master-trade-offs-library.md)
+- [Architecture Decision-Making Framework](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/decision-making/architecture-decision-making-framework.md)
+- [Master Trade-offs Library](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/trade-offs/master-trade-offs-library.md)

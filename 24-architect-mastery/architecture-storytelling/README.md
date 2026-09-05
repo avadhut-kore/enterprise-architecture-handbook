@@ -4,4 +4,4 @@ Technical diagrams do not persuade; narratives persuade. Great architects frame 
 
 ## Contents
 
-- [Narrative Architecture and Framing](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/architecture-storytelling/narrative-architecture-and-framing.md) — The Hero's Journey of architecture, villain (entropy/legacy), challenge, resolution, and future state.
+- [Narrative Architecture and Framing](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/architecture-storytelling/narrative-architecture-and-framing.md) — The Hero's Journey of architecture, villain (entropy/legacy), challenge, resolution, and future state.

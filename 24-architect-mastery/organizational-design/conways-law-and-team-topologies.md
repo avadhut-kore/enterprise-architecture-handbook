@@ -46,5 +46,5 @@ To design scalable enterprise systems, architects leverage four team types:
 | **Facilitating** | One team actively coaching and upskilling another. | Enabling teams diffusing architecture principles across the enterprise. |
 
 ## Related Modules
-- [Reverse Conway Maneuver](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/organizational-design/reverse-conway-maneuver.md)
-- [Platform Strategy](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/platform-strategy/README.md)
+- [Reverse Conway Maneuver](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/organizational-design/reverse-conway-maneuver.md)
+- [Platform Strategy](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/platform-strategy/README.md)

@@ -69,6 +69,6 @@ Consolidating 40 disparate enterprise data silos into a governed multimodal RAG 
 - Strangler Fig Pattern, Transactional Outbox Pattern, CQRS with Event Sourcing.
 
 ## 19. Related Handbooks & References
-- [Master Trade-offs Library](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/trade-offs/master-trade-offs-library.md)
-- [Enterprise Failure Modes](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/failure-analysis/enterprise-failure-modes-post-mortems.md)
+- [Master Trade-offs Library](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/trade-offs/master-trade-offs-library.md)
+- [Enterprise Failure Modes](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/failure-analysis/enterprise-failure-modes-post-mortems.md)
 - [Case Studies Catalog](../../19-case-studies/README.md)

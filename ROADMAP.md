@@ -124,6 +124,7 @@ gantt
 ### Phase 9: Enterprise Architecture *(COMPLETED - v1.8.0)*
 * **Objective**: High-level enterprise alignment, industry systems, and legacy transformation.
 * **Key Deliverables**:
+  * `23-enterprise-architecture/`: Strategic business alignment, capability modeling, business architecture, application and technology portfolio management, architecture governance, and transformation roadmaps.
   * `14-enterprise-integration/`: Deep architectural blueprints for ERP (SAP), CRM (Salesforce), Core Banking, Payments, and Healthcare.
   * `15-modernization/`: Strangler Fig execution guides, legacy monolith database decomposition, on-prem to cloud cutover playbooks.
   * `18-reference-architectures/`: 10 complete industry reference architectures.
@@ -134,7 +135,7 @@ gantt
 ### Phase 10: Architect Mastery *(COMPLETED - v2.0.0)*
 * **Objective**: Transform this repository into a complete, battle-tested, authoritative personal Architect Operating System—focusing on decision-making, judgment, constraints, leadership, governance, economics, failure analysis, executive communication, and planetary-scale system design.
 * **Key Deliverables**:
-  * `10-architect-mastery/`:
+  * `24-architect-mastery/`:
     * Mindset, judgment, discovery, question frameworks, and NFR engineering.
     * Master Trade-offs Library (20 foundational architectural trade-offs analyzed).
     * Constraints, evolutionary architecture, fitness functions, strategy formulation, and Wardley mapping.

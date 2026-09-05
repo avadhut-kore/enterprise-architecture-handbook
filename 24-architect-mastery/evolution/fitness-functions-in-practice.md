@@ -51,5 +51,5 @@ public class ArchitectureFitnessTest {
 ```
 
 ## Related Modules
-- [Evolutionary Architecture Mastery](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/evolution/evolutionary-architecture-mastery.md)
+- [Evolutionary Architecture Mastery](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/evolution/evolutionary-architecture-mastery.md)
 - [Quality Assurance & Testing](../../16-architecture-deliverables/README.md)

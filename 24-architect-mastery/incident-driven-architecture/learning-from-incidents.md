@@ -29,5 +29,5 @@ Production incidents are the most honest feedback an architecture ever receives.
 - **Systemic Action**: Add automated query plan linting in CI to block unindexed scans.
 
 ## Related Modules
-- [War Stories](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/war-stories/README.md)
-- [Fitness Functions in Practice](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/evolution/fitness-functions-in-practice.md)
+- [War Stories](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/war-stories/README.md)
+- [Fitness Functions in Practice](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/evolution/fitness-functions-in-practice.md)

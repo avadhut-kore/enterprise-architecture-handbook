@@ -12,5 +12,5 @@ Many load testing tools (and naive tests) suffer from Coordinated Omission: when
 - **Flame Graphs**: Use Linux `perf` or async-profiler to visualize CPU bottlenecks directly down to kernel system calls and JVM/V8 frames.
 
 ## Related Modules
-- [Architecture Prototyping and Spikes](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/experimentation/architecture-prototyping-and-spikes.md)
-- [System Design Methodology](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/system-design/master-system-design-methodology.md)
+- [Architecture Prototyping and Spikes](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/experimentation/architecture-prototyping-and-spikes.md)
+- [System Design Methodology](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/system-design/master-system-design-methodology.md)

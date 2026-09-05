@@ -18,5 +18,5 @@ Phase 4: Strangle  -> Decommission legacy route; legacy endpoint turned off.
 4. **Cutover & Verification**: Flip DNS or Gateway routing rules.
 
 ## Related Modules
-- [Legacy Modernization Mastery](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/modernization/legacy-modernization-mastery.md)
+- [Legacy Modernization Mastery](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/modernization/legacy-modernization-mastery.md)
 - [Enterprise Integration](../../14-enterprise-integration/README.md)

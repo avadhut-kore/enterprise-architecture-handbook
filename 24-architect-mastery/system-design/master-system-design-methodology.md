@@ -62,5 +62,5 @@ This 18-step framework provides a structured, comprehensive approach to designin
 - **Quantify every constraint**: Convert abstract requirements like "fast" into quantifiable numbers: "p99 read latency < 25ms at 50,000 QPS."
 
 ## Related Modules
-- [Question Frameworks](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/question-frameworks/architecture-question-frameworks.md)
+- [Question Frameworks](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/question-frameworks/architecture-question-frameworks.md)
 - [Interview System Design Library](../../20-interview-system-design/README.md)

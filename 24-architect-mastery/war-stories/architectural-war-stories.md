@@ -108,5 +108,5 @@ These narratives document real-world architectural failures, the crisis manageme
 - **The Lesson**: Avoid distributed locking for financial workflows. Implement idempotent event-driven choreography with an outbox pattern and asynchronous saga orchestrators (Temporal / AWS Step Functions).
 
 ## Related Modules
-- [Enterprise Failure Modes](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/failure-analysis/enterprise-failure-modes-post-mortems.md)
-- [Incident-Driven Architecture](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/incident-driven-architecture/README.md)
+- [Enterprise Failure Modes](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/failure-analysis/enterprise-failure-modes-post-mortems.md)
+- [Incident-Driven Architecture](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/incident-driven-architecture/README.md)

@@ -27,5 +27,5 @@ The Reverse Conway Maneuver is the deliberate practice of restructuring engineer
 3. **Ignoring Service Ownership**: Every repository, microservice, and message topic must have exactly ONE owning team. Shared code ownership across multiple teams guarantees neglect.
 
 ## Related Modules
-- [Conway's Law and Team Topologies](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/organizational-design/conways-law-and-team-topologies.md)
-- [Architectural Leadership](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/leadership/README.md)
+- [Conway's Law and Team Topologies](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/organizational-design/conways-law-and-team-topologies.md)
+- [Architectural Leadership](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/leadership/README.md)

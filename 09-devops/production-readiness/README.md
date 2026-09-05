@@ -39,5 +39,5 @@ No service may be deployed to production without completing the DevOps Productio
 - [ ] Disaster recovery RPO and RTO tested and documented.
 
 ## Related Resources
-- [Production Readiness Review Mastery](../../10-architect-mastery/operations/production-readiness-review-mastery.md)
+- [Production Readiness Review Mastery](../../24-architect-mastery/operations/production-readiness-review-mastery.md)
 - [Checklists Hub](../checklists/README.md)

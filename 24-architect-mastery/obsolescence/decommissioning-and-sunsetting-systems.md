@@ -30,5 +30,5 @@ Before permanently deleting an unowned legacy service:
 3. If still zero escalations, initiate final data backup and destroy the infrastructure.
 
 ## Related Modules
-- [Modernization Mastery](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/modernization/legacy-modernization-mastery.md)
-- [Application Portfolio Management](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/portfolio-thinking/application-portfolio-management.md)
+- [Modernization Mastery](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/modernization/legacy-modernization-mastery.md)
+- [Application Portfolio Management](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/portfolio-thinking/application-portfolio-management.md)

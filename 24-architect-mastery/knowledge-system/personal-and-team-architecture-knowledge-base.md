@@ -29,5 +29,5 @@ Great architects possess superior mental models because they maintain systematic
 - **Zero Broken Links**: Maintain structural hypertext linking across all architectural decisions.
 
 ## Related Modules
-- [Architect Mastery Overview](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/README.md)
-- [System Design Methodology](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/system-design/master-system-design-methodology.md)
+- [Architect Mastery Overview](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/README.md)
+- [System Design Methodology](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/system-design/master-system-design-methodology.md)

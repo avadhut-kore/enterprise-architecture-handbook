@@ -28,4 +28,4 @@ PHASE 4: CONTRACT
 
 ## Related Resources
 - [Data Architecture](../../06-data/README.md)
-- [Enterprise Failure Modes Post-Mortems](../../10-architect-mastery/failure-analysis/enterprise-failure-modes-post-mortems.md)
+- [Enterprise Failure Modes Post-Mortems](../../24-architect-mastery/failure-analysis/enterprise-failure-modes-post-mortems.md)

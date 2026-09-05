@@ -69,4 +69,4 @@ Comprehensive, actionable verification checklists to evaluate systems at major g
 * [`modernization-priority-calculator.md`](modernization-priority-calculator.md) - Multi-criteria scoring calculator for application modernization.
 * [`capability-mapping-worksheet.md`](capability-mapping-worksheet.md) - Standard worksheet for decomposing and cataloging business capabilities.
 * [`vendor-evaluation-matrix.md`](vendor-evaluation-matrix.md) - 5-dimension weighted RFP evaluation matrix for enterprise software procurement.
-* [`../09-enterprise-architecture/checklists/enterprise-architecture-master-checklist.md`](../09-enterprise-architecture/checklists/enterprise-architecture-master-checklist.md) - Master 9-domain verification checklist.
+* [`../23-enterprise-architecture/checklists/enterprise-architecture-master-checklist.md`](../23-enterprise-architecture/checklists/enterprise-architecture-master-checklist.md) - Master 9-domain verification checklist.

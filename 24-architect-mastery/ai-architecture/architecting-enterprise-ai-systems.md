@@ -31,4 +31,4 @@ Integrating Generative AI and Autonomous Agents into enterprise ecosystems requi
 
 ## Related Modules
 - [AI Architecture Foundation](../../12-ai/README.md)
-- [Master Trade-offs Library](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/trade-offs/master-trade-offs-library.md)
+- [Master Trade-offs Library](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/trade-offs/master-trade-offs-library.md)

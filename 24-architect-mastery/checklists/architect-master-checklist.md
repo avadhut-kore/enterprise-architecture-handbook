@@ -41,5 +41,5 @@ Use this checklist during architecture design phases, ARB reviews, and pre-produ
 - [ ] 26. Has an architectural pre-mortem been conducted?
 
 ## Related Modules
-- [Production Readiness Review](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/operations/production-readiness-review-mastery.md)
-- [Enterprise Failure Modes](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/failure-analysis/enterprise-failure-modes-post-mortems.md)
+- [Production Readiness Review](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/operations/production-readiness-review-mastery.md)
+- [Enterprise Failure Modes](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/failure-analysis/enterprise-failure-modes-post-mortems.md)

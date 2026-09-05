@@ -4,4 +4,4 @@ Platform engineering provides internal self-service developer platforms that red
 
 ## Contents
 
-- [Internal Developer Platform Architecture](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/platform-strategy/internal-developer-platform-architecture.md) — Golden paths, self-service infrastructure, platform as a product, and Conway's Law alignment.
+- [Internal Developer Platform Architecture](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/platform-strategy/internal-developer-platform-architecture.md) — Golden paths, self-service infrastructure, platform as a product, and Conway's Law alignment.

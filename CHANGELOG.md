@@ -3,7 +3,7 @@
 ## [2.0.0] - 2026-09-05
 
 ### Added - Phase 10: Architect Mastery (Landmark Release & Capstone OS)
-* **Architect Mindset & Judgment (`10-architect-mastery/mindset/`, `architecture-judgment/`)**:
+* **Architect Mindset & Judgment (`24-architect-mastery/mindset/`, `architecture-judgment/`)**:
   * Foundational definition: *"An architect is paid for judgment, not diagrams."*
   * Developer-to-Enterprise Architect evolutionary journey and mental model shifts.
   * Architecture under extreme ambiguity, real-options thinking, and cost of delay.
@@ -40,7 +40,7 @@
   * 20 In-depth crisis turnaround and large-scale transformation case studies in strict 19-section format.
 * **System Design Interview Masterclass & 50 Scenario Library**:
   * 18-Step live system design interview framework (`20-interview-system-design/architect-mastery/`).
-  * 50 Comprehensive architectural scenarios across 12 enterprise verticals with complete technical specifications (`10-architect-mastery/scenario-library/`).
+  * 50 Comprehensive architectural scenarios across 12 enterprise verticals with complete technical specifications (`24-architect-mastery/scenario-library/`).
 * **Capstone Artifacts**:
   * Anti-Patterns Master Index, Decision Journal Template, Learning Loop, and 100-Point Master Checklist.
   * The Personal Architect Operating System (`personal-operating-system.md`) and Master Enterprise Architecture Model (`master-architecture-model.md`).
@@ -48,7 +48,7 @@
 ## [1.8.0] - 2026-09-05
 
 ### Added - Phase 9: Enterprise Architecture Operating System
-* **Foundations, Roles & Leadership (`09-enterprise-architecture/`)**:
+* **Foundations, Roles & Leadership (`23-enterprise-architecture/`)**:
   * Established the Core Enterprise Architecture Mental Model (Strategy -> Outcomes -> Value Streams -> Capabilities -> Applications/Data/Tech -> Transformation -> Governance).
   * Role profiles and RACI matrices for Enterprise, Solution, Technical, Business, and Chief Architects.
   * Executive communication playbooks: Minto Pyramid storytelling, C-suite briefing decks, influence without authority, and trade-off negotiations.

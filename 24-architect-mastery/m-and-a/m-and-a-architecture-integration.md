@@ -17,5 +17,5 @@ During mergers and acquisitions, the architect evaluates technical debt, estimat
 | **Best-of-Breed Blend** | Unify core platforms into a modernized hybrid. | Very Slow | Extremely High | Merger of equals with complementary platform capabilities. |
 
 ## Related Modules
-- [Application Portfolio Management](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/portfolio-thinking/application-portfolio-management.md)
-- [Decommissioning & Sunsetting](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/obsolescence/decommissioning-and-sunsetting-systems.md)
+- [Application Portfolio Management](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/portfolio-thinking/application-portfolio-management.md)
+- [Decommissioning & Sunsetting](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/obsolescence/decommissioning-and-sunsetting-systems.md)

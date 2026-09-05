@@ -17,5 +17,5 @@ Before adding a new layer, queue, or service, ask:
 Every component in an architecture is a liability that requires monitoring, security patching, upgrades, and on-call paging.
 
 ## Related Modules
-- [Cognitive Biases](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/decision-making/cognitive-biases-in-architecture.md)
-- [Master Trade-offs Library](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/trade-offs/master-trade-offs-library.md)
+- [Cognitive Biases](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/decision-making/cognitive-biases-in-architecture.md)
+- [Master Trade-offs Library](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/trade-offs/master-trade-offs-library.md)

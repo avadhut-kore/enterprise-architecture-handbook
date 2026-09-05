@@ -28,7 +28,7 @@ flowchart TD
 ## 2. Directory Structure & Capstone Domains
 
 ```text
-10-architect-mastery/
+24-architect-mastery/
 ├── README.md
 ├── mindset/                    # Architecture as decision-making, constraints, and leadership
 ├── architecture-judgment/      # First principles, systems thinking, reversibility, known/unknowns

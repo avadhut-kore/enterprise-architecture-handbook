@@ -21,5 +21,5 @@ Result: Velocity accelerates, architectural standards are enforced by code in CI
 3. **Architecture Review Board (Consultative)**: ARB acts as an advisory center of excellence rather than an authoritarian checkpoint.
 
 ## Related Modules
-- [Architecture Review Board Operating Model](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/architecture-review/architecture-review-board-operating-model.md)
-- [Architecture Metrics and KPIs](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/governance/architecture-metrics-and-kpis.md)
+- [Architecture Review Board Operating Model](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/architecture-review/architecture-review-board-operating-model.md)
+- [Architecture Metrics and KPIs](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/governance/architecture-metrics-and-kpis.md)

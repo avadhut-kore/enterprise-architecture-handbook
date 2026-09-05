@@ -23,5 +23,5 @@ A common enterprise failure pattern is "Design by Committee," where decisions ar
 - **Disagree and Commit**: Dissenting opinions are explicitly documented in the ADR consequences section. Once the decision is signed, all teams execute aligned with the outcome.
 
 ## Related Modules
-- [Leadership for Architects](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/leadership/README.md)
-- [Architecture Governance](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/governance/README.md)
+- [Leadership for Architects](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/leadership/README.md)
+- [Architecture Governance](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/governance/README.md)

@@ -35,7 +35,7 @@ flowchart TD
 ## 2. Directory Structure & Domain Architecture
 
 ```text
-09-enterprise-architecture/
+23-enterprise-architecture/
 ├── README.md
 ├── foundations/               # EA definitions, boundaries, scaling, and mental models
 ├── roles/                     # Role profiles, career ladders, RACI, Chief Architect charter

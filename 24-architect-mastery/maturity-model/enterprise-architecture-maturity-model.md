@@ -13,5 +13,5 @@ This maturity model assesses how effectively an organization designs, governs, a
 | **Stage 5: Evolutionary Mastery** | Continuous experimentation; real-options mindset. | Modular, loosely coupled, event-driven meshes. | Tech drives and opens new business models. | Chaos engineering; zero Sev-1 repeat failures. |
 
 ## Related Modules
-- [Pragmatic Governance](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/governance/pragmatic-architecture-governance.md)
-- [Architect Skill Matrix](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/skill-matrix/architect-skill-matrix-and-self-assessment.md)
+- [Pragmatic Governance](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/governance/pragmatic-architecture-governance.md)
+- [Architect Skill Matrix](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/skill-matrix/architect-skill-matrix-and-self-assessment.md)

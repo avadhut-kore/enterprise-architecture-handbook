@@ -15,5 +15,5 @@ A pre-mortem (Gary Klein) flips the standard risk assessment mindset. Instead of
 5. **Architectural Countermeasures (15 mins)**: Draft ADR amendments and automated fitness functions that make these specific failures impossible.
 
 ## Related Modules
-- [Architectural Red Teaming](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/red-team/architectural-red-teaming.md)
-- [Blameless Post-Mortem Framework](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/post-mortem/blameless-post-mortem-framework.md)
+- [Architectural Red Teaming](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/red-team/architectural-red-teaming.md)
+- [Blameless Post-Mortem Framework](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/post-mortem/blameless-post-mortem-framework.md)

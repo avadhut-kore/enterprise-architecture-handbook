@@ -68,5 +68,5 @@ Every material decision must produce an ADR detailing:
 Set a calendar date (e.g., 6 months post-deployment) to inspect real-world metrics against projected assumptions.
 
 ## Related Resources
-- [Irreversible vs Reversible Decisions](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/decision-making/irreversible-vs-reversible-decisions.md)
+- [Irreversible vs Reversible Decisions](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/decision-making/irreversible-vs-reversible-decisions.md)
 - [Architecture Deliverables](../../16-architecture-deliverables/README.md)

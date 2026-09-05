@@ -64,7 +64,6 @@ The repository is structured into logically decoupled, numerically prefixed doma
 | **`08`** | **Cloud** | AWS, Azure, GCP, multi-cloud, hybrid topology, cloud-native patterns, and FinOps cloud cost optimization. | [08-cloud](./08-cloud/) |
 | **`09`** | **DevOps** | Git workflows, CI/CD pipelines, Docker, Kubernetes, Terraform, Ansible, and Platform Engineering. | [09-devops](./09-devops/) |
 | **`10`** | **Security** | Zero Trust, OAuth2/OIDC, mTLS, cryptography, secrets management, threat modeling (STRIDE), DevSecOps. | [10-security](./10-security/) |
-| **`10`** | **Architect Mastery** | Capstone OS: Judgment, trade-offs, constraints, leadership, governance, failure analysis, 20 ref archs, 20 case studies, 50 scenarios. | [10-architect-mastery](./10-architect-mastery/) |
 | **`11`** | **Observability** | Telemetry pillars (Logs, Metrics, Traces), OpenTelemetry, SLO/SLA management, incident triage. | [11-observability](./11-observability/) |
 | **`12`** | **AI / GenAI** | Enterprise LLM integration, RAG architectures, multi-agent systems, vector DBs, AI evaluation, and AI security. | [12-ai](./12-ai/) |
 | **`13`** | **Architecture Patterns** | Microservices, Modular Monoliths, Event-Driven Architecture (EDA), CQRS, Event Sourcing, Saga, DDD. | [13-architecture-patterns](./13-architecture-patterns/) |
@@ -77,6 +76,8 @@ The repository is structured into logically decoupled, numerically prefixed doma
 | **`20`** | **Interview System Design**| Staff/Principal/Architect-level design challenges, trade-off inquiries, and leadership scorecards. | [20-interview-system-design](./20-interview-system-design/) |
 | **`21`** | **Architecture Tools** | Production review checklists, capacity calculators, linters, templates, and diagram generators. | [21-architecture-tools](./21-architecture-tools/) |
 | **`22`** | **Reference** | Architectural glossaries, acronym decoders, technology comparison matrices, and protocol specs. | [22-reference](./22-reference/) |
+| **`23`** | **Enterprise Architecture** | Strategic business alignment, capability architecture, APM/TPM, governance, and transformation roadmaps. | [23-enterprise-architecture](./23-enterprise-architecture/) |
+| **`24`** | **Architect Mastery** | Capstone OS: Judgment, trade-offs, constraints, leadership, governance, failure analysis, 20 ref archs, 20 case studies, 50 scenarios. | [24-architect-mastery](./24-architect-mastery/) |
 | **`99`** | **Experiments** | Sandboxed prototypes, benchmarks, architectural spikes, and distributed system labs. | [99-experiments](./99-experiments/) |
 
 *For complete document-level navigation across all topics, visit the [Master Index](INDEX.md).*

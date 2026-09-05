@@ -143,5 +143,5 @@ This reference analyzes 20 high-severity architectural failures encountered in e
 - **Architectural Mitigation**: Full AZ-independent isolation: deploy dedicated NAT Gateways, ALB subnets, and service instances per AZ with zero cross-AZ dependencies for failure domains.
 
 ## Related Modules
-- [War Stories](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/war-stories/README.md)
-- [Incident-Driven Architecture](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/incident-driven-architecture/README.md)
+- [War Stories](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/war-stories/README.md)
+- [Incident-Driven Architecture](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/incident-driven-architecture/README.md)

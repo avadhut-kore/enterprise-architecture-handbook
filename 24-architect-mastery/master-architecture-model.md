@@ -35,5 +35,5 @@ The unified meta-model connecting business strategy, capability architecture, sy
 5. **Decisions Are Assets**: Document the "Why" transparently to allow future architects to evolve the system with confidence.
 
 ## Related Modules
-- [Personal Architect Operating System](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/personal-operating-system.md)
-- [Master Trade-offs Library](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/trade-offs/master-trade-offs-library.md)
+- [Personal Architect Operating System](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/personal-operating-system.md)
+- [Master Trade-offs Library](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/trade-offs/master-trade-offs-library.md)

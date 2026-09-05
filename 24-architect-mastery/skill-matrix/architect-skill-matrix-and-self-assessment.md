@@ -28,5 +28,5 @@ A complete architect combines deep technical competence with sharp business judg
 - **Level 5 (Enterprise Authority)**: Shapes enterprise strategy, mentors principals, and drives industry-wide innovation.
 
 ## Related Modules
-- [Architect Career Paths](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/career/architect-career-paths-and-growth.md)
-- [Enterprise Architecture Maturity](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/maturity-model/enterprise-architecture-maturity-model.md)
+- [Architect Career Paths](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/career/architect-career-paths-and-growth.md)
+- [Enterprise Architecture Maturity](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/maturity-model/enterprise-architecture-maturity-model.md)

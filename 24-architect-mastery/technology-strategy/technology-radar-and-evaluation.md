@@ -34,5 +34,5 @@ Before moving any technology from `ASSESS` to `TRIAL`, evaluate:
 - **Hiring & Talent Pool**: Can we hire engineers skilled in this technology within 60 days?
 
 ## Related Modules
-- [Platform Strategy](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/platform-strategy/README.md)
+- [Platform Strategy](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/platform-strategy/README.md)
 - [Technology Portfolio Management](../../22-reference/README.md)

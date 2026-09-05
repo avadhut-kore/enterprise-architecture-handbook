@@ -33,5 +33,5 @@ Every sound architectural strategy contains three essential components:
 ```
 
 ## Related Modules
-- [Wardley Mapping](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/strategy/wardley-mapping-for-architects.md)
-- [Technology Strategy](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/technology-strategy/README.md)
+- [Wardley Mapping](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/strategy/wardley-mapping-for-architects.md)
+- [Technology Strategy](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/technology-strategy/README.md)

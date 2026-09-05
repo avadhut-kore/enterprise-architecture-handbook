@@ -30,5 +30,5 @@ Architectural mastery is not an accumulation of facts; it is an active feedback 
 ```
 
 ## Related Modules
-- [Decision Journal](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/decision-journal/README.md)
-- [Architect Continuous Improvement](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/continuous-improvement/README.md)
+- [Decision Journal](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/decision-journal/README.md)
+- [Architect Continuous Improvement](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/continuous-improvement/README.md)

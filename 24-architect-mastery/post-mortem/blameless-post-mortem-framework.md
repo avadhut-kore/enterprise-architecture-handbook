@@ -27,5 +27,5 @@ A blameless post-mortem operates on the fundamental assumption that engineers do
 - [ ] Codify connection pool size checks into CI/CD ArchUnit fitness functions (Owner: Architect, Due: Sprint 12).
 
 ## Related Modules
-- [Incident-Driven Architecture](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/incident-driven-architecture/learning-from-incidents.md)
-- [Enterprise Failure Modes](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/failure-analysis/enterprise-failure-modes-post-mortems.md)
+- [Incident-Driven Architecture](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/incident-driven-architecture/learning-from-incidents.md)
+- [Enterprise Failure Modes](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/failure-analysis/enterprise-failure-modes-post-mortems.md)

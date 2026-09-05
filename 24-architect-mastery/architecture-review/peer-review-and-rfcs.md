@@ -18,5 +18,5 @@ Draft in Git Branch -> Open Pull Request -> Tag Reviewers & Stakeholders -> Asyn
   - `[NIT]`: Minor styling or nomenclature cleanup.
 
 ## Related Modules
-- [Architecture Review Board Operating Model](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/architecture-review/architecture-review-board-operating-model.md)
-- [Decision Making Framework](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/decision-making/README.md)
+- [Architecture Review Board Operating Model](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/architecture-review/architecture-review-board-operating-model.md)
+- [Decision Making Framework](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/decision-making/README.md)

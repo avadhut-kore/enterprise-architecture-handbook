@@ -14,5 +14,5 @@ Never answer: *"Use SQS."*
 Instead answer: *"What are the ordering requirements, replay expectations, and consumer fan-out needs? Let's look at the master trade-offs library together."*
 
 ## Related Modules
-- [Master Trade-offs Library](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/trade-offs/master-trade-offs-library.md)
-- [Architecture Review Operating Model](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/architecture-review/architecture-review-board-operating-model.md)
+- [Master Trade-offs Library](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/trade-offs/master-trade-offs-library.md)
+- [Architecture Review Operating Model](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/architecture-review/architecture-review-board-operating-model.md)

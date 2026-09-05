@@ -28,5 +28,5 @@ An Internal Developer Platform treats the developer experience as a product, cre
 - **Cognitive Load Reduction**: Shift-left without burdening developers with Kubernetes networking manifests and IAM policy math.
 
 ## Related Modules
-- [Organizational Design & Conway's Law](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/organizational-design/README.md)
+- [Organizational Design & Conway's Law](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/organizational-design/README.md)
 - [Cloud Architecture Foundation](../../08-cloud/README.md)

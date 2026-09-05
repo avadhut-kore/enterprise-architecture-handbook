@@ -25,4 +25,4 @@ What happens if the DevOps platform itself suffers a catastrophic outage? The de
 
 ## Related Resources
 - [Failure Engineering](../failure-engineering/README.md)
-- [Enterprise Failure Modes](../../10-architect-mastery/failure-analysis/enterprise-failure-modes-post-mortems.md)
+- [Enterprise Failure Modes](../../24-architect-mastery/failure-analysis/enterprise-failure-modes-post-mortems.md)

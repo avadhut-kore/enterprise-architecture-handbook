@@ -27,5 +27,5 @@ Regulated software systems must be designed for continuous auditability, determi
 ```
 
 ## Related Modules
-- [Global Architecture](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/global-architecture/README.md)
+- [Global Architecture](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/global-architecture/README.md)
 - [Security Architecture](../../10-security/README.md)

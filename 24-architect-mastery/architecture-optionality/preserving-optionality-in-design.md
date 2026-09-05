@@ -9,5 +9,5 @@ Options have economic value. In an environment of rapid technological change and
 3. **Favor Composition Over Deep Inheritance**: Modular pipelines allow plugging new processors without rewriting core execution graphs.
 
 ## Related Modules
-- [Master Trade-offs Library](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/trade-offs/master-trade-offs-library.md)
-- [Irreversible vs Reversible Decisions](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/decision-making/irreversible-vs-reversible-decisions.md)
+- [Master Trade-offs Library](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/trade-offs/master-trade-offs-library.md)
+- [Irreversible vs Reversible Decisions](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/decision-making/irreversible-vs-reversible-decisions.md)

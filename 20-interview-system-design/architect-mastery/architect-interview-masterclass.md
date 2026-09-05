@@ -44,5 +44,5 @@ When an interviewer says: *"Design a global ridesharing platform"*:
   - Frame with ownership and systemic learning: what broke, how the war room was led, the blameless post-mortem, and the automated fitness function built to prevent recurrence.
 
 ## Related Modules
-- [Scenario Library](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/scenario-library/README.md)
-- [Master System Design Methodology](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/system-design/master-system-design-methodology.md)
+- [Scenario Library](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/scenario-library/README.md)
+- [Master System Design Methodology](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/system-design/master-system-design-methodology.md)

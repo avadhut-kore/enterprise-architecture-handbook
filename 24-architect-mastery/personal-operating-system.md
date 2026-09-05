@@ -23,5 +23,5 @@ A structured operating system for practicing enterprise architecture at the high
 - **Technical Debt Paydown Review**: Verify that 20% engineering allocation is delivering measurable MTTR/DORA gains.
 
 ## Related Modules
-- [Architect Career Paths](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/career/architect-career-paths-and-growth.md)
-- [Master Architecture Model](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/master-architecture-model.md)
+- [Architect Career Paths](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/career/architect-career-paths-and-growth.md)
+- [Master Architecture Model](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/master-architecture-model.md)

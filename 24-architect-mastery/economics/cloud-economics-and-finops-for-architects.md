@@ -32,5 +32,5 @@ Cloud expenditure is an architectural metric. Every architectural decision is an
 3. **Storage Tiering**: Automatically transition S3 objects from Standard to Glacier Instant Retrieval after 30 days.
 
 ## Related Modules
-- [Unit Economics and Cost Modeling](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/economics/unit-economics-and-cost-modeling.md)
-- [Master Trade-offs Library](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/trade-offs/master-trade-offs-library.md)
+- [Unit Economics and Cost Modeling](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/economics/unit-economics-and-cost-modeling.md)
+- [Master Trade-offs Library](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/trade-offs/master-trade-offs-library.md)

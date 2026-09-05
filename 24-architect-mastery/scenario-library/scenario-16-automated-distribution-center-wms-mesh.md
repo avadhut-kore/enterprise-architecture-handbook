@@ -48,5 +48,5 @@
 - **Investment & Timeline**: 6-month delivery phased across three 60-day strangler fig milestones.
 
 ## Related Modules
-- [Master System Design Methodology](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/system-design/master-system-design-methodology.md)
+- [Master System Design Methodology](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/system-design/master-system-design-methodology.md)
 - [Architect Interview Masterclass](file:///d:/company/products/enterprise-architecture-handbook/20-interview-system-design/architect-mastery/architect-interview-masterclass.md)

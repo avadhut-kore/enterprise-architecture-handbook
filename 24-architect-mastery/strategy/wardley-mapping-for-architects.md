@@ -41,5 +41,5 @@ Value Chain (High)
 **Never build custom software on components that have evolved to Commodity/Utility.** Outsource or leverage cloud managed services for utility layers, and focus custom development exclusively on Genesis and Custom-Built stages where business differentiation exists.
 
 ## Related Modules
-- [Architecture Strategy Formulation](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/strategy/architecture-strategy-formulation.md)
-- [Platform Strategy](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/platform-strategy/README.md)
+- [Architecture Strategy Formulation](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/strategy/architecture-strategy-formulation.md)
+- [Platform Strategy](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/platform-strategy/README.md)

@@ -21,5 +21,5 @@ Submission of 2-page RFC -> 5 Business Days Async Review -> 30-min ARB Discussio
 - **Actionable Feedback**: ARB feedback must not say *"We don't like this."* It must specify *"Address data residency risk in Section 4 by adding KMS envelope encryption."*
 
 ## Related Modules
-- [Peer Review and RFCs](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/architecture-review/peer-review-and-rfcs.md)
-- [Pragmatic Governance](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/governance/README.md)
+- [Peer Review and RFCs](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/architecture-review/peer-review-and-rfcs.md)
+- [Pragmatic Governance](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/governance/README.md)

@@ -45,4 +45,4 @@ When constrained by external API rate limits or downstream partner SLA failures,
 
 ## Related Modules
 - [Legacy Modernization Patterns](../../15-modernization/README.md)
-- [Master Trade-offs Library](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/trade-offs/master-trade-offs-library.md)
+- [Master Trade-offs Library](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/trade-offs/master-trade-offs-library.md)

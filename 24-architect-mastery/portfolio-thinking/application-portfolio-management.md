@@ -26,5 +26,5 @@ Low  │   [ELIMINATE]              │   [MIGRATE]
 - **Allocate 20% Capacity to Technical Debt**: Top-performing engineering organizations mandate that 20% of every sprint backlog is reserved for debt paydown and architectural evolution.
 
 ## Related Modules
-- [M&A Architecture](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/m-and-a/README.md)
-- [Radical Simplification](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/simplification/README.md)
+- [M&A Architecture](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/m-and-a/README.md)
+- [Radical Simplification](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/simplification/README.md)

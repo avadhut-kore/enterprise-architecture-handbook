@@ -34,4 +34,4 @@ How an enterprise organizes its teams dictates the software architecture it prod
 
 ## Related Resources
 - [Platform Engineering](../platform-engineering/README.md)
-- [Organizational Design & Team Topologies](../../10-architect-mastery/organizational-design/README.md)
+- [Organizational Design & Team Topologies](../../24-architect-mastery/organizational-design/README.md)

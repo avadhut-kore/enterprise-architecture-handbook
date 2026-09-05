@@ -17,4 +17,4 @@ Architectural blueprint for Java microservices utilizing modern JVM runtimes.
 
 ## Related Resources
 - [Java Backend Architecture](../../../03-backend/java/README.md)
-- [Fitness Functions](../../../10-architect-mastery/evolution/fitness-functions-in-practice.md)
+- [Fitness Functions](../../../24-architect-mastery/evolution/fitness-functions-in-practice.md)

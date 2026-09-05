@@ -112,5 +112,5 @@ This reference documents the 20 fundamental trade-offs encountered by enterprise
 - **Trade-off**: Rigid technology standard catalogs ensure organizational mobility, predictable hiring, and volume discount licensing. Unconstrained technical freedom allows teams to leverage cutting-edge tooling, but risks an unmaintainable zoo of orphaned tech stacks.
 
 ## Related Resources
-- [Trade-Off Analysis Template](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/trade-offs/trade-off-analysis-template.md)
-- [Architecture Judgment](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/architecture-judgment/README.md)
+- [Trade-Off Analysis Template](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/trade-offs/trade-off-analysis-template.md)
+- [Architecture Judgment](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/architecture-judgment/README.md)

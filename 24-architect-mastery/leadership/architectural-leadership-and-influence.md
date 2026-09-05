@@ -31,5 +31,5 @@ Staff, Principal, and Enterprise Architects rarely have direct line-management a
 3. **Seek Disconfirming Evidence**: Actively ask: "What are three reasons this architecture might fail miserably?" This builds trust and lowers defensiveness.
 
 ## Related Modules
-- [Managing Technical Conflict](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/leadership/managing-technical-conflict.md)
-- [Architecture Storytelling](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/architecture-storytelling/README.md)
+- [Managing Technical Conflict](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/leadership/managing-technical-conflict.md)
+- [Architecture Storytelling](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/architecture-storytelling/README.md)

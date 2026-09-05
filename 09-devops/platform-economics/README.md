@@ -15,4 +15,4 @@ $$\text{Net Benefit} = (\text{Developer Hours Saved} \times \text{Blended Hourly
 
 ## Related Resources
 - [DevOps Economics](../devops-economics/README.md)
-- [Architecture Business Case](../../10-architect-mastery/executive-communication/architecture-business-case-template.md)
+- [Architecture Business Case](../../24-architect-mastery/executive-communication/architecture-business-case-template.md)

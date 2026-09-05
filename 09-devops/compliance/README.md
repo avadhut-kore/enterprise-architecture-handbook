@@ -16,4 +16,4 @@ Compliance is not a binder of paper screenshots reviewed by auditors once a year
 
 ## Related Resources
 - [Pipeline Governance](../ci-cd/pipeline-governance/pipeline-governance-and-standards.md)
-- [Regulated Enterprise Architecture](../../10-architect-mastery/regulated-enterprise/README.md)
+- [Regulated Enterprise Architecture](../../24-architect-mastery/regulated-enterprise/README.md)

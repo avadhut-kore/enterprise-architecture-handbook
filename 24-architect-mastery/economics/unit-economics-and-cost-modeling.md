@@ -17,5 +17,5 @@ If traffic doubles but unit cost remains flat or increases, the architecture has
 | **Option B at 10M orders Scale** | $18,000 | 10,000,000 orders | $0.0018 / order |
 
 ## Related Modules
-- [Cloud Economics and FinOps](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/economics/cloud-economics-and-finops-for-architects.md)
-- [Executive Communication](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/executive-communication/README.md)
+- [Cloud Economics and FinOps](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/economics/cloud-economics-and-finops-for-architects.md)
+- [Executive Communication](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/executive-communication/README.md)

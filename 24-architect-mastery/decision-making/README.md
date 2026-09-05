@@ -4,10 +4,10 @@ This module provides systematic frameworks and mental models for making high-sta
 
 ## Contents
 
-- [Architecture Decision-Making Framework](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/decision-making/architecture-decision-making-framework.md) — Multi-criteria decision analysis, framing, evaluation matrices, and stakeholder sign-off.
-- [Irreversible vs Reversible Decisions](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/decision-making/irreversible-vs-reversible-decisions.md) — Type 1 vs Type 2 decisions, two-way doors, and real-options pricing in architecture.
-- [Consensus vs Ownership](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/decision-making/consensus-vs-ownership.md) — Navigating design by committee, benevolent dictatorship, and consent-based governance.
-- [Cognitive Biases in Architecture](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/decision-making/cognitive-biases-in-architecture.md) — Sunk cost fallacy, resume-driven design, survivorship bias, and hyper-specialization bias.
+- [Architecture Decision-Making Framework](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/decision-making/architecture-decision-making-framework.md) — Multi-criteria decision analysis, framing, evaluation matrices, and stakeholder sign-off.
+- [Irreversible vs Reversible Decisions](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/decision-making/irreversible-vs-reversible-decisions.md) — Type 1 vs Type 2 decisions, two-way doors, and real-options pricing in architecture.
+- [Consensus vs Ownership](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/decision-making/consensus-vs-ownership.md) — Navigating design by committee, benevolent dictatorship, and consent-based governance.
+- [Cognitive Biases in Architecture](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/decision-making/cognitive-biases-in-architecture.md) — Sunk cost fallacy, resume-driven design, survivorship bias, and hyper-specialization bias.
 
 ## Core Principles
 

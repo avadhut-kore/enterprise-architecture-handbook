@@ -4,8 +4,8 @@ Every architecture decision is fundamentally a trade-off. There are no perfect s
 
 ## Contents
 
-- [Master Trade-Offs Library](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/trade-offs/master-trade-offs-library.md) — Comprehensive, deep-dive analysis of the 20 fundamental architectural trade-offs.
-- [Trade-Off Analysis Template](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/trade-offs/trade-off-analysis-template.md) — Standardized methodology and scoring rubric for documenting trade-offs in ADRs.
+- [Master Trade-Offs Library](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/trade-offs/master-trade-offs-library.md) — Comprehensive, deep-dive analysis of the 20 fundamental architectural trade-offs.
+- [Trade-Off Analysis Template](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/trade-offs/trade-off-analysis-template.md) — Standardized methodology and scoring rubric for documenting trade-offs in ADRs.
 
 ## The 20 Fundamental Architectural Trade-Offs
 

@@ -15,5 +15,5 @@ The purpose of an architectural spike is not to write production code. It is to 
 2. **Strict Timeboxing**: If an answer is not found within 3 days, the technology is deemed too complex or unstable for adoption.
 
 ## Related Modules
-- [Benchmarking and Performance Profiling](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/benchmarking/benchmarking-and-performance-profiling.md)
-- [Irreversible vs Reversible Decisions](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/decision-making/irreversible-vs-reversible-decisions.md)
+- [Benchmarking and Performance Profiling](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/benchmarking/benchmarking-and-performance-profiling.md)
+- [Irreversible vs Reversible Decisions](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/decision-making/irreversible-vs-reversible-decisions.md)

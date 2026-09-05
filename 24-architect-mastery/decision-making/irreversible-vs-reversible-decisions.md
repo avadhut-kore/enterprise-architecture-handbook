@@ -35,5 +35,5 @@ A primary failure mode of software engineering leadership is treating all decisi
 3. **Cost of Delay vs Cost of Mistake**: If `Cost of Delay > Cost of Fixing a Mistake`, move immediately with a reversible pattern.
 
 ## Related Modules
-- [Cognitive Biases in Architecture](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/decision-making/cognitive-biases-in-architecture.md)
-- [Master Trade-offs Library](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/trade-offs/master-trade-offs-library.md)
+- [Cognitive Biases in Architecture](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/decision-making/cognitive-biases-in-architecture.md)
+- [Master Trade-offs Library](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/trade-offs/master-trade-offs-library.md)

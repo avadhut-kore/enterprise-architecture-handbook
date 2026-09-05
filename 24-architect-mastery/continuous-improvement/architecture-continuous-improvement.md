@@ -28,5 +28,5 @@ Quarterly evaluation of every major bounded context across four dimensions:
 - **Security Posture**: Unpatched CVEs older than 30 days.
 
 ## Related Modules
-- [Fitness Functions in Practice](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/evolution/fitness-functions-in-practice.md)
-- [Application Portfolio Management](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/portfolio-thinking/application-portfolio-management.md)
+- [Fitness Functions in Practice](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/evolution/fitness-functions-in-practice.md)
+- [Application Portfolio Management](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/portfolio-thinking/application-portfolio-management.md)

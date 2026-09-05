@@ -29,5 +29,5 @@ Architectural Red Teaming is the structured practice of assigning a team of inde
 - **Constructive Deliverables**: Red team findings must be documented as specific risk entries in the architectural risk register with remediation proposals.
 
 ## Related Modules
-- [Architecture Pre-Mortem Guide](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/pre-mortem/architecture-pre-mortem-guide.md)
-- [Enterprise Failure Modes](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/failure-analysis/enterprise-failure-modes-post-mortems.md)
+- [Architecture Pre-Mortem Guide](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/pre-mortem/architecture-pre-mortem-guide.md)
+- [Enterprise Failure Modes](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/failure-analysis/enterprise-failure-modes-post-mortems.md)

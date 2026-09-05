@@ -31,5 +31,5 @@ Architects often fail to secure executive funding or engineering passion because
 - **The Metaphor**: Use relatable analogies (e.g., "Replacing the engine on a 747 mid-flight" vs "Rewiring the building's electrical grid while the lights stay on").
 
 ## Related Modules
-- [Executive Communication](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/executive-communication/README.md)
-- [Architecture Judgment](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/architecture-judgment/README.md)
+- [Executive Communication](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/executive-communication/README.md)
+- [Architecture Judgment](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/architecture-judgment/README.md)

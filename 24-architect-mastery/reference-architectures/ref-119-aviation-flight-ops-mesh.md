@@ -116,6 +116,6 @@ type EventEnvelope struct {
 - Continuous chaos engineering (Chaos Mesh), monthly disaster recovery drills, weekly dependency CVE audits.
 
 ## 26. Related Handbooks & References
-- [Master Trade-offs Library](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/trade-offs/master-trade-offs-library.md)
-- [Enterprise Failure Modes](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/failure-analysis/enterprise-failure-modes-post-mortems.md)
+- [Master Trade-offs Library](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/trade-offs/master-trade-offs-library.md)
+- [Enterprise Failure Modes](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/failure-analysis/enterprise-failure-modes-post-mortems.md)
 - [Reference Architectures Catalog](../../18-reference-architectures/README.md)

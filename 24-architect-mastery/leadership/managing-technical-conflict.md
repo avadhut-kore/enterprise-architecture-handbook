@@ -25,5 +25,5 @@ Step 5: Disagree and Commit       -> Execute without passive-aggressive sabotage
 ```
 
 ## Related Modules
-- [Consensus vs Ownership](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/decision-making/consensus-vs-ownership.md)
-- [Architectural Leadership](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/leadership/architectural-leadership-and-influence.md)
+- [Consensus vs Ownership](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/decision-making/consensus-vs-ownership.md)
+- [Architectural Leadership](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/leadership/architectural-leadership-and-influence.md)

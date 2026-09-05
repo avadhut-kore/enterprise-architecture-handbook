@@ -31,5 +31,5 @@ Risk is the probability of an adverse event multiplied by its potential blast ra
 - **Fail-Open vs Fail-Closed**: Decide consciously whether safety or availability dominates during subsystem failure (e.g., authorization checks must fail-closed; recommendation widgets must fail-open).
 
 ## Related Modules
-- [Risk Assessment Matrix and Heatmaps](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/risk/risk-assessment-matrix-and-heatmaps.md)
-- [Master Trade-offs Library](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/trade-offs/master-trade-offs-library.md)
+- [Risk Assessment Matrix and Heatmaps](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/risk/risk-assessment-matrix-and-heatmaps.md)
+- [Master Trade-offs Library](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/trade-offs/master-trade-offs-library.md)

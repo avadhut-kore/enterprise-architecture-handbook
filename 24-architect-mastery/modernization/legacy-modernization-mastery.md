@@ -23,5 +23,5 @@ Low Quality      High Quality                   Low Quality      High Quality
 3. **Telemetry Parity**: Run old and new systems concurrently in shadow mode; compare responses at the API gateway before routing user traffic.
 
 ## Related Modules
-- [Strangler Fig and Data Migration](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/modernization/strangler-fig-and-data-migration.md)
+- [Strangler Fig and Data Migration](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/modernization/strangler-fig-and-data-migration.md)
 - [Legacy Modernization Guide](../../15-modernization/README.md)

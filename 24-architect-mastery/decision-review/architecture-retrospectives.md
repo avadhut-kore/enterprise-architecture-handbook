@@ -14,5 +14,5 @@ Every 6 months post-implementation, the architecture guild reviews approved ADRs
 - When a decision is reversed or replaced, the original ADR is never deleted or edited; it is marked `SUPERSEDED by ADR-042` with an explanation of what changed in the operating environment.
 
 ## Related Modules
-- [Pragmatic Governance](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/governance/pragmatic-architecture-governance.md)
+- [Pragmatic Governance](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/governance/pragmatic-architecture-governance.md)
 - [Architecture Deliverables](../../16-architecture-deliverables/README.md)

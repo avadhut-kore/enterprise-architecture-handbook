@@ -50,6 +50,6 @@ $$\text{Business Needs} \to \text{Delivery Needs} \to \text{Operational Needs} \
 - [Phase 6: Cloud Architecture & FinOps](../08-cloud/README.md) — Multi-cloud infrastructure, networking, and cloud unit economics.
 - [Phase 7: Security & Zero Trust Architecture](../10-security/README.md) — Threat modeling, IAM, encryption, and vulnerability management.
 - [Phase 8: AI & Modern Architecture](../12-ai/README.md) — MLOps, LLMOps, vector mesh, and agentic workflows.
-- [Phase 9: Enterprise Architecture](../09-enterprise-architecture/README.md) — Business capability mapping, portfolio management, and IT governance.
-- [Phase 10: Architect Mastery](../10-architect-mastery/README.md) — Executive communication, trade-offs, and master decision frameworks.
+- [Phase 9: Enterprise Architecture](../23-enterprise-architecture/README.md) — Business capability mapping, portfolio management, and IT governance.
+- [Phase 10: Architect Mastery](../24-architect-mastery/README.md) — Executive communication, trade-offs, and master decision frameworks.
 - [Phase 11: Observability & SRE](../11-observability/README.md) — SLOs, Error budgets, incident command, and telemetry.

@@ -31,5 +31,5 @@
 4. **Amdahl's Law**: System speedup is strictly limited by the sequential fraction of the task.
 
 ## Related Modules
-- [Master System Design Methodology](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/system-design/master-system-design-methodology.md)
-- [Master Trade-offs Library](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/trade-offs/master-trade-offs-library.md)
+- [Master System Design Methodology](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/system-design/master-system-design-methodology.md)
+- [Master Trade-offs Library](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/trade-offs/master-trade-offs-library.md)

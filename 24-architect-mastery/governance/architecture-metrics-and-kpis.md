@@ -26,5 +26,5 @@ How do you measure the value and health of enterprise software architecture? If 
 ```
 
 ## Related Modules
-- [Pragmatic Architecture Governance](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/governance/pragmatic-architecture-governance.md)
+- [Pragmatic Architecture Governance](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/governance/pragmatic-architecture-governance.md)
 - [Operations & SRE Architecture](../../11-observability/README.md)

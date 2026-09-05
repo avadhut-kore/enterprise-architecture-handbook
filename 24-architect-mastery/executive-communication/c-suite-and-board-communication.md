@@ -31,5 +31,5 @@ When presenting to executives:
 Never start with the background history. Start with the ask, the investment required, and the expected business outcome.
 
 ## Related Modules
-- [One-Page Architecture Brief](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/executive-communication/one-page-architecture-brief.md)
-- [Architecture Business Case Template](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/executive-communication/architecture-business-case-template.md)
+- [One-Page Architecture Brief](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/executive-communication/one-page-architecture-brief.md)
+- [Architecture Business Case Template](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/executive-communication/architecture-business-case-template.md)

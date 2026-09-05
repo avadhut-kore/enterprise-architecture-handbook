@@ -25,5 +25,5 @@ Global enterprises must respect the physical and legal reality of data borders. 
 3. **Anonymized Telemetry**: Strip IP addresses and PII before streaming observability logs to centralized global observability hubs.
 
 ## Related Modules
-- [Regulated Enterprise Architecture](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/regulated-enterprise/README.md)
-- [Master Trade-offs Library](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/trade-offs/master-trade-offs-library.md)
+- [Regulated Enterprise Architecture](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/regulated-enterprise/README.md)
+- [Master Trade-offs Library](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/trade-offs/master-trade-offs-library.md)

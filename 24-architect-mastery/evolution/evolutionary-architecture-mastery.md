@@ -27,5 +27,5 @@ An architectural seam is an intentional boundary that allows swapping implementa
 - **Ports and Adapters (Hexagonal Architecture)**: Domain business logic completely isolated from databases, message brokers, and UI frameworks.
 
 ## Related Modules
-- [Fitness Functions in Practice](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/evolution/fitness-functions-in-practice.md)
+- [Fitness Functions in Practice](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/evolution/fitness-functions-in-practice.md)
 - [Modernization](../../15-modernization/README.md)

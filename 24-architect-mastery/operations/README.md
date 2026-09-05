@@ -4,4 +4,4 @@ Bridging software architecture with high-reliability operations and SRE discipli
 
 ## Contents
 
-- [Production Readiness Review Mastery](file:///d:/company/products/enterprise-architecture-handbook/10-architect-mastery/operations/production-readiness-review-mastery.md) — The comprehensive production readiness gate for enterprise services.
+- [Production Readiness Review Mastery](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/operations/production-readiness-review-mastery.md) — The comprehensive production readiness gate for enterprise services.
