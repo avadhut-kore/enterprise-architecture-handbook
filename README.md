@@ -2,6 +2,8 @@
 
 A definitive, long-term engineering reference, decision framework, and architecture playbook for modern Solution Architects, Enterprise Architects, and Principal Engineers designing mission-critical, high-scale enterprise platforms.
 
+> 📖 **[How to Use This Repository (HOW-TO-USE.md)](HOW-TO-USE.md)** — Master operating guide, goal-oriented navigation, and architectural execution workflows.
+
 ---
 
 ## 1. Executive Summary & Purpose
@@ -123,6 +125,8 @@ Before authoring or consuming architectural artifacts in this repository, review
 ---
 
 ## 7. How to Navigate and Use This Handbook
+
+> 💡 **For goal-driven navigation, end-to-end project workflows, deliverable selection matrices, and decision lifecycles, refer to the master [Architect Operating Guide (HOW-TO-USE.md)](HOW-TO-USE.md).**
 
 ### When Designing a New System
 1. Study the [Architecture Workflow](ARCHITECTURE-WORKFLOW.md) for sequence and phase gates.
