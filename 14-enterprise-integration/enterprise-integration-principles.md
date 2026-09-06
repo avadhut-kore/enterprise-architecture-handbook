@@ -64,13 +64,13 @@ Do not force bulk analytics or nightly reconciliation files over real-time OLTP 
 ## 4. Contracts, Evolution & Governance
 
 ### 16. Avoid Synchronous Chains Across Unreliable Perimeters
-Chaining multiple synchronous blocking HTTP calls across independent systems multiplies latency and squares unavailability ($A_{total} = A_1 	imes A_2 	imes A_3$). Use asynchronous choreography or message queues across unreliable boundaries.
+Chaining multiple synchronous blocking HTTP calls across independent systems multiplies latency and squares unavailability ($A_{total} = A_1 \times A_2 \times A_3$). Use asynchronous choreography or message queues across unreliable boundaries.
 
 ### 17. Explicit, Machine-Readable Contracts
 All interfaces must be formally defined using machine-readable contracts (OpenAPI 3.1, Protocol Buffers v3, JSON Schema, or ISO 20022 XML Schema). Undocumented payloads are strictly prohibited.
 
 ### 18. Strict Contract Versioning & Backward Compatibility
-Non-breaking additive changes must be supported without bumping major versions. Breaking changes require semantic version increments (`v1` $ightarrow$ `v2`) with a minimum 6-to-12-month deprecation overlap.
+Non-breaking additive changes must be supported without bumping major versions. Breaking changes require semantic version increments (`v1` → `v2`) with a minimum 6-to-12-month deprecation overlap.
 
 ### 19. Architect for Legacy Coexistence
 Legacy mainframes, COBOL backends, and on-premises ERPs cannot be replaced overnight. Architect an Anti-Corruption Layer (ACL) and Strangler Fig routing facade to enable coexistence while modernizing incrementally.

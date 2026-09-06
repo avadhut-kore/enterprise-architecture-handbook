@@ -1,11 +1,7 @@
 # Operational Break Lifecycle and Workflows
 
 ## 1. Break Status Progression
-`OPEN` $
-ightarrow$ `INVESTIGATING` $
-ightarrow$ `PENDING_ADJUSTMENT` $
-ightarrow$ `RESOLVED` $
-ightarrow$ `CLOSED`.
+`OPEN` → `INVESTIGATING` → `PENDING_ADJUSTMENT` → `RESOLVED` → `CLOSED`.
 
 ## 2. Production Architecture Best Practices
 - **Strict Boundary Validation**: Never trust incoming payloads implicitly; enforce schema contracts and payload size limits at the ingress layer.

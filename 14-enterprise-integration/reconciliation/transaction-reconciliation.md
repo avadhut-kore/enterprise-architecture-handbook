@@ -2,10 +2,7 @@
 
 ## 1. Transaction Life Stages
 Reconcile high-velocity payment events across their lifecycle:
-`INITIATED` $
-ightarrow$ `AUTHORIZED` $
-ightarrow$ `CAPTURED` $
-ightarrow$ `SETTLED`.
+`INITIATED` → `AUTHORIZED` → `CAPTURED` → `SETTLED`.
 
 ## 2. Production Architecture Best Practices
 - **Strict Boundary Validation**: Never trust incoming payloads implicitly; enforce schema contracts and payload size limits at the ingress layer.

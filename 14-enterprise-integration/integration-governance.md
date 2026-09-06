@@ -12,7 +12,7 @@ flowchart LR
     GOV["Integration Governance Board"] -->|Approves Contract| CONTRACT
     CONTRACT -->|Consumes Contract| CONS["Consumer Teams (Client Applications)"]
     PLAT["Platform / SRE Team"] -->|Operates Infrastructure| BROKER["API Gateway / Message Broker"]
-    
+
     style CONTRACT fill:#2f855a,color:#fff,stroke:#2d3748
     style GOV fill:#c53030,color:#fff,stroke:#2d3748
 ```
@@ -42,9 +42,9 @@ stateDiagram-v2
 ```
 
 ### Transition Gates & Rules
-1. **Draft $ightarrow$ Published**: Must pass automated schema linter (Spectral / Buf), backward-compatibility check, and security audit.
-2. **Active $ightarrow$ Deprecated**: Producer must issue formal deprecation notice. The API must return standard IETF headers:
+1. **Draft → Published**: Must pass automated schema linter (Spectral / Buf), backward-compatibility check, and security audit.
+2. **Active → Deprecated**: Producer must issue formal deprecation notice. The API must return standard IETF headers:
    - `Deprecation: @<timestamp>`
    - `Sunset: <RFC1123 date>`
    - `Link: <successor URL>; rel="successor-version"`
-3. **Deprecated $ightarrow$ Retired**: Minimum deprecation window: 6 months for internal services, 12 months for external partner APIs.
+3. **Deprecated → Retired**: Minimum deprecation window: 6 months for internal services, 12 months for external partner APIs.
