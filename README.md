@@ -1,6 +1,6 @@
 # Enterprise Architecture Handbook
 
-A definitive, long-term engineering reference, decision framework, and architecture playbook for modern Solution Architects, Enterprise Architects, and Principal Engineers designing mission-critical, high-scale enterprise platforms.
+A definitive, long-term engineering reference, decision framework, and architecture operating system for modern Solution Architects, Enterprise Architects, Principal Engineers, and Software Engineers progressing toward high-scale technical leadership.
 
 > 📖 **[How to Use This Repository (HOW-TO-USE.md)](HOW-TO-USE.md)** — Master operating guide, goal-oriented navigation, and architectural execution workflows.
 
@@ -13,18 +13,20 @@ The **Enterprise Architecture Handbook** bridges the gap between high-level ente
 1. **A Living Single Source of Truth (SSOT)**: Authoritative architectural standards, patterns, governance principles, and technology radars.
 2. **A Production-Ready Deliverables Kit**: Battle-tested templates for Architecture Decision Records (ADRs), High-Level Designs (HLD), Low-Level Designs (LLD), Security Threat Models, API Contracts, and System Designs.
 3. **An Operational Execution Engine**: Real-world review checklists, trade-off evaluation frameworks, scale calculators, and production readiness gates.
-4. **A Career Architecture Playbook**: Deep scenario analyses, failure modes, trade-off scorecards, and system design interviews for senior technical leadership.
+4. **An Architect Career Operating System**: Deep scenario analyses, failure modes, trade-off scorecards, and executive communication frameworks ([24-architect-mastery/](./24-architect-mastery/)).
+5. **A Software Engineer Excellence Engine**: An evidence-based continuous improvement operating system connecting capability, deliberate practice, telemetry outcomes, and evidence portfolios ([25-engineer-excellence/](./25-engineer-excellence/)).
 
 ---
 
 ## 2. Target Audience
 
-This handbook is calibrated for practitioners operating at the intersection of business complexity and distributed systems:
+This handbook is calibrated for practitioners operating across the engineering and architecture spectrum:
 
 * **Enterprise Architects (EAs)**: Aligning multi-million dollar technology portfolios with strategic business capabilities, roadmaps, and enterprise governance.
 * **Solution Architects (SAs)**: Designing end-to-end resilient, compliant, and cost-optimized system architectures across polyglot ecosystems.
-* **Domain & Application Architects**: Leading domain-driven decomposition, API ecosystems, and core platform modularity.
-* **Principal & Staff Engineers**: Implementing distributed systems, event-driven pipelines, zero-trust security postures, and low-latency data layers.
+* **Principal & Staff Engineers**: Governing distributed systems, event-driven pipelines, zero-trust security postures, and low-latency data layers.
+* **Lead Software Engineers & Tech Leads**: Driving multi-squad technical direction, paved roads (golden paths), release engineering, and mentoring.
+* **Senior & Software Engineers**: Cultivating deep craft mastery across memory, concurrency, system design, production debugging, and 90-day improvement cycles.
 * **Cloud & Platform Engineers**: Orchestrating Kubernetes, multi-cloud topologies, infrastructure-as-code, and automated developer platforms.
 
 ---
@@ -87,9 +89,9 @@ The repository is structured into logically decoupled, numerically prefixed doma
 
 ---
 
-## 5. The 10-Phase Handbook Roadmap
+## 5. The 11-Phase Strategic Roadmap
 
-The handbook is executed across 10 strategic, production-grade maturity phases:
+The handbook is executed across 11 strategic, production-grade maturity phases:
 
 | Phase  | Name                                 | Main Goal                                                                                       |
 | ------ | ------------------------------------ | ----------------------------------------------------------------------------------------------- |
@@ -143,6 +145,19 @@ Before authoring or consuming architectural artifacts in this repository, review
 2. Apply Domain-Driven Design bounded contexts from [13-architecture-patterns/domain-driven-design/](13-architecture-patterns/domain-driven-design/).
 3. Validate data decomposition strategies via [15-modernization/database-modernization/](15-modernization/database-modernization/).
 4. Check cutover and fallback readiness with the [Disaster Recovery Checklist](21-architecture-tools/checklists/disaster-recovery-checklist.md).
+
+### When Elevating Personal or Team Engineering Capability
+1. Benchmark baseline capability using the [Self-Assessment Audit](25-engineer-excellence/assessment/self-assessment.md).
+2. Identify your highest-leverage constraint using the [Capability Gap Analysis](25-engineer-excellence/assessment/capability-gap-analysis.md).
+3. Commit to a structured 5-phase plan via the [90-Day Improvement Plan](25-engineer-excellence/improvement-cycle/90-day-improvement-plan.md).
+4. Build deliberate sandbox spikes from [Real-World Engineering Challenges](25-engineer-excellence/challenges/).
+5. Maintain an artifact-backed portfolio using the [Engineering Portfolio Guide](25-engineer-excellence/evidence/engineering-portfolio.md).
+
+### When Progressing from Engineer to Architect
+1. Move from task execution to subsystem ownership via [Engineer to Senior Playbook](25-engineer-excellence/career-progression/engineer-to-senior.md).
+2. Expand cross-team influence and paved roads via [Senior to Lead Playbook](25-engineer-excellence/career-progression/senior-to-lead.md).
+3. Cross the threshold into architecture via [Lead to Solution Architect](25-engineer-excellence/career-progression/lead-to-solution-architect.md).
+4. Master executive communication, enterprise governance, and trade-offs in [24-architect-mastery/](24-architect-mastery/).
 
 ---
 
