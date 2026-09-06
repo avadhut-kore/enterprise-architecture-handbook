@@ -27,5 +27,6 @@ Enterprise / Chief   ──► Sphere of Influence: Entire Enterprise / Boardroo
 3. **Seek High-Leverage Problems**: Avoid getting dragged into trivial styling debates; focus where mistakes cost millions.
 
 ## Related Modules
-- [Architect Skill Matrix](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/skill-matrix/architect-skill-matrix-and-self-assessment.md)
-- [Enterprise Architecture Maturity](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/maturity-model/enterprise-architecture-maturity-model.md)
+- [Master Architect Career Map](./architect-career-map.md)
+- [Architect Skill Matrix](../skill-matrix/architect-skill-matrix-and-self-assessment.md)
+- [Enterprise Architecture Maturity](../maturity-model/enterprise-architecture-maturity-model.md)

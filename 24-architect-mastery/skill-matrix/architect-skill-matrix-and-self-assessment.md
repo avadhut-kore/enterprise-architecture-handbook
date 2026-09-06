@@ -27,6 +27,12 @@ A complete architect combines deep technical competence with sharp business judg
 - **Level 4 (Mastery)**: Guides multi-team architectures and navigates edge-case failure modes.
 - **Level 5 (Enterprise Authority)**: Shapes enterprise strategy, mentors principals, and drives industry-wide innovation.
 
+## 3. Comprehensive Matrix Indices
+- [16-Competency Master Matrix (L0–L5)](./architect-competency-matrix.md) — Exhaustive matrix across 6 roles and 16 competency pillars.
+- [Technology Breadth Matrix](./technology-breadth-matrix.md) — Knowledge vs hands-on vs architectural judgment.
+- [Architecture Maturity Rubric](./architecture-maturity-rubric.md) — Behavioral evaluation across 5 core dimensions.
+
 ## Related Modules
-- [Architect Career Paths](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/career/architect-career-paths-and-growth.md)
-- [Enterprise Architecture Maturity](file:///d:/company/products/enterprise-architecture-handbook/24-architect-mastery/maturity-model/enterprise-architecture-maturity-model.md)
+- [Architect Career Paths & Growth](../career/architect-career-paths-and-growth.md)
+- [Master Career Map](../career/architect-career-map.md)
+- [Enterprise Architecture Maturity](../maturity-model/enterprise-architecture-maturity-model.md)
