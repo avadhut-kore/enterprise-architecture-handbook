@@ -21,22 +21,22 @@
 
 | Competency Dimension | Senior Engineer | Lead Engineer | Solution Architect | Technical Architect | Enterprise Architect | Principal Architect |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **1. Technical Depth & Runtimes** | **L3** | **L3** | **L3** | **L4** | **L2** | **L4** |
-| **2. System Design & Scalability** | **L2** | **L3** | **L4** | **L4** | **L3** | **L5** |
-| **3. Software Architecture (DDD/Clean)**| **L3** | **L4** | **L4** | **L4** | **L3** | **L4** |
-| **4. Distributed Systems & Consistency**| **L2** | **L3** | **L4** | **L4** | **L2** | **L5** |
-| **5. Cloud & Infrastructure** | **L2** | **L3** | **L4** | **L4** | **L3** | **L4** |
-| **6. Data Architecture & Lakehouses** | **L2** | **L3** | **L4** | **L4** | **L3** | **L4** |
-| **7. Integration & Messaging** | **L2** | **L3** | **L4** | **L4** | **L4** | **L4** |
-| **8. Security & Zero Trust** | **L2** | **L3** | **L4** | **L4** | **L3** | **L4** |
-| **9. Observability & SRE** | **L3** | **L3** | **L3** | **L4** | **L2** | **L4** |
-| **10. DevOps & Platform Engineering** | **L2** | **L3** | **L3** | **L5** | **L2** | **L4** |
-| **11. AI & GenAI Systems** | **L1** | **L2** | **L3** | **L3** | **L3** | **L4** |
-| **12. Business Acumen & Unit Economics**| **L1** | **L2** | **L4** | **L3** | **L5** | **L5** |
-| **13. Leadership & Influence** | **L2** | **L3** | **L4** | **L4** | **L4** | **L5** |
-| **14. Executive Communication** | **L1** | **L2** | **L4** | **L3** | **L5** | **L5** |
-| **15. Architecture Governance & ARB** | **L1** | **L2** | **L4** | **L4** | **L5** | **L5** |
-| **16. Strategic Thinking & Evolution** | **L1** | **L2** | **L3** | **L4** | **L5** | **L5** |
+| [**1. Technical Depth & Runtimes**](../competency-model/technical-depth.md) | **L3** | **L3** | **L3** | **L4** | **L2** | **L4** |
+| [**2. System Design & Scalability**](../competency-model/system-design.md) | **L2** | **L3** | **L4** | **L4** | **L3** | **L5** |
+| [**3. Software Architecture (DDD/Clean)**](../competency-model/software-architecture.md)| **L3** | **L4** | **L4** | **L4** | **L3** | **L4** |
+| [**4. Distributed Systems & Consistency**](../competency-model/distributed-systems.md)| **L2** | **L3** | **L4** | **L4** | **L2** | **L5** |
+| [**5. Cloud & Infrastructure**](../competency-model/cloud-architecture.md) | **L2** | **L3** | **L4** | **L4** | **L3** | **L4** |
+| [**6. Data Architecture & Lakehouses**](../competency-model/data-architecture.md) | **L2** | **L3** | **L4** | **L4** | **L3** | **L4** |
+| [**7. Integration & Messaging**](../competency-model/integration-architecture.md) | **L2** | **L3** | **L4** | **L4** | **L4** | **L4** |
+| [**8. Security & Zero Trust**](../competency-model/security-architecture.md) | **L2** | **L3** | **L4** | **L4** | **L3** | **L4** |
+| [**9. Observability & SRE**](../competency-model/observability-and-sre.md) | **L3** | **L3** | **L3** | **L4** | **L2** | **L4** |
+| [**10. DevOps & Platform Engineering**](../competency-model/devops-and-platform-engineering.md) | **L2** | **L3** | **L3** | **L5** | **L2** | **L4** |
+| [**11. AI & GenAI Systems**](../competency-model/ai-architecture.md) | **L1** | **L2** | **L3** | **L3** | **L3** | **L4** |
+| [**12. Business Acumen & Unit Economics**](../competency-model/business-acumen.md)| **L1** | **L2** | **L4** | **L3** | **L5** | **L5** |
+| [**13. Leadership & Influence**](../competency-model/leadership.md) | **L2** | **L3** | **L4** | **L4** | **L4** | **L5** |
+| [**14. Executive Communication**](../competency-model/communication.md) | **L1** | **L2** | **L4** | **L3** | **L5** | **L5** |
+| [**15. Architecture Governance & ARB**](../competency-model/governance.md) | **L1** | **L2** | **L4** | **L4** | **L5** | **L5** |
+| [**16. Strategic Thinking & Evolution**](../competency-model/strategic-thinking.md) | **L1** | **L2** | **L3** | **L4** | **L5** | **L5** |
 
 ---
 

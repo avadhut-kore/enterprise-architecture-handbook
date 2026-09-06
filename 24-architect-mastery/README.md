@@ -73,6 +73,7 @@ flowchart TD
 ├── post-mortem/                # Reviewing architectural decisions post-implementation
 ├── decision-review/            # ADR lifecycle: keep, modify, reverse, or retire
 ├── career/                     # Developer to Chief Architect career transitions & master career map
+├── competency-model/           # Master architect competency model & 16 dedicated discipline playbooks
 ├── skill-matrix/               # 16-competency matrix (L0-L5), tech breadth, and behavioral rubrics
 ├── readiness/                  # 4-pillar readiness assessment gates across 6 role profiles
 ├── development-plans/          # 90-day, 6-month, 12-month, 2-year, and continuous development roadmaps
@@ -100,6 +101,7 @@ The capstone career acceleration engine for engineers advancing toward senior te
    - [Engineer → Senior Engineer](./career/engineer-to-senior-engineer.md) | [Senior → Lead](./career/senior-engineer-to-lead-engineer.md) | [Lead → Solution Architect](./career/lead-engineer-to-solution-architect.md)
    - [Solution → Technical Architect](./career/solution-architect-to-technical-architect.md) | [Technical → Enterprise Architect](./career/technical-architect-to-enterprise-architect.md) | [Enterprise → Principal Architect](./career/enterprise-architect-to-principal-architect.md)
 2. **[Competency Models & Skill Matrices](./skill-matrix/README.md)**:
+   - [Master Competency Model (16 Deep Dives)](./competency-model/README.md) — Exhaustive behavioral playbooks for all 16 disciplines.
    - [16-Competency Master Matrix (L0–L5)](./skill-matrix/architect-competency-matrix.md) — 6 roles evaluated across 16 architectural disciplines.
    - [Technology Breadth Matrix](./skill-matrix/technology-breadth-matrix.md) — Knowledge vs hands-on vs architectural judgment.
    - [Architecture Maturity Rubric](./skill-matrix/architecture-maturity-rubric.md) — Behavioral evaluation across 5 dimensions.

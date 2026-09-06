@@ -30,7 +30,9 @@ flowchart LR
 
 ## 3. Related Architecture Mastery Modules
 
+* **[Master Competency Model (16 Deep Dives)](../competency-model/README.md)** — Detailed behavioral playbooks for each of the 16 architectural competencies.
 * **[Career Progression & Transition Playbooks](../career/README.md)** — Step-by-step transition guides from Engineer to Principal Architect.
+* **[Readiness Assessment Gates](../readiness/README.md)** — 4-pillar qualification checklists across 6 role profiles.
 * **[Personal Operating System](../personal-operating-system.md)** — The Master Architect's operational rhythm and decision journaling.
 * **[Enterprise Architecture Maturity Model](../maturity-model/enterprise-architecture-maturity-model.md)** — Organizational architecture maturity benchmarks.
 * **[Architecture Review Methodology](../architecture-review/README.md)** — 7-pillar evaluation rubric for production architectures.
