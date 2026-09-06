@@ -21,13 +21,13 @@ flowchart TD
         Workflows --> Routing["Navigation & Routing"]
     end
     
-    subgraph Knowledge_Plane ["Knowledge Plane (00 - 24 Modules)"]
+    subgraph Knowledge_Plane ["Knowledge Plane (00 - 25 Modules)"]
         Routing --> Foundations["00-02 Foundations & System Design"]
         Routing --> Specialization["03-12 Technology & Engineering Domains"]
         Routing --> Patterns["13-15 Patterns, Integration & Modernization"]
         Routing --> Deliverables["16-17 Templates & Diagram Standards"]
         Routing --> Reference["18-20 Ref Architectures, Cases & Interviews"]
-        Routing --> Tooling["21-24 Tools, EA & Career Mastery"]
+        Routing --> Tooling["21-25 Tools, EA, Mastery & Engineer OS"]
     end
     
     subgraph Execution_Plane ["Execution Plane (Your Architecture)"]
@@ -122,6 +122,7 @@ Use this routing table to jump directly to the authoritative domain for your imm
 | **Look up protocols, acronyms, & cloud service maps** | [`22-reference/`](./22-reference/README.md) | Multi-Cloud Matrix & Protocol Reference |
 | **Align IT strategy, capabilities, & TOGAF models** | [`23-enterprise-architecture/`](./23-enterprise-architecture/README.md) | Business Capability Map & APM Scorecards |
 | **Develop executive presence, judgment, & leadership** | [`24-architect-mastery/`](./24-architect-mastery/README.md) | Career Progression & Executive Communication |
+| **Continuously improve software engineering excellence** | [`25-engineer-excellence/`](./25-engineer-excellence/README.md) | Engineer OS, Competency Models, IDP & Evidence |
 | **Run prototypes & architectural spikes (Sandbox)** | [`99-experiments/`](./99-experiments/)* | Benchmark Code & Architectural Prototypes |
 
 *\*Note: `99-experiments/` is an active experimental sandbox currently under staged provisioning.*

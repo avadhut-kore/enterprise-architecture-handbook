@@ -1504,6 +1504,97 @@ The Capstone Phase transforming this repository into a complete, authoritative P
 
 ---
 
+## 25. Software Engineer Excellence & Continuous Improvement Operating System {#25-engineer-excellence}
+
+A continuous improvement operating system connecting capability, deliberate practice, production delivery, telemetry outcomes, and evidence portfolios into career progression.
+
+### Core Framework & Principles (`25-engineer-excellence/framework/`)
+* [`README.md`](25-engineer-excellence/framework/README.md) — Framework navigation & principles.
+* [`engineer-excellence-framework.md`](25-engineer-excellence/framework/engineer-excellence-framework.md) — Core operating model & 6 immutable tenets.
+* [`continuous-improvement-cycle.md`](25-engineer-excellence/framework/continuous-improvement-cycle.md) — Canonical 10-step continuous improvement loop.
+* [`engineering-excellence-model.md`](25-engineer-excellence/framework/engineering-excellence-model.md) — The capability formula & archetype matrix.
+* [`evidence-based-development.md`](25-engineer-excellence/framework/evidence-based-development.md) — Anti-credentialist standard & CPOE model.
+* [`engineering-health-model.md`](25-engineer-excellence/framework/engineering-health-model.md) — 6-pillar health scorecard & composite index.
+
+### 10-Dimension Competency Model (`25-engineer-excellence/competency-model/`)
+* [`competency-model.md`](25-engineer-excellence/competency-model/competency-model.md) — Master competency architecture & 4 substrates.
+* [`technical-foundations.md`](25-engineer-excellence/competency-model/technical-foundations.md) — Dim 1: Compute, memory, concurrency, OS, networks.
+* [`software-engineering.md`](25-engineer-excellence/competency-model/software-engineering.md) — Dim 2: Clean code, testing pyramids, refactoring.
+* [`system-design.md`](25-engineer-excellence/competency-model/system-design.md) — Dim 3: Decomposition, state, caching, resilience.
+* [`architecture.md`](25-engineer-excellence/competency-model/architecture.md) — Dim 4: Boundaries, ADRs, trade-offs, fitness functions.
+* [`production-engineering.md`](25-engineer-excellence/competency-model/production-engineering.md) — Dim 5: Observability, SLOs, incident response, debugging.
+* [`security.md`](25-engineer-excellence/competency-model/security.md) — Dim 6: Threat modeling, IAM, secrets, zero-trust.
+* [`delivery-excellence.md`](25-engineer-excellence/competency-model/delivery-excellence.md) — Dim 7: Slicing, estimation, trunk-based CI/CD, canary.
+* [`collaboration.md`](25-engineer-excellence/competency-model/collaboration.md) — Dim 8: High-signal reviews, RFCs, mentorship.
+* [`business-thinking.md`](25-engineer-excellence/competency-model/business-thinking.md) — Dim 9: Unit economics, FinOps, customer ROI.
+* [`leadership.md`](25-engineer-excellence/competency-model/leadership.md) — Dim 10: Extreme ownership, paved roads, multiplier.
+
+### Role Capability Matrices (`25-engineer-excellence/capability-matrix/`)
+* [`maturity-levels.md`](25-engineer-excellence/capability-matrix/maturity-levels.md) — Master L0 to L5 behavioral rubric across 10 dimensions.
+* [`engineer-capability-matrix.md`](25-engineer-excellence/capability-matrix/engineer-capability-matrix.md) — Software Engineer (L1–L2) baseline & independence gate.
+* [`senior-engineer-capability-matrix.md`](25-engineer-excellence/capability-matrix/senior-engineer-capability-matrix.md) — Senior Engineer (L2–L3) subsystem mastery.
+* [`lead-engineer-capability-matrix.md`](25-engineer-excellence/capability-matrix/lead-engineer-capability-matrix.md) — Lead Engineer (L3–L4) multi-team steering.
+* [`role-capability-matrix.md`](25-engineer-excellence/capability-matrix/role-capability-matrix.md) — Cross-role comparison matrix (L1 to L5).
+
+### Diagnostics & Assessment (`25-engineer-excellence/assessment/`)
+* [`self-assessment.md`](25-engineer-excellence/assessment/self-assessment.md) — 40-question diagnostic self-audit across 10 dimensions.
+* [`peer-assessment.md`](25-engineer-excellence/assessment/peer-assessment.md) — 360-degree technical review rubric & Johari window.
+* [`engineering-health-assessment.md`](25-engineer-excellence/assessment/engineering-health-assessment.md) — 6-pillar operational health scorecard.
+* [`capability-gap-analysis.md`](25-engineer-excellence/assessment/capability-gap-analysis.md) — Theory of Constraints & gap prioritization.
+* [`readiness-assessment.md`](25-engineer-excellence/assessment/readiness-assessment.md) — Promotion readiness rubric & dossier templates.
+
+### Evidence & Portfolio (`25-engineer-excellence/evidence/`)
+* [`engineering-evidence-framework.md`](25-engineer-excellence/evidence/engineering-evidence-framework.md) — 5 rules of evidence & evidentiary lifecycle.
+* [`evidence-types.md`](25-engineer-excellence/evidence/evidence-types.md) — 12 canonical evidence categories.
+* [`evidence-quality.md`](25-engineer-excellence/evidence/evidence-quality.md) — 4-tier quality hierarchy (Tier 0 to Tier 3).
+* [`engineering-portfolio.md`](25-engineer-excellence/evidence/engineering-portfolio.md) — Personal portfolio structure & `portfolio.yaml` schema.
+
+### Improvement Cadences & Plans (`25-engineer-excellence/improvement-cycle/` & `development-plans/`)
+* [`weekly-improvement.md`](25-engineer-excellence/improvement-cycle/weekly-improvement.md) — Friday afternoon 3-hour practice loop.
+* [`monthly-improvement.md`](25-engineer-excellence/improvement-cycle/monthly-improvement.md) — Monthly health calibration & 1-on-1 sync.
+* [`quarterly-improvement.md`](25-engineer-excellence/improvement-cycle/quarterly-improvement.md) — Quarterly engineering OKRs & retrospective.
+* [`90-day-improvement-plan.md`](25-engineer-excellence/improvement-cycle/90-day-improvement-plan.md) — Canonical 5-phase transformation blueprint.
+* [`annual-capability-review.md`](25-engineer-excellence/improvement-cycle/annual-capability-review.md) — Year-end capability audit & promotion ratification.
+* [`individual-development-plan.md`](25-engineer-excellence/development-plans/individual-development-plan.md) — Canonical IDP template.
+* [`technical-development-plan.md`](25-engineer-excellence/development-plans/technical-development-plan.md) — 6-month technical deepening curriculum.
+* [`leadership-development-plan.md`](25-engineer-excellence/development-plans/leadership-development-plan.md) — 6-month multiplier curriculum.
+* [`engineer-to-architect-plan.md`](25-engineer-excellence/development-plans/engineer-to-architect-plan.md) — Strategic bridge to Domain 24.
+
+### Practical Experience, Challenges & Feedback (`25-engineer-excellence/practical-experience/`, `challenges/`, `feedback/`)
+* [`experience-ladder.md`](25-engineer-excellence/practical-experience/experience-ladder.md) — 6-stage operational ownership ladder.
+* [`project-experiences.md`](25-engineer-excellence/practical-experience/project-experiences.md) — High-value project profiles.
+* [`production-experiences.md`](25-engineer-excellence/practical-experience/production-experiences.md) — 5 foundational production crucibles.
+* [`architecture-experiences.md`](25-engineer-excellence/practical-experience/architecture-experiences.md) — 5 architectural milestones.
+* [`leadership-experiences.md`](25-engineer-excellence/practical-experience/leadership-experiences.md) — 5 multiplier milestones.
+* [`coding-challenges.md`](25-engineer-excellence/challenges/coding-challenges.md) — Zero-allocation & lock-free spikes.
+* [`system-design-challenges.md`](25-engineer-excellence/challenges/system-design-challenges.md) — Idempotency & rate limiting spikes.
+* [`performance-challenges.md`](25-engineer-excellence/challenges/performance-challenges.md) — Cache-line & memory leak spikes.
+* [`reliability-challenges.md`](25-engineer-excellence/challenges/reliability-challenges.md) — Bulkhead & retry jitter spikes.
+* [`security-challenges.md`](25-engineer-excellence/challenges/security-challenges.md) — JWT exploit & secret rotation spikes.
+* [`observability-challenges.md`](25-engineer-excellence/challenges/observability-challenges.md) — Trace context & RED metric spikes.
+* [`feedback-framework.md`](25-engineer-excellence/feedback/feedback-framework.md) — Radical candor & SBI-A feedback model.
+* [`peer-feedback.md`](25-engineer-excellence/feedback/peer-feedback.md) — Conventional Comments & PR review SLAs.
+* [`design-review-feedback.md`](25-engineer-excellence/feedback/design-review-feedback.md) — Architectural Pre-Mortem technique.
+* [`retrospective-framework.md`](25-engineer-excellence/feedback/retrospective-framework.md) — Blameless incident post-mortems & SMART actions.
+
+### Career Progression, Engineer OS & Checklists (`25-engineer-excellence/career-progression/`, `engineer-operating-system/`, `checklists/`)
+* [`engineer-to-senior.md`](25-engineer-excellence/career-progression/engineer-to-senior.md) — L2 to L3 senior transformation playbook.
+* [`senior-to-lead.md`](25-engineer-excellence/career-progression/senior-to-lead.md) — L3 to L4 lead/staff multiplier playbook.
+* [`lead-to-solution-architect.md`](25-engineer-excellence/career-progression/lead-to-solution-architect.md) — Lead to Solution Architect bridge.
+* [`engineering-to-architecture.md`](25-engineer-excellence/career-progression/engineering-to-architecture.md) — The evolutionary scope journey.
+* [`daily-engineering-loop.md`](25-engineer-excellence/engineer-operating-system/daily-engineering-loop.md) — Morning framing & focus block rituals.
+* [`weekly-engineering-loop.md`](25-engineer-excellence/engineer-operating-system/weekly-engineering-loop.md) — Sprint decomposition & practice cadences.
+* [`problem-solving-process.md`](25-engineer-excellence/engineer-operating-system/problem-solving-process.md) — First-principles debugging protocol.
+* [`learning-loop.md`](25-engineer-excellence/engineer-operating-system/learning-loop.md) — 1:2 learning-to-building ratio & paper reading.
+* [`decision-making.md`](25-engineer-excellence/engineer-operating-system/decision-making.md) — One-way vs two-way doors & decision journal.
+* [`reflection.md`](25-engineer-excellence/engineer-operating-system/reflection.md) — Friction log & deliberate practice reflection.
+* [`engineer-checklist.md`](25-engineer-excellence/checklists/engineer-checklist.md) — Definition of Done checklist for ICs.
+* [`senior-engineer-checklist.md`](25-engineer-excellence/checklists/senior-engineer-checklist.md) — Production readiness checklist.
+* [`lead-engineer-checklist.md`](25-engineer-excellence/checklists/lead-engineer-checklist.md) — Architectural sanity & release checklist.
+* [`continuous-improvement-checklist.md`](25-engineer-excellence/checklists/continuous-improvement-checklist.md) — Daily, weekly, monthly, quarterly checklist.
+
+---
+
 ## 99. Experimental Labs {#99-experiments}
 
 Sandboxed prototypes, distributed systems benchmarks, architectural spikes, and polyglot runtime labs.

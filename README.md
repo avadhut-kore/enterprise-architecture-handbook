@@ -80,6 +80,7 @@ The repository is structured into logically decoupled, numerically prefixed doma
 | **`22`** | **Reference** | Architectural glossaries, acronym decoders, technology comparison matrices, and protocol specs. | [22-reference](./22-reference/) |
 | **`23`** | **Enterprise Architecture** | Strategic business alignment, capability architecture, APM/TPM, governance, and transformation roadmaps. | [23-enterprise-architecture](./23-enterprise-architecture/) |
 | **`24`** | **Architect Mastery** | Capstone OS: Judgment, trade-offs, constraints, leadership, governance, failure analysis, 20 ref archs, 20 case studies, 50 scenarios. | [24-architect-mastery](./24-architect-mastery/) |
+| **`25`** | **Engineer Excellence** | Software Engineer Continuous Improvement OS: Competency models, capability matrices, evidence portfolios, and 90-day cycles. | [25-engineer-excellence](./25-engineer-excellence/) |
 | **`99`** | **Experiments** | Sandboxed prototypes, benchmarks, architectural spikes, and distributed system labs. | [99-experiments](./99-experiments/) |
 
 *For complete document-level navigation across all topics, visit the [Master Index](INDEX.md).*
@@ -102,6 +103,7 @@ The handbook is executed across 10 strategic, production-grade maturity phases:
 | **8**  | AI & Modern Architecture             | LLMs, RAG, agents, AI platforms, AI security, evaluation, MLOps                                 |
 | **9**  | **Enterprise Architecture**              | TOGAF-style thinking, business/application/data/technology architecture, governance, roadmaps   |
 | **10** | **Architect Mastery** *(COMPLETED - v2.0.0)* | Capstone OS: Judgment, trade-offs, constraints, executive leadership, governance, failure analysis, 50 scenarios |
+| **11** | **Software Engineer Excellence** *(COMPLETED - v2.2.0)* | Personal Engineer OS: 10 dimensions, capability matrices, evidence portfolios, 90-day improvement cycles, scenario spikes |
 | **DevOps** | **DevOps Architecture & Engineering** *(COMPLETED - v2.1.0)* | Continuous delivery, GitOps, K8s, IaC, DevSecOps, Platform Engineering, DevEx, 20 ref archs, 20 case studies |
 
 *For detailed milestones, deliverables, and execution status, refer to [ROADMAP.md](ROADMAP.md).*
