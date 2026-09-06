@@ -2,7 +2,7 @@
 
 > **"Architectural seniority is forged in the fire of real systems under real constraints. Mastery requires hands-on experience navigating failure, leading complex projects, and building an unassailable evidence portfolio."**
 
-Welcome to the **Practical Experience** directory inside [`24-architect-mastery/`](../README.md). This module provides real-world apprentice projects, experience progression ladders, trade-off practice dilemmas, and blueprints for assembling a defensible architecture evidence portfolio.
+Welcome to the **Practical Experience** directory inside [`24-architect-mastery/`](../README.md). This module provides real-world apprentice projects, experience progression ladders, trade-off practice dilemmas, personal decision journaling, incident forensics, and leadership playbooks.
 
 ---
 
@@ -11,7 +11,10 @@ Welcome to the **Practical Experience** directory inside [`24-architect-mastery/
 * **[The Architecture Experience Ladder](./experience-ladder.md)** — 8-stage scope and blast-radius progression from single feature to global enterprise strategy.
 * **[7 Architecture Apprentice Projects](./projects-to-lead.md)** — Concrete, end-to-end production initiatives to lead for building unassailable portfolio evidence.
 * **[The Architecture Evidence Portfolio](./architecture-evidence-portfolio.md)** — Comprehensive blueprint for curating ADRs, SADs, NFR matrices, threat models, and post-mortems in Git.
+* **[The Architecture Experience Journal](./architecture-experiences.md)** — Standard personal decision journaling template and 3 filled real-world case entries.
 * **[15 Architectural Trade-Off Dilemmas to Master](./decisions-to-practice.md)** — Deep scorecards, evaluation criteria, and fatal anti-patterns across 15 classic engineering battles.
+* **[Incidents as Architecture Training](./incidents-to-study.md)** — 5 deep forensic case studies extracting defensive architecture rules from catastrophic production failures.
+* **[The 12 Architectural Leadership Experiences](./leadership-experiences.md)** — Concrete battle scenarios and playbooks for influence without authority, deadlocks, and executive alignment.
 
 ---
 

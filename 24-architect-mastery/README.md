@@ -114,4 +114,7 @@ The capstone career acceleration engine for engineers advancing toward senior te
    - [Architecture Experience Ladder](./practical-experience/experience-ladder.md) — 8-stage scope progression.
    - [7 Architecture Apprentice Projects](./practical-experience/projects-to-lead.md) — Concrete production initiatives to lead.
    - [Architecture Evidence Portfolio Blueprint](./practical-experience/architecture-evidence-portfolio.md) — Curating ADRs and designs in Git.
+   - [Architecture Experience Journal](./practical-experience/architecture-experiences.md) — Personal decision journaling template & case studies.
    - [15 Architectural Trade-Off Dilemmas](./practical-experience/decisions-to-practice.md) — Classic trade-off battle scorecards.
+   - [Incidents as Architecture Training](./practical-experience/incidents-to-study.md) — 5 deep forensic case studies.
+   - [12 Architectural Leadership Experiences](./practical-experience/leadership-experiences.md) — Influence, deadlocks, and executive alignment.
